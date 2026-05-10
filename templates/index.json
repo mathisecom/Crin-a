@@ -124,6 +124,12 @@
     "featured_product_Gt7ETQ": {
       "type": "featured-product",
       "blocks": {
+        "liquid_EWJhBa": {
+          "type": "liquid",
+          "settings": {
+            "liquid": ""
+          }
+        },
         "liquid_WBzwJY": {
           "type": "liquid",
           "settings": {
@@ -138,6 +144,7 @@
         },
         "price_PnFn3H": {
           "type": "price",
+          "disabled": true,
           "settings": {
             "show_taxes_notice": false
           }
@@ -214,6 +221,7 @@
         }
       },
       "block_order": [
+        "liquid_EWJhBa",
         "liquid_WBzwJY",
         "title_CftTXm",
         "price_PnFn3H",
