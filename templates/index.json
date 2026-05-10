@@ -48,9 +48,117 @@
         "background": "#f2f2f2",
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
+    },
+    "featured_product_Gt7ETQ": {
+      "type": "featured-product",
+      "blocks": {
+        "title_CftTXm": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "price_PnFn3H": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_LajV7X": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "description_XM9XQx": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
+        },
+        "variant_picker_ERQgiP": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_wjN6Ha": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_daEXAW": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "collapsible_text_6UGGcU": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Title",
+            "content": "<p>Share some content to your customers about your products.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_text_dGEayH": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Title",
+            "content": "<p>Share some content to your customers about your products.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "title_CftTXm",
+        "price_PnFn3H",
+        "rating_LajV7X",
+        "description_XM9XQx",
+        "variant_picker_ERQgiP",
+        "quantity_selector_wjN6Ha",
+        "buy_buttons_daEXAW",
+        "collapsible_text_6UGGcU",
+        "collapsible_text_dGEayH"
+      ],
+      "name": "Featured product",
+      "settings": {
+        "full_width": true,
+        "product": "leggings-3d-luveon",
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "contained",
+        "mobile_carousel_control": "thumbnails",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": false,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
     }
   },
   "order": [
-    "slideshow"
+    "slideshow",
+    "featured_product_Gt7ETQ"
   ]
 }
