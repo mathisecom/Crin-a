@@ -582,6 +582,22 @@
         "padding_bottom": 40
       }
     },
+    "scrolling_text_WBjyHa": {
+      "type": "scrolling-text",
+      "name": "Scrolling text",
+      "settings": {
+        "full_width": true,
+        "text": "Promotion text",
+        "text_size": "xsmall",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 10,
+        "background": "#2f201b",
+        "background_gradient": "",
+        "text_color": "#faf8f5",
+        "text_gradient": ""
+      }
+    },
     "imagewithtext_PpCAF7": {
       "type": "imagewithtext",
       "name": "Technologie Innovante",
@@ -672,6 +688,7 @@
     "rich_text_6r4yzY",
     "testimonials_W7qxEz",
     "imagewithtext_GLYTjf",
+    "scrolling_text_WBjyHa",
     "imagewithtext_PpCAF7",
     "faq_wtfFG7"
   ]
