@@ -567,6 +567,7 @@
       "type": "imagewithtext",
       "name": "Technologie Innovante",
       "settings": {
+        "image": "shopify://shop_images/L_C_GIF_2_compresse_V1.webp",
         "image_position": "right",
         "image_radius": 24,
         "eyebrow": "TECHNOLOGIE INNOVANTE",
