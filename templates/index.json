@@ -270,24 +270,42 @@
         "image_ireEWd": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_-_2026-05-11T152614.049.jpg",
             "url": ""
           }
         },
         "image_BcyjJq": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_-_2026-05-11T152627.196.jpg",
             "url": ""
           }
         },
         "image_zDxAQr": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_-_2026-05-11T152633.609.jpg",
             "url": ""
           }
         },
         "image_xz7E7F": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_-_2026-05-11T152647.299.jpg",
+            "url": ""
+          }
+        },
+        "image_VeXgW6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_-_2026-05-11T152652.736.jpg",
+            "url": ""
+          }
+        },
+        "image_xxGLCV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_-_2026-05-11T152701.354.jpg",
             "url": ""
           }
         }
@@ -296,7 +314,9 @@
         "image_ireEWd",
         "image_BcyjJq",
         "image_zDxAQr",
-        "image_xz7E7F"
+        "image_xz7E7F",
+        "image_VeXgW6",
+        "image_xxGLCV"
       ],
       "name": "SS - Scrolling logo cloud #5",
       "settings": {
@@ -314,8 +334,8 @@
         "pause_hover": false,
         "scrolling_gap": 56,
         "scrolling_gap_mobile": 26,
-        "card_width_desktop": 130,
-        "card_width_mobile": 100,
+        "card_width_desktop": 140,
+        "card_width_mobile": 120,
         "heading_color": "#121212",
         "layout_bg_color": "#ffffff",
         "layout_border_color": "#121212",
@@ -329,8 +349,8 @@
         "padding_bottom": 0,
         "padding_horizontal": 5,
         "padding_horizontal_mobile": 0,
-        "full_width": false,
-        "content_width": 1200,
+        "full_width": true,
+        "content_width": 1300,
         "border_thickness": 0,
         "section_radius": 0,
         "lazy": true
