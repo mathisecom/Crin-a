@@ -142,6 +142,12 @@
             "heading_tag": "h3"
           }
         },
+        "rapi_rapi_bundle_3DyH4M": {
+          "type": "shopify://apps/rapi/blocks/rapi-bundle/99617c17-a32b-4e70-a883-7a155610d032",
+          "settings": {
+            "product": "{{section.settings.product}}"
+          }
+        },
         "price_PnFn3H": {
           "type": "price",
           "disabled": true,
@@ -224,6 +230,7 @@
         "liquid_EWJhBa",
         "liquid_WBzwJY",
         "title_CftTXm",
+        "rapi_rapi_bundle_3DyH4M",
         "price_PnFn3H",
         "description_XM9XQx",
         "variant_picker_ERQgiP",
