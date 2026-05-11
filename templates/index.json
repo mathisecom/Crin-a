@@ -404,12 +404,36 @@
             "title": "Testimonial 3",
             "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
           }
+        },
+        "testimonial_GeqiTL": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "",
+            "title": "Testimonial",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        },
+        "testimonial_Y9Wa6L": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "",
+            "title": "Testimonial",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
         }
       },
       "block_order": [
         "testimonial_bma4QD",
         "testimonial_668Q3e",
-        "testimonial_3Tm7cy"
+        "testimonial_3Tm7cy",
+        "testimonial_GeqiTL",
+        "testimonial_Y9Wa6L"
       ],
       "name": "Testimonials",
       "settings": {
@@ -427,6 +451,33 @@
         "heading_gradient": "",
         "testimonial_card_background": "#faf8f5",
         "testimonial_card_text_color": "#2f201b"
+      }
+    },
+    "imagewithtext_GLYTjf": {
+      "type": "imagewithtext",
+      "name": "Technologie Innovante",
+      "settings": {
+        "image_position": "right",
+        "image_radius": 24,
+        "eyebrow": "TECHNOLOGIE INNOVANTE",
+        "title": "Un legging qui draine et sculpte votre silhouette",
+        "title_size": 42,
+        "description": "<p>Grâce à sa <strong>technologie 3D drainante</strong>, notre legging stimule la circulation sanguine à chaque mouvement, aidant votre corps à réduire naturellement la cellulite. Associée à une compression douce et ciblée, cette action affine la silhouette, tonifie les jambes et améliore visiblement la texture de la peau.</p><p>Le tout est conçu dans un tissu extensible, respirant et ultra-doux, qui offre un maintien confortable, idéal pour vous accompagner du matin au soir sans jamais vous gêner.</p>",
+        "button_text": "Acheter maintenant",
+        "button_link": "",
+        "show_reviews": true,
+        "reviews_text": "200,000+ Clientes satisfaites",
+        "bg_color": "#faf8f5",
+        "eyebrow_color": "#2f201b",
+        "title_color": "#1B1240",
+        "text_color": "#1B1240",
+        "button_bg": "#2f201b",
+        "button_text_color": "#FFFFFF",
+        "stars_color": "#00B884",
+        "container_width": 1200,
+        "gap": 60,
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "faq_wtfFG7": {
@@ -490,6 +541,7 @@
     "logoscroll_idLqh7",
     "rich_text_6r4yzY",
     "testimonials_W7qxEz",
+    "imagewithtext_GLYTjf",
     "faq_wtfFG7"
   ]
 }
