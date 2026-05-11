@@ -291,21 +291,8 @@
             "icon_background_type": "circle",
             "icon_background": "#faf8f5",
             "icon_color": "#2f201b",
-            "title": "Free shipping",
-            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included</p>"
-          }
-        },
-        "item_AphX7Q": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-coupon",
-            "mobile_icon_width": 24,
-            "icon_width": 32,
-            "icon_background_type": "circle",
-            "icon_background": "#faf8f5",
-            "icon_color": "#2f201b",
-            "title": "Free shipping",
-            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included</p>"
+            "title": "Reliefs Sculptants 3D",
+            "content": "<p>Compression ciblée sur cuisses et fessiers. Effet massant à chaque mouvement.</p>"
           }
         },
         "item_TDgCaL": {
@@ -317,8 +304,8 @@
             "icon_background_type": "circle",
             "icon_background": "#faf8f5",
             "icon_color": "#2f201b",
-            "title": "Free shipping",
-            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included</p>"
+            "title": "Effet Push-Up Immédiat",
+            "content": "<p>Fessiers galbés et rehaussés dès le premier enfilage.</p>"
           }
         },
         "item_LbPaHD": {
@@ -330,16 +317,29 @@
             "icon_background_type": "circle",
             "icon_background": "#faf8f5",
             "icon_color": "#2f201b",
-            "title": "Free shipping",
-            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included</p>"
+            "title": "Tissu Premium",
+            "content": "<p>70% polyamide, 30% élasthanne. Opaque, respirant, compression confortable.</p>"
+          }
+        },
+        "item_AphX7Q": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "#faf8f5",
+            "icon_color": "#2f201b",
+            "title": "Ceinture Anti-Glissement",
+            "content": "<p>Elle ne roule pas, ne marque pas. Parfaitement en place toute la journée.</p>"
           }
         }
       },
       "block_order": [
         "item_JLiqX8",
-        "item_AphX7Q",
         "item_TDgCaL",
-        "item_LbPaHD"
+        "item_LbPaHD",
+        "item_AphX7Q"
       ],
       "name": "Text with icons",
       "settings": {
