@@ -218,7 +218,7 @@
         "collapsible_text_6UGGcU": {
           "type": "collapsible_text",
           "settings": {
-            "icon": "none",
+            "icon": "picto-chat",
             "icon_width": 20,
             "title": "SAV Français 7J/7",
             "content": "<p>Notre service client est à votre écoute <strong>7J/7</strong>.</p><p>Vous pouvez nous contacter en utilisant l'onglet <strong>\"Contact\"</strong> de notre boutique ou par email à l'adresse <strong>crineasav@gmail.com</strong></p>",
@@ -228,10 +228,10 @@
         "collapsible_text_dGEayH": {
           "type": "collapsible_text",
           "settings": {
-            "icon": "none",
+            "icon": "picto-box",
             "icon_width": 20,
             "title": "Livraisons & Retours",
-            "content": "<p>Share some content to your customers about your products.</p>",
+            "content": "<p><strong>Livraison : GRATUITE</strong></p><p><strong>Délais : </strong>France et Europe : expédition en 48h, livraison 5 à 7 jours ouvrable</p><p><strong>Retours et échanges : </strong>Retours GRATUITS sous 14 jours Remboursement ou échange selon votre choix</p>",
             "page": ""
           }
         },
