@@ -704,8 +704,8 @@
           "settings": {
             "video": "shopify://files/videos/WhatsApp Video 2026-05-11 at 11.46.35.mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "modal_heading": "<h4>Modal Heading</h4>",
-            "modal_text": "<p>Modal Text</p>"
+            "modal_heading": "",
+            "modal_text": ""
           }
         },
         "video_PzzXQ9": {
@@ -713,8 +713,8 @@
           "settings": {
             "video": "shopify://files/videos/WhatsApp Video 2026-05-11 at 11.46.14.mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "modal_heading": "<h4>Modal Heading</h4>",
-            "modal_text": "<p>Modal Text</p>"
+            "modal_heading": "",
+            "modal_text": ""
           }
         },
         "video_JGwyVa": {
@@ -722,8 +722,8 @@
           "settings": {
             "video": "shopify://files/videos/WhatsApp Video 2026-05-11 at 11.46.02.mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "modal_heading": "<h4>Modal Heading</h4>",
-            "modal_text": "<p>Modal Text</p>"
+            "modal_heading": "",
+            "modal_text": ""
           }
         },
         "video_kGTr9N": {
@@ -731,8 +731,8 @@
           "settings": {
             "video": "shopify://files/videos/09c8db78bfe941d0b0f472d31a4bf3f2.mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "modal_heading": "<h4>Modal Heading</h4>",
-            "modal_text": "<p>Modal Text</p>"
+            "modal_heading": "",
+            "modal_text": ""
           }
         },
         "video_fhecTn": {
@@ -740,8 +740,8 @@
           "settings": {
             "video": "shopify://files/videos/46478eaea92845099e75e5b2b99b6fe3.mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "modal_heading": "<h4>Modal Heading</h4>",
-            "modal_text": "<p>Modal Text</p>"
+            "modal_heading": "",
+            "modal_text": ""
           }
         }
       },
