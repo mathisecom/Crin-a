@@ -665,13 +665,21 @@
             "title": "Les leggings Crinéa sont-ils opaques ?",
             "content": "<p><strong>OUI ! </strong>Nous garantissons que les leggings <br/><strong>Crinéa</strong> restent complètement opaques même lors de <strong>mouvements intenses ou d'étirements.</strong></p>"
           }
+        },
+        "item_3EMAYf": {
+          "type": "item",
+          "settings": {
+            "title": "Puis-je retourner le produit si je ne suis pas satisfait ?",
+            "content": "<p>Oui, vous disposez de 30 jours pour nous retourner l'article. Nous proposons des échanges ou un remboursement rapide si le produit ne convient pas.</p>"
+          }
         }
       },
       "block_order": [
         "item_8gkyRi",
         "item_UxwGTL",
         "item_hxWdAp",
-        "item_HjnFUf"
+        "item_HjnFUf",
+        "item_3EMAYf"
       ],
       "name": "FAQ",
       "settings": {
