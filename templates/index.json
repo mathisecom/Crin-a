@@ -611,6 +611,7 @@
       "type": "imagewithtext",
       "name": "Technologie Innovante",
       "settings": {
+        "image": "shopify://shop_images/mama2.webp",
         "image_position": "right",
         "image_radius": 24,
         "eyebrow": "Push-up et Confortable",
