@@ -146,6 +146,12 @@
             "text": "<h2>Leggings 3D - Crinéa™</h2>"
           }
         },
+        "liquid_Xb4Agt": {
+          "type": "liquid",
+          "settings": {
+            "liquid": ""
+          }
+        },
         "rapi_rapi_bundle_3DyH4M": {
           "type": "shopify://apps/rapi/blocks/rapi-bundle/99617c17-a32b-4e70-a883-7a155610d032",
           "settings": {
@@ -234,6 +240,7 @@
         "liquid_EWJhBa",
         "liquid_WBzwJY",
         "text_R44FfJ",
+        "liquid_Xb4Agt",
         "rapi_rapi_bundle_3DyH4M",
         "price_PnFn3H",
         "description_XM9XQx",
