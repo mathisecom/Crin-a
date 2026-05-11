@@ -235,6 +235,16 @@
             "page": ""
           }
         },
+        "collapsible_text_yaRQdw": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "picto-leaf",
+            "icon_width": 20,
+            "title": "Matériaux et Instructions D'Entretien",
+            "content": "<p><strong>Composition</strong>: 90 % polyamide, 10 % élasthanne<br/><br/>– Laver à une température inférieure à 40 °C<br/>- Ne pas javelliser<br/>- Ne pas repasser<br/>- Ne pas nettoyer à sec</p>",
+            "page": ""
+          }
+        },
         "liquid_fgMnVK": {
           "type": "liquid",
           "settings": {
@@ -257,6 +267,7 @@
         "liquid_eqMLbV",
         "collapsible_text_6UGGcU",
         "collapsible_text_dGEayH",
+        "collapsible_text_yaRQdw",
         "liquid_fgMnVK"
       ],
       "custom_css": [],
