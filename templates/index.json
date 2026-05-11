@@ -422,11 +422,11 @@
         "link_text": "",
         "background": "",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#2f201b",
         "heading_color": "",
         "heading_gradient": "",
-        "testimonial_card_background": "",
-        "testimonial_card_text_color": ""
+        "testimonial_card_background": "#faf8f5",
+        "testimonial_card_text_color": "#2f201b"
       }
     },
     "faq_wtfFG7": {
