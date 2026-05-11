@@ -646,15 +646,23 @@
         "item_hxWdAp": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "title": "Comment les lignes sculptantes m'aident-elles à réduire la cellulite ?",
+            "content": "<p>Nos<strong> lignes sculptantes  </strong>sont placées <strong>stratégiquement</strong> pour comprimer vos cuisses et vos fesses, <strong>augmentant la circulation sanguine de 30 %.</strong></p><p>Une meilleure circulation permet à votre corps <strong>d’éliminer plus efficacement les cellules graisseuses</strong> et les toxines responsables de la cellulite, en <strong>traitant la cause principale.</strong></p><p>Combinées à notre compression, elles permettent également d’entraîner vos jambes, ce qui vous donne des <strong>jambes fermes et toniques.</strong></p>"
+          }
+        },
+        "item_HjnFUf": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
           }
         }
       },
       "block_order": [
         "item_8gkyRi",
         "item_UxwGTL",
-        "item_hxWdAp"
+        "item_hxWdAp",
+        "item_HjnFUf"
       ],
       "name": "FAQ",
       "settings": {
