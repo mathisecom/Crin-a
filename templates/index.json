@@ -245,6 +245,16 @@
             "page": ""
           }
         },
+        "collapsible_text_gyctYk": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "picto-earth",
+            "icon_width": 20,
+            "title": "Première Technologie 3D Brevetée",
+            "content": "<p>Nous avons développé une technologie exclusive de <strong>compression 3D</strong> qui sculpte votre silhouette, lisse votre <strong>peau et soutient les processus naturels</strong> de votre corps, sans effort. Protégée par un brevet exclusif, cette innovation est <strong>uniquement disponible via Crinéa.</strong></p>",
+            "page": ""
+          }
+        },
         "liquid_fgMnVK": {
           "type": "liquid",
           "settings": {
@@ -268,6 +278,7 @@
         "collapsible_text_6UGGcU",
         "collapsible_text_dGEayH",
         "collapsible_text_yaRQdw",
+        "collapsible_text_gyctYk",
         "liquid_fgMnVK"
       ],
       "custom_css": [],
