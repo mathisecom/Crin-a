@@ -1,0 +1,494 @@
+{% comment %}
+  Section : Tableau comparatif "Luveon vs Concurrents"
+  - Chaque ligne du tableau est un "block" : ajoutable / déplaçable / supprimable.
+  - Tout est modifiable depuis l'éditeur de thème.
+  - Responsive : 3 colonnes condensées sur mobile.
+{% endcomment %}
+
+<section
+  id="comp-{{ section.id }}"
+  class="comp-section"
+  style="
+    background-color: {{ section.settings.bg_color }};
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+  "
+>
+  <div
+    class="comp-container"
+    style="max-width: {{ section.settings.container_width }}px;"
+  >
+    {% if section.settings.title_before != blank or section.settings.title_strike != blank %}
+      <h2
+        class="comp-title"
+        style="color: {{ section.settings.title_color }};"
+      >
+        {% if section.settings.title_before != blank %}{{ section.settings.title_before }} {% endif %}{% if section.settings.title_strike != blank %}<span class="comp-strike">{{ section.settings.title_strike }}</span>{% endif %}
+      </h2>
+    {% endif %}
+
+    <div
+      class="comp-table"
+      style="
+        --comp-border-color: {{ section.settings.border_color }};
+        --comp-main-bg: {{ section.settings.main_bg_color }};
+        --comp-check-color: {{ section.settings.check_color }};
+        --comp-cross-color: {{ section.settings.cross_color }};
+        --comp-text-color: {{ section.settings.text_color }};
+        --comp-radius: {{ section.settings.main_radius }}px;
+      "
+    >
+      {% comment %} Fond blanc continu de la colonne centrale {% endcomment %}
+      <div class="comp-main-bg" aria-hidden="true"></div>
+
+      {% comment %} Ligne d'en-tête : images produits {% endcomment %}
+      <div class="comp-cell comp-criteria-cell comp-header-cell"></div>
+      <div class="comp-cell comp-main-cell comp-header-cell">
+        {% if section.settings.main_image != blank %}
+          <img
+            src="{{ section.settings.main_image | image_url: width: 500 }}"
+            alt="{{ section.settings.main_image.alt | default: 'Produit' | escape }}"
+            loading="lazy"
+            width="{{ section.settings.main_image.width }}"
+            height="{{ section.settings.main_image.height }}"
+          >
+        {% endif %}
+      </div>
+      <div class="comp-cell comp-competitor-cell comp-header-cell">
+        {% if section.settings.competitor_image != blank %}
+          <img
+            src="{{ section.settings.competitor_image | image_url: width: 500 }}"
+            alt="{{ section.settings.competitor_image.alt | default: 'Concurrent' | escape }}"
+            loading="lazy"
+            width="{{ section.settings.competitor_image.width }}"
+            height="{{ section.settings.competitor_image.height }}"
+          >
+        {% endif %}
+      </div>
+
+      {% comment %} Lignes de critères {% endcomment %}
+      {% for block in section.blocks %}
+        <div
+          class="comp-cell comp-criteria-cell{% if forloop.last %} comp-last-row{% endif %}"
+          {{ block.shopify_attributes }}
+        >
+          {{ block.settings.criterion }}
+        </div>
+
+        <div class="comp-cell comp-main-cell{% if forloop.last %} comp-last-row{% endif %}">
+          {%- case block.settings.main_result -%}
+            {%- when 'check' -%}
+              <span class="comp-icon comp-check" aria-label="Oui">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"/>
+                  <path d="M8.5 12l2.5 2.5 4.5-5"/>
+                </svg>
+              </span>
+            {%- when 'cross' -%}
+              <span class="comp-icon comp-cross" aria-label="Non">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                  <path d="M6 6l12 12M6 18L18 6"/>
+                </svg>
+              </span>
+            {%- when 'text' -%}
+              <span class="comp-text-result">{{ block.settings.main_text }}</span>
+          {%- endcase -%}
+        </div>
+
+        <div class="comp-cell comp-competitor-cell{% if forloop.last %} comp-last-row{% endif %}">
+          {%- case block.settings.competitor_result -%}
+            {%- when 'check' -%}
+              <span class="comp-icon comp-check" aria-label="Oui">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"/>
+                  <path d="M8.5 12l2.5 2.5 4.5-5"/>
+                </svg>
+              </span>
+            {%- when 'cross' -%}
+              <span class="comp-icon comp-cross" aria-label="Non">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                  <path d="M6 6l12 12M6 18L18 6"/>
+                </svg>
+              </span>
+            {%- when 'text' -%}
+              <span class="comp-text-result">{{ block.settings.competitor_text }}</span>
+          {%- endcase -%}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<style>
+  #comp-{{ section.id }}.comp-section {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  #comp-{{ section.id }} .comp-container {
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  #comp-{{ section.id }} .comp-title {
+    text-align: center;
+    font-weight: 800;
+    line-height: 1.2;
+    margin: 0 0 32px 0;
+    font-size: 36px;
+  }
+  #comp-{{ section.id }} .comp-strike {
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+  }
+
+  #comp-{{ section.id }} .comp-table {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr 1fr;
+    position: relative;
+    align-items: stretch;
+  }
+  #comp-{{ section.id }} .comp-main-bg {
+    grid-column: 2;
+    grid-row: 1 / -1;
+    background: var(--comp-main-bg);
+    border-radius: var(--comp-radius);
+    z-index: 0;
+  }
+  #comp-{{ section.id }} .comp-cell {
+    position: relative;
+    z-index: 1;
+    padding: 18px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  /* Cellules de critère (colonne gauche) */
+  #comp-{{ section.id }} .comp-criteria-cell {
+    color: var(--comp-text-color);
+    font-weight: 700;
+    font-size: 16px;
+  }
+  /* Cellules concurrent (colonne droite) */
+  #comp-{{ section.id }} .comp-competitor-cell {
+    color: var(--comp-text-color);
+  }
+
+  /* En-tête : on accroche les images au sommet */
+  #comp-{{ section.id }} .comp-header-cell {
+    padding: 12px;
+    min-height: 140px;
+  }
+  #comp-{{ section.id }} .comp-header-cell img {
+    max-width: 100%;
+    max-height: 180px;
+    height: auto;
+    object-fit: contain;
+    display: block;
+  }
+
+  /* Bordures horizontales entre les lignes (colonnes 1 et 3 uniquement) */
+  #comp-{{ section.id }} .comp-criteria-cell:not(.comp-header-cell),
+  #comp-{{ section.id }} .comp-competitor-cell:not(.comp-header-cell) {
+    border-top: 1px solid var(--comp-border-color);
+  }
+  #comp-{{ section.id }} .comp-criteria-cell.comp-last-row,
+  #comp-{{ section.id }} .comp-competitor-cell.comp-last-row {
+    border-bottom: 1px solid var(--comp-border-color);
+  }
+
+  /* Icônes */
+  #comp-{{ section.id }} .comp-icon {
+    display: inline-flex;
+    width: 28px;
+    height: 28px;
+  }
+  #comp-{{ section.id }} .comp-icon svg {
+    width: 100%;
+    height: 100%;
+  }
+  #comp-{{ section.id }} .comp-check {
+    color: var(--comp-check-color);
+  }
+  #comp-{{ section.id }} .comp-cross {
+    color: var(--comp-cross-color);
+  }
+  #comp-{{ section.id }} .comp-text-result {
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  /* MOBILE */
+  @media (max-width: 600px) {
+    #comp-{{ section.id }}.comp-section {
+      padding-top: {{ section.settings.padding_top | divided_by: 2 }}px !important;
+      padding-bottom: {{ section.settings.padding_bottom | divided_by: 2 }}px !important;
+    }
+    #comp-{{ section.id }} .comp-title {
+      font-size: 26px;
+      margin-bottom: 20px;
+    }
+    #comp-{{ section.id }} .comp-table {
+      grid-template-columns: 1.3fr 1fr 1fr;
+    }
+    #comp-{{ section.id }} .comp-cell {
+      padding: 12px 6px;
+    }
+    #comp-{{ section.id }} .comp-criteria-cell {
+      font-size: 13px;
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+    #comp-{{ section.id }} .comp-header-cell {
+      min-height: 90px;
+      padding: 8px;
+    }
+    #comp-{{ section.id }} .comp-header-cell img {
+      max-height: 110px;
+    }
+    #comp-{{ section.id }} .comp-icon {
+      width: 22px;
+      height: 22px;
+    }
+    #comp-{{ section.id }} .comp-text-result {
+      font-size: 13px;
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Tableau comparatif",
+  "tag": "section",
+  "class": "section-comparison",
+  "settings": [
+    {
+      "type": "header",
+      "content": "✍️ Titre"
+    },
+    {
+      "type": "text",
+      "id": "title_before",
+      "label": "Texte normal du titre",
+      "default": "Leggings Luveon vs."
+    },
+    {
+      "type": "text",
+      "id": "title_strike",
+      "label": "Mot barré du titre",
+      "default": "concurrents"
+    },
+
+    {
+      "type": "header",
+      "content": "🖼️ Images d'en-tête"
+    },
+    {
+      "type": "image_picker",
+      "id": "main_image",
+      "label": "Image produit (votre marque)"
+    },
+    {
+      "type": "image_picker",
+      "id": "competitor_image",
+      "label": "Image concurrent"
+    },
+
+    {
+      "type": "header",
+      "content": "🎨 Couleurs"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Fond de la section",
+      "default": "#C58189"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Couleur du titre",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Couleur du texte (critères & concurrent)",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "color",
+      "id": "border_color",
+      "label": "Couleur des séparateurs",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "color",
+      "id": "main_bg_color",
+      "label": "Fond colonne centrale",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "color",
+      "id": "check_color",
+      "label": "Couleur ✓ (oui)",
+      "default": "#2F201B"
+    },
+    {
+      "type": "color",
+      "id": "cross_color",
+      "label": "Couleur ✗ (non)",
+      "default": "#FFFFFF"
+    },
+
+    {
+      "type": "header",
+      "content": "📐 Mise en page"
+    },
+    {
+      "type": "range",
+      "id": "main_radius",
+      "label": "Arrondi colonne centrale",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "default": 12,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "container_width",
+      "label": "Largeur max",
+      "min": 500,
+      "max": 1200,
+      "step": 20,
+      "default": 800,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Espace en haut",
+      "min": 0,
+      "max": 200,
+      "step": 4,
+      "default": 60,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Espace en bas",
+      "min": 0,
+      "max": 200,
+      "step": 4,
+      "default": 60,
+      "unit": "px"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "row",
+      "name": "Ligne de comparaison",
+      "settings": [
+        {
+          "type": "text",
+          "id": "criterion",
+          "label": "Critère (colonne gauche)",
+          "default": "Réduction de la cellulite"
+        },
+        {
+          "type": "header",
+          "content": "Votre marque"
+        },
+        {
+          "type": "select",
+          "id": "main_result",
+          "label": "Résultat (votre marque)",
+          "options": [
+            { "value": "check", "label": "✓ Oui" },
+            { "value": "cross", "label": "✗ Non" },
+            { "value": "text", "label": "Texte personnalisé" }
+          ],
+          "default": "check"
+        },
+        {
+          "type": "text",
+          "id": "main_text",
+          "label": "Texte si « Texte personnalisé »"
+        },
+        {
+          "type": "header",
+          "content": "Concurrent"
+        },
+        {
+          "type": "select",
+          "id": "competitor_result",
+          "label": "Résultat (concurrent)",
+          "options": [
+            { "value": "check", "label": "✓ Oui" },
+            { "value": "cross", "label": "✗ Non" },
+            { "value": "text", "label": "Texte personnalisé" }
+          ],
+          "default": "cross"
+        },
+        {
+          "type": "text",
+          "id": "competitor_text",
+          "label": "Texte si « Texte personnalisé »"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 10,
+  "presets": [
+    {
+      "name": "Tableau comparatif",
+      "blocks": [
+        {
+          "type": "row",
+          "settings": {
+            "criterion": "Réduction de la cellulite",
+            "main_result": "check",
+            "competitor_result": "cross"
+          }
+        },
+        {
+          "type": "row",
+          "settings": {
+            "criterion": "Perte de calories",
+            "main_result": "check",
+            "competitor_result": "cross"
+          }
+        },
+        {
+          "type": "row",
+          "settings": {
+            "criterion": "Tonification des muscles",
+            "main_result": "check",
+            "competitor_result": "cross"
+          }
+        },
+        {
+          "type": "row",
+          "settings": {
+            "criterion": "Effet sur la silhouette",
+            "main_result": "check",
+            "competitor_result": "cross"
+          }
+        },
+        {
+          "type": "row",
+          "settings": {
+            "criterion": "Confiance & sensation ressentie",
+            "main_result": "check",
+            "competitor_result": "cross"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
