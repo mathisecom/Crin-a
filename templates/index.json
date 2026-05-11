@@ -473,13 +473,13 @@
         "text_position": "center",
         "background": "",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#2f201b",
         "heading_color": "",
         "heading_gradient": "",
         "button_background": "",
         "button_text_color": "",
-        "accordion_background": "",
-        "accordion_text_color": ""
+        "accordion_background": "#faf8f5",
+        "accordion_text_color": "#2f201b"
       }
     }
   },
