@@ -702,6 +702,7 @@
         "video_PdWqW6": {
           "type": "video",
           "settings": {
+            "video": "shopify://files/videos/WhatsApp Video 2026-05-11 at 11.46.35.mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "modal_heading": "<h4>Modal Heading</h4>",
             "modal_text": "<p>Modal Text</p>"
@@ -710,6 +711,7 @@
         "video_PzzXQ9": {
           "type": "video",
           "settings": {
+            "video": "shopify://files/videos/WhatsApp Video 2026-05-11 at 11.46.14.mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "modal_heading": "<h4>Modal Heading</h4>",
             "modal_text": "<p>Modal Text</p>"
@@ -718,6 +720,7 @@
         "video_JGwyVa": {
           "type": "video",
           "settings": {
+            "video": "shopify://files/videos/WhatsApp Video 2026-05-11 at 11.46.02.mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "modal_heading": "<h4>Modal Heading</h4>",
             "modal_text": "<p>Modal Text</p>"
@@ -726,14 +729,16 @@
         "video_kGTr9N": {
           "type": "video",
           "settings": {
+            "video": "shopify://files/videos/09c8db78bfe941d0b0f472d31a4bf3f2.mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "modal_heading": "<h4>Modal Heading</h4>",
             "modal_text": "<p>Modal Text</p>"
           }
         },
-        "video_dpmiML": {
+        "video_fhecTn": {
           "type": "video",
           "settings": {
+            "video": "shopify://files/videos/46478eaea92845099e75e5b2b99b6fe3.mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "modal_heading": "<h4>Modal Heading</h4>",
             "modal_text": "<p>Modal Text</p>"
@@ -745,7 +750,7 @@
         "video_PzzXQ9",
         "video_JGwyVa",
         "video_kGTr9N",
-        "video_dpmiML"
+        "video_fhecTn"
       ],
       "name": "Customify - Product Videos",
       "settings": {
