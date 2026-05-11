@@ -1,0 +1,462 @@
+{% comment %}
+  Section : Technologie Innovante (Legging drainant)
+  Tous les textes, couleurs, image et bouton sont modifiables
+  depuis l'éditeur de thème Shopify.
+{% endcomment %}
+
+<section
+  id="ti-section-{{ section.id }}"
+  class="ti-section"
+  style="
+    background-color: {{ section.settings.bg_color }};
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+  "
+>
+  <div
+    class="ti-container"
+    style="
+      max-width: {{ section.settings.container_width }}px;
+      gap: {{ section.settings.gap }}px;
+      flex-direction: {% if section.settings.image_position == 'right' %}row-reverse{% else %}row{% endif %};
+    "
+  >
+    {% comment %} ---------- IMAGE ---------- {% endcomment %}
+    <div class="ti-image-wrapper">
+      {% if section.settings.image != blank %}
+        <img
+          src="{{ section.settings.image | image_url: width: 1400 }}"
+          srcset="
+            {{ section.settings.image | image_url: width: 600 }}  600w,
+            {{ section.settings.image | image_url: width: 900 }}  900w,
+            {{ section.settings.image | image_url: width: 1400 }} 1400w
+          "
+          sizes="(max-width: 768px) 100vw, 50vw"
+          alt="{{ section.settings.image.alt | default: section.settings.title | escape }}"
+          loading="lazy"
+          class="ti-image"
+          style="border-radius: {{ section.settings.image_radius }}px;"
+          width="{{ section.settings.image.width }}"
+          height="{{ section.settings.image.height }}"
+        >
+      {% else %}
+        <div
+          class="ti-image-placeholder"
+          style="border-radius: {{ section.settings.image_radius }}px;"
+        >
+          {{ 'lifestyle-1' | placeholder_svg_tag: 'ti-placeholder-svg' }}
+        </div>
+      {% endif %}
+    </div>
+
+    {% comment %} ---------- CONTENU ---------- {% endcomment %}
+    <div class="ti-content">
+      {% if section.settings.eyebrow != blank %}
+        <p
+          class="ti-eyebrow"
+          style="color: {{ section.settings.eyebrow_color }};"
+        >
+          {{ section.settings.eyebrow }}
+        </p>
+      {% endif %}
+
+      {% if section.settings.title != blank %}
+        <h2
+          class="ti-title"
+          style="
+            color: {{ section.settings.title_color }};
+            font-size: {{ section.settings.title_size }}px;
+          "
+        >
+          {{ section.settings.title }}
+        </h2>
+      {% endif %}
+
+      {% if section.settings.description != blank %}
+        <div
+          class="ti-description"
+          style="color: {{ section.settings.text_color }};"
+        >
+          {{ section.settings.description }}
+        </div>
+      {% endif %}
+
+      {% if section.settings.button_text != blank %}
+        <a
+          href="{{ section.settings.button_link | default: '#' }}"
+          class="ti-button"
+          style="
+            background-color: {{ section.settings.button_bg }};
+            color: {{ section.settings.button_text_color }};
+          "
+        >
+          {{ section.settings.button_text }}
+          <span class="ti-arrow" aria-hidden="true">➜</span>
+        </a>
+      {% endif %}
+
+      {% if section.settings.show_reviews %}
+        <div class="ti-reviews">
+          <span
+            class="ti-stars"
+            style="color: {{ section.settings.stars_color }};"
+            aria-label="5 étoiles sur 5"
+          >
+            ★★★★★
+          </span>
+          {% if section.settings.reviews_text != blank %}
+            <span
+              class="ti-reviews-text"
+              style="color: {{ section.settings.text_color }};"
+            >
+              {{ section.settings.reviews_text }}
+            </span>
+          {% endif %}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+<style>
+  #ti-section-{{ section.id }} .ti-section,
+  .ti-section {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  #ti-section-{{ section.id }} .ti-container {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+    box-sizing: border-box;
+  }
+  #ti-section-{{ section.id }} .ti-image-wrapper {
+    flex: 1 1 50%;
+    min-width: 0;
+  }
+  #ti-section-{{ section.id }} .ti-image,
+  #ti-section-{{ section.id }} .ti-image-placeholder {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+  }
+  #ti-section-{{ section.id }} .ti-image-placeholder {
+    background: #e9e2d6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #ti-section-{{ section.id }} .ti-content {
+    flex: 1 1 50%;
+    min-width: 0;
+  }
+  #ti-section-{{ section.id }} .ti-eyebrow {
+    font-size: 13px;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0 0 18px 0;
+  }
+  #ti-section-{{ section.id }} .ti-title {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-weight: 700;
+    line-height: 1.15;
+    margin: 0 0 24px 0;
+  }
+  #ti-section-{{ section.id }} .ti-description {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 28px;
+  }
+  #ti-section-{{ section.id }} .ti-description p {
+    margin: 0 0 10px 0;
+  }
+  #ti-section-{{ section.id }} .ti-description strong {
+    font-weight: 700;
+  }
+  #ti-section-{{ section.id }} .ti-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 16px 36px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+    border: none;
+    cursor: pointer;
+  }
+  #ti-section-{{ section.id }} .ti-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.18);
+    opacity: 0.95;
+  }
+  #ti-section-{{ section.id }} .ti-arrow {
+    display: inline-block;
+    transition: transform 0.2s ease;
+  }
+  #ti-section-{{ section.id }} .ti-button:hover .ti-arrow {
+    transform: translateX(4px);
+  }
+  #ti-section-{{ section.id }} .ti-reviews {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  #ti-section-{{ section.id }} .ti-stars {
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 1;
+  }
+  #ti-section-{{ section.id }} .ti-reviews-text {
+    font-size: 14px;
+  }
+
+  /* ---------- TABLETTE ---------- */
+  @media (max-width: 1024px) {
+    #ti-section-{{ section.id }} .ti-container {
+      gap: 32px !important;
+    }
+    #ti-section-{{ section.id }} .ti-title {
+      font-size: 34px !important;
+    }
+  }
+
+  /* ---------- MOBILE ---------- */
+  @media (max-width: 768px) {
+    #ti-section-{{ section.id }} .ti-section {
+      padding-top: {{ section.settings.padding_top | divided_by: 2 }}px !important;
+      padding-bottom: {{ section.settings.padding_bottom | divided_by: 2 }}px !important;
+    }
+    #ti-section-{{ section.id }} .ti-container {
+      flex-direction: column !important;
+      gap: 24px !important;
+      padding: 0 16px;
+    }
+    #ti-section-{{ section.id }} .ti-image-wrapper,
+    #ti-section-{{ section.id }} .ti-content {
+      flex: 1 1 100%;
+      width: 100%;
+    }
+    #ti-section-{{ section.id }} .ti-title {
+      font-size: 26px !important;
+    }
+    #ti-section-{{ section.id }} .ti-description {
+      font-size: 15px;
+    }
+    #ti-section-{{ section.id }} .ti-button {
+      width: 100%;
+      justify-content: center;
+      padding: 16px 24px;
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Technologie Innovante",
+  "tag": "section",
+  "class": "section-technologie-innovante",
+  "settings": [
+    {
+      "type": "header",
+      "content": "🖼️ Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image principale"
+    },
+    {
+      "type": "select",
+      "id": "image_position",
+      "label": "Position de l'image",
+      "options": [
+        { "value": "left", "label": "À gauche" },
+        { "value": "right", "label": "À droite" }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "range",
+      "id": "image_radius",
+      "label": "Arrondi de l'image (px)",
+      "min": 0,
+      "max": 60,
+      "step": 2,
+      "default": 24
+    },
+
+    {
+      "type": "header",
+      "content": "✍️ Textes"
+    },
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Surtitre",
+      "default": "TECHNOLOGIE INNOVANTE"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Titre principal",
+      "default": "Un legging qui draine et sculpte votre silhouette"
+    },
+    {
+      "type": "range",
+      "id": "title_size",
+      "label": "Taille du titre (desktop)",
+      "min": 24,
+      "max": 64,
+      "step": 2,
+      "default": 42,
+      "unit": "px"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description",
+      "default": "<p>Grâce à sa <strong>technologie 3D drainante</strong>, notre legging stimule la circulation sanguine à chaque mouvement, aidant votre corps à réduire naturellement la cellulite. Associée à une compression douce et ciblée, cette action affine la silhouette, tonifie les jambes et améliore visiblement la texture de la peau.</p><p>Le tout est conçu dans un tissu extensible, respirant et ultra-doux, qui offre un maintien confortable, idéal pour vous accompagner du matin au soir sans jamais vous gêner.</p>"
+    },
+
+    {
+      "type": "header",
+      "content": "🛒 Bouton"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Texte du bouton",
+      "default": "Acheter maintenant"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Lien du bouton"
+    },
+
+    {
+      "type": "header",
+      "content": "⭐ Avis clients"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_reviews",
+      "label": "Afficher les avis",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "reviews_text",
+      "label": "Texte des avis",
+      "default": "200,000+ Clientes satisfaites"
+    },
+
+    {
+      "type": "header",
+      "content": "🎨 Couleurs"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Couleur de fond",
+      "default": "#F5EFE6"
+    },
+    {
+      "type": "color",
+      "id": "eyebrow_color",
+      "label": "Couleur du surtitre",
+      "default": "#7A1F3D"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Couleur du titre",
+      "default": "#1B1240"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Couleur du texte",
+      "default": "#1B1240"
+    },
+    {
+      "type": "color",
+      "id": "button_bg",
+      "label": "Fond du bouton",
+      "default": "#7A1F3D"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Texte du bouton",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "color",
+      "id": "stars_color",
+      "label": "Couleur des étoiles",
+      "default": "#00B884"
+    },
+
+    {
+      "type": "header",
+      "content": "📐 Mise en page"
+    },
+    {
+      "type": "range",
+      "id": "container_width",
+      "label": "Largeur max du contenu",
+      "min": 900,
+      "max": 1600,
+      "step": 20,
+      "default": 1200,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "gap",
+      "label": "Espace entre image et texte",
+      "min": 20,
+      "max": 120,
+      "step": 4,
+      "default": 60,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Espace en haut",
+      "min": 0,
+      "max": 200,
+      "step": 4,
+      "default": 80,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Espace en bas",
+      "min": 0,
+      "max": 200,
+      "step": 4,
+      "default": 80,
+      "unit": "px"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Technologie Innovante"
+    }
+  ]
+}
+{% endschema %}
