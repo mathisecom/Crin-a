@@ -398,7 +398,7 @@
           "settings": {
             "round_avatar": true,
             "show_rating": true,
-            "rating": 4,
+            "rating": 5,
             "author": "Julia S.",
             "title": "Je recommande",
             "content": "<p>\"J’en ai commandé un, puis un deuxième. C’est le seul produit où j’ai vu une amélioration visible sur ma peau sans effort. Et le tissu est top.\"</p>"
@@ -498,8 +498,8 @@
         "stars_color": "#00B884",
         "container_width": 1200,
         "gap": 60,
-        "padding_top": 80,
-        "padding_bottom": 80
+        "padding_top": 52,
+        "padding_bottom": 52
       }
     },
     "scrolling_text_jzWQWj": {
@@ -542,8 +542,8 @@
         "stars_color": "#00B884",
         "container_width": 1200,
         "gap": 60,
-        "padding_top": 80,
-        "padding_bottom": 80
+        "padding_top": 52,
+        "padding_bottom": 0
       }
     },
     "multi_column_JC9hh3": {
@@ -677,7 +677,7 @@
         "heading_align": "center",
         "heading_align_mobile": "center",
         "slider_view": 4,
-        "slider_view_mobile": 4,
+        "slider_view_mobile": 3.2,
         "slider_gap": 16,
         "slider_gap_mobile": 16,
         "slider_mt": 20,
