@@ -58,7 +58,7 @@
         "image_position": "left",
         "container_width": 1220,
         "border_radius": 15,
-        "padding_top": 45,
+        "padding_top": 35,
         "padding_bottom": 20,
         "bg_type": "solid",
         "bg_color_1": "#faf8f5",
