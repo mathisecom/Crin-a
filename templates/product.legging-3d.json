@@ -72,6 +72,12 @@
           "disabled": true,
           "settings": {}
         },
+        "liquid_XnJgAw": {
+          "type": "liquid",
+          "settings": {
+            "liquid": ""
+          }
+        },
         "liquid_wDtN3B": {
           "type": "liquid",
           "settings": {
@@ -106,6 +112,7 @@
         "description",
         "variant_picker",
         "quantity_selector",
+        "liquid_XnJgAw",
         "liquid_wDtN3B",
         "buy_buttons",
         "liquid_iczTNq"
