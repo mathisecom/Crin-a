@@ -87,8 +87,8 @@
         "underline_width": 75,
         "underline_offset_x": 5,
         "underline_offset_y": -8,
-        "quote": "<p>\"The <strong>Best way</strong> to get positive Google reviews from your customers\"</p>",
-        "quote_size": 20,
+        "quote": "<p>Les seuls <strong>leggings brevetés</strong> à micro-massage 3D, testés cliniquement pour stimuler la circulation et lisser visiblement la peau en 30 jours.</p>",
+        "quote_size": 17,
         "quote_color": "#2f201b",
         "emphasis_color": "#2f201b"
       }
