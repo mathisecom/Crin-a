@@ -12,6 +12,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "liquid_YEd9iG": {
+          "type": "liquid",
+          "settings": {
+            "liquid": ""
+          }
+        },
         "liquid_EhfDEw": {
           "type": "liquid",
           "settings": {
@@ -83,6 +89,7 @@
         }
       },
       "block_order": [
+        "liquid_YEd9iG",
         "liquid_EhfDEw",
         "title",
         "badges",
