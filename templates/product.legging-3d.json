@@ -271,24 +271,42 @@
         "image_CJUd3i": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_-_2026-05-11T152614.049.jpg",
             "url": ""
           }
         },
         "image_MDAGMm": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_-_2026-05-11T152627.196.jpg",
             "url": ""
           }
         },
         "image_9qKnhW": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_-_2026-05-11T152633.609.jpg",
             "url": ""
           }
         },
         "image_6rpNd7": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_-_2026-05-11T152647.299.jpg",
+            "url": ""
+          }
+        },
+        "image_jAQLxc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_-_2026-05-11T152652.736.jpg",
+            "url": ""
+          }
+        },
+        "image_cGtUAx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_-_2026-05-11T152701.354.jpg",
             "url": ""
           }
         }
@@ -297,7 +315,9 @@
         "image_CJUd3i",
         "image_MDAGMm",
         "image_9qKnhW",
-        "image_6rpNd7"
+        "image_6rpNd7",
+        "image_jAQLxc",
+        "image_cGtUAx"
       ],
       "name": "SS - Scrolling logo cloud #5",
       "settings": {
@@ -309,14 +329,14 @@
         "heading_size": 18,
         "heading_size_mobile": 18,
         "heading_height": 130,
-        "scrolling_velocity": 30,
-        "scrolling_velocity_mobile": 30,
+        "scrolling_velocity": 22,
+        "scrolling_velocity_mobile": 20,
         "scrolling_direction": "left",
         "pause_hover": false,
         "scrolling_gap": 70,
-        "scrolling_gap_mobile": 30,
-        "card_width_desktop": 130,
-        "card_width_mobile": 100,
+        "scrolling_gap_mobile": 26,
+        "card_width_desktop": 140,
+        "card_width_mobile": 120,
         "heading_color": "#121212",
         "layout_bg_color": "#FFFFFF",
         "layout_border_color": "#121212",
