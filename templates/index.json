@@ -36,6 +36,7 @@
       "block_order": [
         "slide-1"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": true,
@@ -47,6 +48,48 @@
         "cycle_speed": 6,
         "background": "#f2f2f2",
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
+      }
+    },
+    "splitbanner_43xiAK": {
+      "type": "splitbanner",
+      "name": "Bannière image + texte",
+      "settings": {
+        "full_width": false,
+        "image_position": "left",
+        "container_width": 1220,
+        "border_radius": 15,
+        "padding_top": 45,
+        "padding_bottom": 20,
+        "bg_type": "solid",
+        "bg_color_1": "#faf8f5",
+        "bg_color_2": "#0a0c0a",
+        "gradient_angle": 135,
+        "show_grid": false,
+        "grid_color": "#2f201b",
+        "grid_size": 50,
+        "grid_opacity": 6,
+        "show_badge": true,
+        "show_stars": true,
+        "star_count": 5,
+        "star_color": "#00b67a",
+        "badge_text": "+3,000 Clientes satisfaites",
+        "badge_bg": "#f1ece3",
+        "badge_text_color": "#2f201b",
+        "badge_text_size": 13,
+        "heading_line_1": "Collect Reviews &",
+        "heading_size": 58,
+        "heading_line_2": "Rank <strong>#1</strong> on Google",
+        "line2_size": 50,
+        "heading_color": "#2f201b",
+        "show_underline": true,
+        "underline_color": "#e2d6c6",
+        "underline_width": 75,
+        "underline_offset_x": 5,
+        "underline_offset_y": -8,
+        "quote": "<p>\"The <strong>Best way</strong> to get positive Google reviews from your customers\"</p>",
+        "quote_size": 20,
+        "quote_color": "#2f201b",
+        "emphasis_color": "#2f201b"
       }
     },
     "logoscroll_WHacht": {
@@ -972,6 +1015,7 @@
   },
   "order": [
     "slideshow",
+    "splitbanner_43xiAK",
     "logoscroll_WHacht",
     "featured_product_Gt7ETQ",
     "text_with_icons_r7dGdn",
