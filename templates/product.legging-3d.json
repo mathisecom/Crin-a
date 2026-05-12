@@ -405,6 +405,140 @@
         "testimonial_card_background": "#faf8f5",
         "testimonial_card_text_color": "#2f201b"
       }
+    },
+    "imagewithtext_pCL9jw": {
+      "type": "imagewithtext",
+      "name": "Technologie Innovante",
+      "settings": {
+        "image": "shopify://shop_images/L_C_GIF_2_compresse_V1.webp",
+        "image_position": "right",
+        "image_radius": 24,
+        "eyebrow": "TECHNOLOGIE INNOVANTE",
+        "title": "Un legging qui draine et sculpte votre silhouette",
+        "title_size": 42,
+        "description": "<p>Grâce à sa <strong>technologie 3D drainante</strong>, notre legging stimule la circulation sanguine à chaque mouvement, aidant votre corps à réduire naturellement la cellulite. Associée à une compression douce et ciblée, cette action affine la silhouette, tonifie les jambes et améliore visiblement la texture de la peau.</p><p>Le tout est conçu dans un tissu extensible, respirant et ultra-doux, qui offre un maintien confortable, idéal pour vous accompagner du matin au soir sans jamais vous gêner.</p>",
+        "button_text": "Acheter maintenant",
+        "button_link": "",
+        "show_reviews": true,
+        "reviews_text": "+3,000 Clientes satisfaites",
+        "bg_color": "#F5EFE6",
+        "eyebrow_color": "#2f201b",
+        "title_color": "#1B1240",
+        "text_color": "#1B1240",
+        "button_bg": "#2f201b",
+        "button_text_color": "#FFFFFF",
+        "stars_color": "#00B884",
+        "container_width": 1200,
+        "gap": 60,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "scrolling_text_jzWQWj": {
+      "type": "scrolling-text",
+      "name": "Scrolling text",
+      "settings": {
+        "full_width": true,
+        "text": "Sculpte, draine et galbe ta silhouette sans effort.",
+        "text_size": "xsmall",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 10,
+        "background": "#2f201b",
+        "background_gradient": "",
+        "text_color": "#ffffff",
+        "text_gradient": ""
+      }
+    },
+    "imagewithtext_pcYQ38": {
+      "type": "imagewithtext",
+      "name": "Technologie Innovante",
+      "settings": {
+        "image": "shopify://shop_images/mama2.webp",
+        "image_position": "right",
+        "image_radius": 24,
+        "eyebrow": "Push-up et Confortable",
+        "title": "Une silhouette galbée dès que vous l'enfilez",
+        "title_size": 42,
+        "description": "<p>En plus de son confort absolu, notre <strong>legging 3D offre un effet sculptant immédiat</strong>. Sa coupe gainante affine les jambes, tandis que le plissé discret à l’arrière réhausse et galbe naturellement les fesses, pour une silhouette instantanément plus harmonieuse et plus sexy.</p><p>Chez Crinéa, on ne vous promet pas seulement des résultats visibles à long terme, on vous fait vous sentir belle dès la première seconde.</p>",
+        "button_text": "Acheter maintenant",
+        "button_link": "",
+        "show_reviews": true,
+        "reviews_text": "+3,000 Clientes satisfaites",
+        "bg_color": "#ffffff",
+        "eyebrow_color": "#2f201b",
+        "title_color": "#1B1240",
+        "text_color": "#1B1240",
+        "button_bg": "#2f201b",
+        "button_text_color": "#FFFFFF",
+        "stars_color": "#00B884",
+        "container_width": 1200,
+        "gap": 60,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "multi_column_JC9hh3": {
+      "type": "multi-column",
+      "blocks": {
+        "item_kPKpMd": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/3488138c-0c59-4e33-b733-89bc1e367c8c.webp",
+            "column_size": "3",
+            "title": "Tissu Côtelé 3D",
+            "heading_tag": "h4",
+            "content": "<p>Tissu côtelé 3D haut de gamme conçu pour une compression ciblée. Chaque crête, chaque rainure, pensé pour des résultats optimaux.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_EKfaCc": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/e84f9005-44fe-414a-aeae-5b081f359e3b.webp",
+            "column_size": "3",
+            "title": "Tissu extensible",
+            "heading_tag": "h4",
+            "content": "<p>Tissu extensible dans les 4 sens qui s'adapte à votre corps. Souple, respirant et conçu pour durer.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_RTRxEH": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/695e8b95-ceac-4479-bf83-cececd962dd1.webp",
+            "column_size": "3",
+            "title": "Confiance à toute épreuve",
+            "heading_tag": "h4",
+            "content": "<p>Étirez-vous, pliez-vous, bougez librement. Notre tissu reste parfaitement opaque, quelle que soit la profondeur.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_kPKpMd",
+        "item_EKfaCc",
+        "item_RTRxEH"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -412,6 +546,10 @@
     "text_with_icons_tTQF9P",
     "logoscroll_JCXj6z",
     "rich_text_QfpCTb",
-    "testimonials_pwmqTY"
+    "testimonials_pwmqTY",
+    "imagewithtext_pCL9jw",
+    "scrolling_text_jzWQWj",
+    "imagewithtext_pcYQ38",
+    "multi_column_JC9hh3"
   ]
 }
