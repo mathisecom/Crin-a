@@ -186,6 +186,22 @@
         "input_text_color": ""
       }
     },
+    "scrolling_text_jzWQWj": {
+      "type": "scrolling-text",
+      "name": "Scrolling text",
+      "settings": {
+        "full_width": true,
+        "text": "Sculpte, draine et galbe ta silhouette sans effort.",
+        "text_size": "xsmall",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 10,
+        "background": "#2f201b",
+        "background_gradient": "",
+        "text_color": "#ffffff",
+        "text_gradient": ""
+      }
+    },
     "imagewithtext_pCL9jw": {
       "type": "imagewithtext",
       "name": "Technologie Innovante",
@@ -291,22 +307,6 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "scrolling_text_jzWQWj": {
-      "type": "scrolling-text",
-      "name": "Scrolling text",
-      "settings": {
-        "full_width": true,
-        "text": "Sculpte, draine et galbe ta silhouette sans effort.",
-        "text_size": "xsmall",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 10,
-        "background": "#2f201b",
-        "background_gradient": "",
-        "text_color": "#ffffff",
-        "text_gradient": ""
       }
     },
     "multi_column_JC9hh3": {
@@ -781,9 +781,9 @@
   },
   "order": [
     "main",
+    "scrolling_text_jzWQWj",
     "imagewithtext_pCL9jw",
     "text_with_icons_tTQF9P",
-    "scrolling_text_jzWQWj",
     "multi_column_JC9hh3",
     "rich_text_QfpCTb",
     "testimonials_pwmqTY",
