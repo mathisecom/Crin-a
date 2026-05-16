@@ -385,39 +385,6 @@
         "lazy": true
       }
     },
-    "rich_text_QfpCTb": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_hyGMKg": {
-          "type": "subheading",
-          "settings": {
-            "text": "ILS EN PARLENT MIEUX QUE NOUS"
-          }
-        },
-        "heading_PMBYw6": {
-          "type": "heading",
-          "settings": {
-            "text": "+3,000 CLIENTS SATISFAITS",
-            "heading_tag": "h3",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "subheading_hyGMKg",
-        "heading_PMBYw6"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "testimonials_pwmqTY": {
       "type": "testimonials",
       "blocks": {
@@ -575,6 +542,39 @@
         "subheading": "",
         "title": "",
         "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_QfpCTb": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_hyGMKg": {
+          "type": "subheading",
+          "settings": {
+            "text": "ILS EN PARLENT MIEUX QUE NOUS"
+          }
+        },
+        "heading_PMBYw6": {
+          "type": "heading",
+          "settings": {
+            "text": "+3,000 CLIENTS SATISFAITS",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_hyGMKg",
+        "heading_PMBYw6"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -784,10 +784,10 @@
     "imagewithtext_pCL9jw",
     "text_with_icons_tTQF9P",
     "logoscroll_JCXj6z",
-    "rich_text_QfpCTb",
-    "testimonials_pwmqTY",
     "scrolling_text_jzWQWj",
     "multi_column_JC9hh3",
+    "rich_text_QfpCTb",
+    "testimonials_pwmqTY",
     "imagewithtext_pcYQ38",
     "avisvideo_9nrAMa"
   ]
