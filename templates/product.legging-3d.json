@@ -474,35 +474,6 @@
         "testimonial_card_text_color": "#2f201b"
       }
     },
-    "imagewithtext_pCL9jw": {
-      "type": "imagewithtext",
-      "disabled": true,
-      "name": "Technologie Innovante",
-      "settings": {
-        "image": "shopify://shop_images/L_C_GIF_2_compresse_V1.webp",
-        "image_position": "right",
-        "image_radius": 24,
-        "eyebrow": "TECHNOLOGIE INNOVANTE",
-        "title": "Un legging qui draine et sculpte votre silhouette",
-        "title_size": 42,
-        "description": "<p>Grâce à sa <strong>technologie 3D drainante</strong>, notre legging stimule la circulation sanguine à chaque mouvement, aidant votre corps à réduire naturellement la cellulite. Associée à une compression douce et ciblée, cette action affine la silhouette, tonifie les jambes et améliore visiblement la texture de la peau.</p><p>Le tout est conçu dans un tissu extensible, respirant et ultra-doux, qui offre un maintien confortable, idéal pour vous accompagner du matin au soir sans jamais vous gêner.</p>",
-        "button_text": "Acheter maintenant",
-        "button_link": "",
-        "show_reviews": true,
-        "reviews_text": "+3,000 Clientes satisfaites",
-        "bg_color": "#f5efe6",
-        "eyebrow_color": "#2f201b",
-        "title_color": "#1b1240",
-        "text_color": "#1b1240",
-        "button_bg": "#2f201b",
-        "button_text_color": "#ffffff",
-        "stars_color": "#00b884",
-        "container_width": 1200,
-        "gap": 60,
-        "padding_top": 52,
-        "padding_bottom": 52
-      }
-    },
     "scrolling_text_jzWQWj": {
       "type": "scrolling-text",
       "name": "Scrolling text",
@@ -581,8 +552,37 @@
         "text_color": ""
       }
     },
+    "imagewithtext_pCL9jw": {
+      "type": "imagewithtext",
+      "name": "Technologie Innovante",
+      "settings": {
+        "image": "shopify://shop_images/L_C_GIF_2_compresse_V1.webp",
+        "image_position": "right",
+        "image_radius": 24,
+        "eyebrow": "TECHNOLOGIE INNOVANTE",
+        "title": "Un legging qui draine et sculpte votre silhouette",
+        "title_size": 42,
+        "description": "<p>Grâce à sa <strong>technologie 3D drainante</strong>, notre legging stimule la circulation sanguine à chaque mouvement, aidant votre corps à réduire naturellement la cellulite. Associée à une compression douce et ciblée, cette action affine la silhouette, tonifie les jambes et améliore visiblement la texture de la peau.</p><p>Le tout est conçu dans un tissu extensible, respirant et ultra-doux, qui offre un maintien confortable, idéal pour vous accompagner du matin au soir sans jamais vous gêner.</p>",
+        "button_text": "Acheter maintenant",
+        "button_link": "",
+        "show_reviews": true,
+        "reviews_text": "+3,000 Clientes satisfaites",
+        "bg_color": "#f5efe6",
+        "eyebrow_color": "#2f201b",
+        "title_color": "#1b1240",
+        "text_color": "#1b1240",
+        "button_bg": "#2f201b",
+        "button_text_color": "#ffffff",
+        "stars_color": "#00b884",
+        "container_width": 1200,
+        "gap": 60,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
     "imagewithtext_pcYQ38": {
       "type": "imagewithtext",
+      "disabled": true,
       "name": "Technologie Innovante",
       "settings": {
         "image": "shopify://shop_images/mama2.webp",
@@ -785,9 +785,9 @@
     "logoscroll_JCXj6z",
     "rich_text_QfpCTb",
     "testimonials_pwmqTY",
-    "imagewithtext_pCL9jw",
     "scrolling_text_jzWQWj",
     "multi_column_JC9hh3",
+    "imagewithtext_pCL9jw",
     "imagewithtext_pcYQ38",
     "avisvideo_9nrAMa"
   ]
