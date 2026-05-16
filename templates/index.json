@@ -345,6 +345,22 @@
         "input_text_color": ""
       }
     },
+    "scrolling_text_WBjyHa": {
+      "type": "scrolling-text",
+      "name": "Scrolling text",
+      "settings": {
+        "full_width": true,
+        "text": "Sculpte, draine et galbe ta silhouette sans effort.",
+        "text_size": "xsmall",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 10,
+        "background": "#2f201b",
+        "background_gradient": "",
+        "text_color": "#faf8f5",
+        "text_gradient": ""
+      }
+    },
     "imagewithtext_GLYTjf": {
       "type": "imagewithtext",
       "name": "Technologie Innovante",
@@ -544,39 +560,6 @@
         "lazy": true
       }
     },
-    "rich_text_6r4yzY": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_yfXjAG": {
-          "type": "subheading",
-          "settings": {
-            "text": "ILS EN PARLENT MIEUX QUE NOUS"
-          }
-        },
-        "heading_YzLhCg": {
-          "type": "heading",
-          "settings": {
-            "text": "+3,000 CLIENTS SATISFAITS",
-            "heading_tag": "h3",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "subheading_yfXjAG",
-        "heading_YzLhCg"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "testimonials_W7qxEz": {
       "type": "testimonials",
       "blocks": {
@@ -659,6 +642,39 @@
         "heading_gradient": "",
         "testimonial_card_background": "#faf8f5",
         "testimonial_card_text_color": "#2f201b"
+      }
+    },
+    "rich_text_6r4yzY": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_yfXjAG": {
+          "type": "subheading",
+          "settings": {
+            "text": "ILS EN PARLENT MIEUX QUE NOUS"
+          }
+        },
+        "heading_YzLhCg": {
+          "type": "heading",
+          "settings": {
+            "text": "+3,000 CLIENTS SATISFAITS",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_yfXjAG",
+        "heading_YzLhCg"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "imagewithtext_PpCAF7": {
@@ -750,22 +766,6 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "scrolling_text_WBjyHa": {
-      "type": "scrolling-text",
-      "name": "Scrolling text",
-      "settings": {
-        "full_width": true,
-        "text": "Sculpte, draine et galbe ta silhouette sans effort.",
-        "text_size": "xsmall",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 10,
-        "background": "#2f201b",
-        "background_gradient": "",
-        "text_color": "#faf8f5",
-        "text_gradient": ""
       }
     },
     "faq_wtfFG7": {
@@ -1024,10 +1024,10 @@
     "imagewithtext_GLYTjf",
     "text_with_icons_r7dGdn",
     "logoscroll_idLqh7",
-    "rich_text_6r4yzY",
-    "testimonials_W7qxEz",
     "imagewithtext_PpCAF7",
     "multi_column_kitwpF",
+    "rich_text_6r4yzY",
+    "testimonials_W7qxEz",
     "faq_wtfFG7",
     "avisvideo_rqgHrH"
   ]
