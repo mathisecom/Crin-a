@@ -679,6 +679,7 @@
     },
     "imagewithtext_PpCAF7": {
       "type": "imagewithtext",
+      "disabled": true,
       "name": "Technologie Innovante",
       "settings": {
         "image": "shopify://shop_images/mama2.webp",
@@ -1023,10 +1024,10 @@
     "logoscroll_idLqh7",
     "rich_text_6r4yzY",
     "testimonials_W7qxEz",
-    "imagewithtext_GLYTjf",
-    "scrolling_text_WBjyHa",
     "imagewithtext_PpCAF7",
     "multi_column_kitwpF",
+    "scrolling_text_WBjyHa",
+    "imagewithtext_GLYTjf",
     "faq_wtfFG7",
     "avisvideo_rqgHrH"
   ]
