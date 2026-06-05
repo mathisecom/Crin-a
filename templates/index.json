@@ -239,7 +239,7 @@
         "liquid_yVQnmg": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_xBV7na\" data-block-type=\"liquid\"><div class=\"product-info__liquid\">\n              <style>\n  .delivery-estimate {\n    display: inline-flex;\n    align-items: center;\n    gap: 8px;\n    font-family: inherit;\n    font-size: 14px;\n    font-weight: 500;\n    color: #1A1A1A;\n    line-height: 1.2;\n  }\n  .delivery-estimate__icon {\n    width: 16px;\n    height: 16px;\n    flex-shrink: 0;\n  }\n  .delivery-estimate__icon svg {\n    width: 100%;\n    height: 100%;\n    display: block;\n  }\n</style>\n\n<span class=\"delivery-estimate\">\n  <span class=\"delivery-estimate__icon\" aria-hidden=\"true\">\n    <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n      <path d=\"m7.5 4.27 9 5.15\"></path>\n      <path d=\"M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z\"></path>\n      <polyline points=\"3.29 7 12 12 20.71 7\"></polyline>\n      <line x1=\"12\" y1=\"22\" x2=\"12\" y2=\"12\"></line>\n    </svg>\n  </span>\n  <span>Livraison estimée le <span class=\"delivery-estimate__date\">23 mai 2026</span></span>\n</span>\n\n<script>\n  (function() {\n    // ===== RÉGLAGES =====\n    var DELIVERY_DAYS = 13; // Délai de livraison max (entre 7 et 13)\n    // ====================\n\n    var deliveryDate = new Date();\n    deliveryDate.setDate(deliveryDate.getDate() + DELIVERY_DAYS);\n\n    var formatted = deliveryDate.toLocaleDateString('fr-FR', {\n      day: '2-digit',\n      month: 'long',\n      year: 'numeric'\n    });\n\n    document.querySelectorAll('.delivery-estimate__date').forEach(function(el) {\n      el.textContent = formatted;\n    });\n  })();\n</script>\n            </div></div>"
+            "liquid": "<p style=\"font-size:14px;font-weight:500;color:#1A1A1A;font-family:inherit;margin:8px 0;\">\n   Livraison estimée : 5 à 7 jours ouvrés\n</p>"
           }
         },
         "buy_buttons_daEXAW": {
@@ -560,123 +560,6 @@
         "lazy": true
       }
     },
-    "testimonials_W7qxEz": {
-      "type": "testimonials",
-      "blocks": {
-        "testimonial_bma4QD": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 4,
-            "author": "Julia S.",
-            "title": "Je recommande",
-            "content": "<p>\"J’en ai commandé un, puis un deuxième. C’est le seul produit où j’ai vu une amélioration visible sur ma peau sans effort. Et le tissu est top.\"</p>"
-          }
-        },
-        "testimonial_668Q3e": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "Mary U.",
-            "title": "Il fait vraiment une différence",
-            "content": "<p>\"Ce legging est devenu un indispensable. En à peine une semaine, j’ai remarqué que ma silhouette s’était affinée. Il fait vraiment une différence.\"</p>"
-          }
-        },
-        "testimonial_3Tm7cy": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 4,
-            "author": "Joshua A.",
-            "title": "Ce legging est devenu un indispensable",
-            "content": "<p>\"Ce legging est devenu un indispensable. En à peine une semaine, j’ai remarqué que ma silhouette s’était affinée. Il fait vraiment une différence.\"</p>"
-          }
-        },
-        "testimonial_GeqiTL": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 4,
-            "author": "Lorianne S.",
-            "title": "Je recommande à toutes mes amies.",
-            "content": "<p>\"Je recommande à toutes mes amies. C’est rare de tomber sur un produit qui tient ses promesses. Et la sensation de maintien est juste parfaite.\"</p>"
-          }
-        },
-        "testimonial_Y9Wa6L": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 4,
-            "author": "Laura C.",
-            "title": "Je me sens mieux dans mes vêtements.",
-            "content": "<p>\"J’étais vraiment complexée par ma cellulite. J’ai porté ce legging tous les jours pendant 10 jours… et j’ai vu une vraie différence. Ma peau est plus lisse et je me sens mieux dans mes vêtements.\"</p>"
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_bma4QD",
-        "testimonial_668Q3e",
-        "testimonial_3Tm7cy",
-        "testimonial_GeqiTL",
-        "testimonial_Y9Wa6L"
-      ],
-      "name": "Testimonials",
-      "settings": {
-        "full_width": true,
-        "stack_testimonials": false,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "#2f201b",
-        "heading_color": "",
-        "heading_gradient": "",
-        "testimonial_card_background": "#faf8f5",
-        "testimonial_card_text_color": "#2f201b"
-      }
-    },
-    "rich_text_6r4yzY": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_yfXjAG": {
-          "type": "subheading",
-          "settings": {
-            "text": "ILS EN PARLENT MIEUX QUE NOUS"
-          }
-        },
-        "heading_YzLhCg": {
-          "type": "heading",
-          "settings": {
-            "text": "+3,000 CLIENTS SATISFAITS",
-            "heading_tag": "h3",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "subheading_yfXjAG",
-        "heading_YzLhCg"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "imagewithtext_PpCAF7": {
       "type": "imagewithtext",
       "disabled": true,
@@ -766,6 +649,123 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "rich_text_6r4yzY": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_yfXjAG": {
+          "type": "subheading",
+          "settings": {
+            "text": "ILS EN PARLENT MIEUX QUE NOUS"
+          }
+        },
+        "heading_YzLhCg": {
+          "type": "heading",
+          "settings": {
+            "text": "+3,000 CLIENTS SATISFAITS",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_yfXjAG",
+        "heading_YzLhCg"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "testimonials_W7qxEz": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_bma4QD": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Julia S.",
+            "title": "Je recommande",
+            "content": "<p>\"J’en ai commandé un, puis un deuxième. C’est le seul produit où j’ai vu une amélioration visible sur ma peau sans effort. Et le tissu est top.\"</p>"
+          }
+        },
+        "testimonial_668Q3e": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Mary U.",
+            "title": "Il fait vraiment une différence",
+            "content": "<p>\"Ce legging est devenu un indispensable. En à peine une semaine, j’ai remarqué que ma silhouette s’était affinée. Il fait vraiment une différence.\"</p>"
+          }
+        },
+        "testimonial_3Tm7cy": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Joshua A.",
+            "title": "Ce legging est devenu un indispensable",
+            "content": "<p>\"Ce legging est devenu un indispensable. En à peine une semaine, j’ai remarqué que ma silhouette s’était affinée. Il fait vraiment une différence.\"</p>"
+          }
+        },
+        "testimonial_GeqiTL": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Lorianne S.",
+            "title": "Je recommande à toutes mes amies.",
+            "content": "<p>\"Je recommande à toutes mes amies. C’est rare de tomber sur un produit qui tient ses promesses. Et la sensation de maintien est juste parfaite.\"</p>"
+          }
+        },
+        "testimonial_Y9Wa6L": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Laura C.",
+            "title": "Je me sens mieux dans mes vêtements.",
+            "content": "<p>\"J’étais vraiment complexée par ma cellulite. J’ai porté ce legging tous les jours pendant 10 jours… et j’ai vu une vraie différence. Ma peau est plus lisse et je me sens mieux dans mes vêtements.\"</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_bma4QD",
+        "testimonial_668Q3e",
+        "testimonial_3Tm7cy",
+        "testimonial_GeqiTL",
+        "testimonial_Y9Wa6L"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "full_width": true,
+        "stack_testimonials": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#2f201b",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "#faf8f5",
+        "testimonial_card_text_color": "#2f201b"
       }
     },
     "faq_wtfFG7": {
