@@ -253,6 +253,12 @@
             "payment_button_text_color": ""
           }
         },
+        "liquid_kNi8Pb": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"product-payment-icons\">\n  {% for type in shop.enabled_payment_types %}\n    {{ type | payment_type_svg_tag }}\n  {% endfor %}\n</div>\n\n<style>\n.product-payment-icons{\n  display:flex;\n  justify-content:center;\n  gap:8px;\n  margin-top:12px;\n  flex-wrap:wrap;\n}\n\n.product-payment-icons svg{\n  height:22px;\n  width:auto;\n}\n</style>"
+          }
+        },
         "payment_terms_4X96fx": {
           "type": "payment_terms",
           "settings": {}
@@ -322,6 +328,7 @@
         "liquid_fjpHmU",
         "liquid_yVQnmg",
         "buy_buttons_daEXAW",
+        "liquid_kNi8Pb",
         "payment_terms_4X96fx",
         "liquid_eqMLbV",
         "collapsible_text_6UGGcU",
