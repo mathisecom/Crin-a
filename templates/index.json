@@ -239,7 +239,7 @@
         "liquid_yVQnmg": {
           "type": "liquid",
           "settings": {
-            "liquid": "<p style=\"font-size:14px;font-weight:500;color:#1A1A1A;font-family:inherit;margin:8px 0;\">\n   Livraison estimée : 5 à 7 jours ouvrés\n</p>"
+            "liquid": "<p style=\"font-size:14px;font-weight:700;color:#1A1A1A;font-family:inherit;margin:8px 0;display:inline-flex;align-items:center;gap:6px;\">\n  <strong>Livraison estimée : 5 à 7 jours ouvrés</strong>\n</p>"
           }
         },
         "buy_buttons_daEXAW": {
