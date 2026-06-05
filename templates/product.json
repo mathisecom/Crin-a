@@ -74,12 +74,6 @@
             "liquid": "<p style=\"font-size:14px;font-weight:700;color:#1A1A1A;font-family:inherit;margin:8px 0;display:inline-flex;align-items:center;gap:6px;\">\n  <strong>Livraison estimée : 5 à 7 jours ouvrés</strong>\n</p>"
           }
         },
-        "liquid_46RYPV": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div class=\"product-payment-icons\">\n  {% for type in shop.enabled_payment_types %}\n    {{ type | payment_type_svg_tag }}\n  {% endfor %}\n</div>\n\n<style>\n.product-payment-icons{\n  display:flex;\n  justify-content:center;\n  gap:8px;\n  margin-top:12px;\n  flex-wrap:wrap;\n}\n\n.product-payment-icons svg{\n  height:22px;\n  width:auto;\n}\n</style>"
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -89,6 +83,12 @@
             "atc_button_text_color": "",
             "payment_button_background": "",
             "payment_button_text_color": ""
+          }
+        },
+        "liquid_46RYPV": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"product-payment-icons\">\n  {% for type in shop.enabled_payment_types %}\n    {{ type | payment_type_svg_tag }}\n  {% endfor %}\n</div>\n\n<style>\n.product-payment-icons{\n  display:flex;\n  justify-content:center;\n  gap:8px;\n  margin-top:12px;\n  flex-wrap:wrap;\n}\n\n.product-payment-icons svg{\n  height:22px;\n  width:auto;\n}\n</style>"
           }
         }
       },
@@ -103,8 +103,8 @@
         "variant_picker",
         "quantity_selector",
         "liquid_wDtN3B",
-        "liquid_46RYPV",
-        "buy_buttons"
+        "buy_buttons",
+        "liquid_46RYPV"
       ],
       "settings": {
         "full_width": true,
