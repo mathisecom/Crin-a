@@ -515,23 +515,10 @@
     "logoscroll_JCXj6z": {
       "type": "logoscroll",
       "blocks": {
-        "image_Gwxx6m": {
-          "type": "image",
-          "settings": {
-            "url": ""
-          }
-        },
         "image_CJUd3i": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/BANNER_MOBILE_-_2026-05-11T152614.049.jpg",
-            "url": ""
-          }
-        },
-        "image_MDAGMm": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/BANNER_MOBILE_-_2026-05-11T152627.196.jpg",
             "url": ""
           }
         },
@@ -565,9 +552,7 @@
         }
       },
       "block_order": [
-        "image_Gwxx6m",
         "image_CJUd3i",
-        "image_MDAGMm",
         "image_9qKnhW",
         "image_6rpNd7",
         "image_jAQLxc",
