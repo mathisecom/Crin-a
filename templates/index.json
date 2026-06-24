@@ -490,13 +490,6 @@
             "url": ""
           }
         },
-        "image_BcyjJq": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/BANNER_MOBILE_-_2026-05-11T152627.196.jpg",
-            "url": ""
-          }
-        },
         "image_zDxAQr": {
           "type": "image",
           "settings": {
@@ -528,7 +521,6 @@
       },
       "block_order": [
         "image_ireEWd",
-        "image_BcyjJq",
         "image_zDxAQr",
         "image_xz7E7F",
         "image_VeXgW6",
