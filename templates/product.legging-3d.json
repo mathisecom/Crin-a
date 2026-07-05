@@ -837,6 +837,13 @@
     "faq_bAdm7Q": {
       "type": "faq",
       "blocks": {
+        "item_R6zH8m": {
+          "type": "item",
+          "settings": {
+            "title": "Comment la compression m'aide-t-elle à perdre du poids ? ",
+            "content": "<p>La compression de nos leggings crée une <strong>résistance pour vos muscles, </strong>obligeant vos jambes à travailler 2 à 3 fois plus dur qu'en l'absence des leggings.</p><p>Lorsque vos muscles travaillent plus dur, ils <strong>brûlent plus de calories </strong>pour produire de l'énergie, ce qui vous aide à <strong>perdre du poids 2 fois plus vite.</strong></p>"
+          }
+        },
         "item_jL3KiX": {
           "type": "item",
           "settings": {
@@ -860,6 +867,7 @@
         }
       },
       "block_order": [
+        "item_R6zH8m",
         "item_jL3KiX",
         "item_ND6wMc",
         "item_i9nJTe"
@@ -868,7 +876,7 @@
       "settings": {
         "full_width": true,
         "subheading": "",
-        "title": "FAQ",
+        "title": "Questions Fréquentes",
         "content": "<p>Use this text to share information about your product or shipping policies.</p>",
         "team_avatar_width": 160,
         "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
