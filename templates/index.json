@@ -691,6 +691,17 @@
     "testimonials_W7qxEz": {
       "type": "testimonials",
       "blocks": {
+        "testimonial_B3NpTJ": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Clara .G",
+            "title": "Livraison super rapide",
+            "content": "<p>Le legging est incroyable, j'ai perdu 3 kg en 1 mois, je recommande</p>"
+          }
+        },
         "testimonial_reRKXN": {
           "type": "testimonial",
           "settings": {
@@ -759,6 +770,7 @@
         }
       },
       "block_order": [
+        "testimonial_B3NpTJ",
         "testimonial_reRKXN",
         "testimonial_bma4QD",
         "testimonial_668Q3e",
