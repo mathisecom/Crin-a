@@ -847,8 +847,8 @@
         "item_jL3KiX": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "title": "Comment choisir la bonne taille ?",
+            "content": "<p>Nos leggings <strong>taillent normalement</strong>. Nous vous conseillons de prendre <strong>votre taille habituelle de pantalon</strong>.<br/>Si vous hésitez entre deux tailles, choisissez <strong>la taille du dessus</strong> pour plus de confort.</p><p>Un <strong>guide des tailles</strong> est disponible directement sur la page pour vous aider.<br/>Et en cas de doute, notre service client peut vous conseiller, et <strong>un échange est possible</strong> si la taille ne convient pas.</p>"
           }
         },
         "item_ND6wMc": {
