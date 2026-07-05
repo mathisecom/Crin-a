@@ -837,6 +837,13 @@
     "faq_bAdm7Q": {
       "type": "faq",
       "blocks": {
+        "item_J37PnF": {
+          "type": "item",
+          "settings": {
+            "title": "Puis-je retourner le produit si je ne suis pas satisfait ?",
+            "content": "<p>Oui, vous disposez de 30 jours pour nous retourner l'article. Nous proposons des échanges ou un remboursement rapide si le produit ne convient pas.</p>"
+          }
+        },
         "item_R6zH8m": {
           "type": "item",
           "settings": {
@@ -867,6 +874,7 @@
         }
       },
       "block_order": [
+        "item_J37PnF",
         "item_R6zH8m",
         "item_jL3KiX",
         "item_ND6wMc",
