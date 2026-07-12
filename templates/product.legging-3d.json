@@ -41,7 +41,7 @@
           }
         },
         "rapi_rapi_bundle_niCxJ7": {
-          "type": "shopify://apps/rapi/blocks/rapi-bundle/99617c17-a32b-4e70-a883-7a155610d032",
+          "type": "shopify://apps/rapi-bundle/blocks/rapi-bundle/99617c17-a32b-4e70-a883-7a155610d032",
           "settings": {
             "product": "{{product}}"
           }
@@ -456,7 +456,7 @@
           "settings": {
             "round_avatar": true,
             "show_rating": true,
-            "rating": 4,
+            "rating": 5,
             "author": "Marion B.",
             "title": "Ce legging est devenu un indispensable",
             "content": "<p>\"Ce legging est devenu un indispensable. En à peine une semaine, j’ai remarqué que ma silhouette s’était affinée. Il fait vraiment une différence.\"</p>"
@@ -467,7 +467,7 @@
           "settings": {
             "round_avatar": true,
             "show_rating": true,
-            "rating": 4,
+            "rating": 5,
             "author": "Lorianne S.",
             "title": "Je recommande à toutes mes amies.",
             "content": "<p>\"Je recommande à toutes mes amies. C’est rare de tomber sur un produit qui tient ses promesses. Et la sensation de maintien est juste parfaite.\"</p>"
