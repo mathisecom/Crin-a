@@ -718,7 +718,7 @@
           "settings": {
             "round_avatar": true,
             "show_rating": true,
-            "rating": 5,
+            "rating": 4,
             "author": "Julia S.",
             "title": "Je recommande",
             "content": "<p>\"J’en ai commandé un, puis un deuxième. C’est le seul produit où j’ai vu une amélioration visible sur ma peau sans effort. Et le tissu est top.\"</p>"
@@ -751,7 +751,7 @@
           "settings": {
             "round_avatar": true,
             "show_rating": true,
-            "rating": 4,
+            "rating": 5,
             "author": "Lorianne S.",
             "title": "Je recommande à toutes mes amies.",
             "content": "<p>\"Je recommande à toutes mes amies. C’est rare de tomber sur un produit qui tient ses promesses. Et la sensation de maintien est juste parfaite.\"</p>"
