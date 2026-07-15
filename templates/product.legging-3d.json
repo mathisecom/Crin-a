@@ -210,8 +210,37 @@
         "text_gradient": ""
       }
     },
+    "imagewithtext_pcYQ38": {
+      "type": "imagewithtext",
+      "name": "Technologie Innovante",
+      "settings": {
+        "image": "shopify://shop_images/mama2_2987abd4-ac8f-418d-96dc-0c19a72b39c8.png",
+        "image_position": "right",
+        "image_radius": 24,
+        "eyebrow": "Push-up et Confortable",
+        "title": "Une silhouette galbée dès que vous l'enfilez",
+        "title_size": 42,
+        "description": "<p>En plus de son confort absolu, notre <strong>legging 3D offre un effet sculptant immédiat</strong>. Sa coupe gainante affine les jambes, tandis que le plissé discret à l’arrière réhausse et galbe naturellement les fesses, pour une silhouette instantanément plus harmonieuse et plus sexy.</p><p>Chez Crinéa, on ne vous promet pas seulement des résultats visibles à long terme, on vous fait vous sentir belle dès la première seconde.</p>",
+        "button_text": "",
+        "button_link": "",
+        "show_reviews": false,
+        "reviews_text": "",
+        "bg_color": "#ffffff",
+        "eyebrow_color": "#2f201b",
+        "title_color": "#1b1240",
+        "text_color": "#1b1240",
+        "button_bg": "#2f201b",
+        "button_text_color": "#ffffff",
+        "stars_color": "#00b884",
+        "container_width": 1200,
+        "gap": 60,
+        "padding_top": 52,
+        "padding_bottom": 0
+      }
+    },
     "imagewithtext_pCL9jw": {
       "type": "imagewithtext",
+      "disabled": true,
       "name": "Technologie Innovante",
       "settings": {
         "image": "shopify://shop_images/mama_c7bdf3cd-f3a2-4f2d-a767-599bb2d5a12b.png",
@@ -604,34 +633,6 @@
         "lazy": true
       }
     },
-    "imagewithtext_pcYQ38": {
-      "type": "imagewithtext",
-      "name": "Technologie Innovante",
-      "settings": {
-        "image": "shopify://shop_images/mama2_2987abd4-ac8f-418d-96dc-0c19a72b39c8.png",
-        "image_position": "right",
-        "image_radius": 24,
-        "eyebrow": "Push-up et Confortable",
-        "title": "Une silhouette galbée dès que vous l'enfilez",
-        "title_size": 42,
-        "description": "<p>En plus de son confort absolu, notre <strong>legging 3D offre un effet sculptant immédiat</strong>. Sa coupe gainante affine les jambes, tandis que le plissé discret à l’arrière réhausse et galbe naturellement les fesses, pour une silhouette instantanément plus harmonieuse et plus sexy.</p><p>Chez Crinéa, on ne vous promet pas seulement des résultats visibles à long terme, on vous fait vous sentir belle dès la première seconde.</p>",
-        "button_text": "",
-        "button_link": "",
-        "show_reviews": false,
-        "reviews_text": "",
-        "bg_color": "#ffffff",
-        "eyebrow_color": "#2f201b",
-        "title_color": "#1b1240",
-        "text_color": "#1b1240",
-        "button_bg": "#2f201b",
-        "button_text_color": "#ffffff",
-        "stars_color": "#00b884",
-        "container_width": 1200,
-        "gap": 60,
-        "padding_top": 52,
-        "padding_bottom": 0
-      }
-    },
     "avisvideo_9nrAMa": {
       "type": "avisvideo",
       "blocks": {
@@ -922,13 +923,13 @@
   "order": [
     "main",
     "scrolling_text_jzWQWj",
+    "imagewithtext_pcYQ38",
     "imagewithtext_pCL9jw",
     "text_with_icons_tTQF9P",
     "multi_column_JC9hh3",
     "rich_text_QfpCTb",
     "testimonials_pwmqTY",
     "logoscroll_JCXj6z",
-    "imagewithtext_pcYQ38",
     "avisvideo_9nrAMa",
     "178232103981e911c2",
     "faq_bAdm7Q"
