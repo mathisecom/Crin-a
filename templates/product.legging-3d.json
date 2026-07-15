@@ -18,6 +18,12 @@
             "liquid": "<div class=\"mini-rating\">\n  <div class=\"mini-rating-images\">\n    <img src=\"https://i.pravatar.cc/50?img=47\" alt=\"\">\n    <img src=\"https://i.pravatar.cc/50?img=12\" alt=\"\">\n    <img src=\"https://i.pravatar.cc/50?img=32\" alt=\"\">\n    <img src=\"https://i.pravatar.cc/50?img=5\" alt=\"\">\n  </div>\n\n  <div class=\"mini-rating-stars\">★★★★★</div>\n\n  <div class=\"mini-rating-text\">\n    Noté 4.8/5 par +3 000 avis clients\n  </div>\n</div>\n\n<style>\n  .mini-rating {\n    display: flex;\n    align-items: center;\n    gap: 9px;\n    width: fit-content;\n    max-width: 100%;\n    margin: 10px 0;\n  }\n\n  .mini-rating-images {\n    display: flex;\n    align-items: center;\n  }\n\n  .mini-rating-images img {\n    width: 25px;\n    height: 25px;\n    object-fit: cover;\n    border-radius: 50%;\n    border: 2px solid #fff;\n    margin-left: -7px;\n  }\n\n  .mini-rating-images img:first-child {\n    margin-left: 0;\n  }\n\n  .mini-rating-stars {\n    color: #f2b800;\n    font-size: 20px;\n    line-height: 1;\n    letter-spacing: -2px;\n    white-space: nowrap;\n  }\n\n  .mini-rating-text {\n    color: #222;\n    font-size: 14px;\n    line-height: 1.2;\n    font-weight: 700;\n    white-space: nowrap;\n  }\n\n  @media screen and (max-width: 749px) {\n    .mini-rating {\n      gap: 7px;\n    }\n\n    .mini-rating-images img {\n      width: 21px;\n      height: 21px;\n    }\n\n    .mini-rating-stars {\n      font-size: 17px;\n    }\n\n    .mini-rating-text {\n      font-size: 12px;\n    }\n  }\n</style>"
           }
         },
+        "liquid_XcyhtA": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"klarna-mini\">\n  Payez en <strong>3x sans frais</strong>\n  <span>(13,30€ x 3)</span> avec\n  <span class=\"klarna-logo\">Klarna.</span>\n</div>\n\n<style>\n  .klarna-mini {\n    display: flex;\n    align-items: center;\n    flex-wrap: wrap;\n    gap: 4px;\n    padding: 4px 0;\n    color: #333333;\n    font-family: Arial, sans-serif;\n    font-size: 13px;\n    line-height: 1.3;\n  }\n\n  .klarna-mini strong {\n    color: #71417e;\n    font-weight: 700;\n  }\n\n  .klarna-logo {\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n    margin-left: 2px;\n    padding: 3px 6px;\n    background: #ffb3cd;\n    color: #111111;\n    border-radius: 3px;\n    font-size: 10px;\n    font-weight: 800;\n  }\n\n  @media screen and (max-width: 749px) {\n    .klarna-mini {\n      font-size: 12px;\n    }\n\n    .klarna-logo {\n      padding: 2px 5px;\n      font-size: 9px;\n    }\n  }\n</style>"
+          }
+        },
         "liquid_jLXgXb": {
           "type": "liquid",
           "settings": {
@@ -151,6 +157,7 @@
       },
       "block_order": [
         "liquid_EhfDEw",
+        "liquid_XcyhtA",
         "liquid_jLXgXb",
         "title",
         "badges",
