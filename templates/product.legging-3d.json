@@ -432,6 +432,7 @@
         "subheading_hyGMKg",
         "heading_PMBYw6"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
@@ -532,6 +533,7 @@
         "testimonial_L4mm3X",
         "testimonial_mRJwUp"
       ],
+      "disabled": true,
       "name": "Testimonials",
       "settings": {
         "full_width": true,
@@ -809,7 +811,7 @@
         "ai_gen_block_26ff9c3_4bmAQd": {
           "type": "ai_gen_block_26ff9c3",
           "settings": {
-            "image": "shopify://shop_images/imgi_438_LEGGING_ARYALA_GUIDE_DES_TAILLES_DECEMBRE_1d163173-b56e-4d94-add8-538ae03d7ea6.jpg",
+            "image": "shopify://shop_images/crinea_dig_3.png",
             "image_width": 50,
             "image_border_radius": 24,
             "layout": "image_left",
