@@ -608,7 +608,7 @@
         "item_HrLVip": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/695e8b95-ceac-4479-bf83-cececd962dd1.webp",
+            "image": "shopify://shop_images/3488138c-0c59-4e33-b733-89bc1e367c8c.webp",
             "column_size": "3",
             "title": "Tissu Côtelé 3D",
             "heading_tag": "h4",
@@ -634,7 +634,7 @@
         "item_dezREQ": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/3488138c-0c59-4e33-b733-89bc1e367c8c.webp",
+            "image": "shopify://shop_images/695e8b95-ceac-4479-bf83-cececd962dd1.webp",
             "column_size": "3",
             "title": "Confiance à toute épreuve",
             "heading_tag": "h4",
