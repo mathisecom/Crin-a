@@ -687,6 +687,7 @@
         "subheading_yfXjAG",
         "heading_YzLhCg"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
@@ -787,6 +788,7 @@
         "testimonial_GeqiTL",
         "testimonial_Y9Wa6L"
       ],
+      "disabled": true,
       "name": "Testimonials",
       "settings": {
         "full_width": true,
@@ -816,7 +818,7 @@
             "spacing": 40,
             "vertical_alignment": "center",
             "desktop_width_percent": 100,
-            "image": "shopify://shop_images/imgi_438_LEGGING_ARYALA_GUIDE_DES_TAILLES_DECEMBRE_1d163173-b56e-4d94-add8-538ae03d7ea6.jpg",
+            "image": "shopify://shop_images/crrr_1.jpg",
             "image_border_radius": 24,
             "heading": "",
             "text": "",
