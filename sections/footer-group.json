@@ -105,7 +105,7 @@
           "type": "text",
           "settings": {
             "title": "Informations",
-            "content": "<p><strong>Téléphone :</strong> <a href=\"tel:+33%206%2062%2092%2099%2069\">+33 07 45 73 27 06</a></p><p><strong>Email </strong>: crineasav@gmail.com</p><p><strong>Horaires d'assistance </strong>:<br/>Du lundi au vendredi : de 9h00 à 19h00</p>",
+            "content": "<p><strong>Téléphone :</strong> <a href=\"tel:+33%206%2062%2092%2099%2069\">+33 07 45 73 27 06</a></p><p><strong>Email </strong>: <a href=\"mailto:contact@crinea.fr\" title=\"mailto:contact@crinea.fr\">contact@crinea.fr</a></p><p><strong>Horaires d'assistance </strong>:<br/>Du lundi au vendredi : de 9h00 à 19h00</p>",
             "enable_follow_on_shop": true
           }
         }
