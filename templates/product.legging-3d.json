@@ -114,8 +114,8 @@
           "settings": {
             "icon": "picto-chat",
             "icon_width": 20,
-            "title": "SAV Français 7J/7",
-            "content": "<p>Notre service client est à votre écoute <strong>7J/7</strong>.</p><p>Vous pouvez nous contacter en utilisant l'onglet <strong>Contactez nous.  </strong></p>",
+            "title": "Besoin d’aide ? Nous sommes là",
+            "content": "<p>Vous pouvez nous contacter en utilisant l'onglet <strong>Contactez nous.  </strong></p>",
             "page": ""
           }
         },
@@ -125,7 +125,7 @@
             "icon": "picto-box",
             "icon_width": 20,
             "title": "Livraisons & Retours",
-            "content": "<p><strong>Livraison : GRATUITE</strong></p><p><strong>Délais : </strong>France et Europe : expédition en 48h, livraison 5 à 7 jours ouvrable</p><p><strong>Retours et échanges : </strong>Retours GRATUITS sous 30 jours Remboursement ou échange selon votre choix</p>",
+            "content": "<p><strong>Livraison : GRATUITE</strong></p><p><strong>Délais :</strong> 5 à 7 jours ouvrable</p><p><strong>Retours et échanges : </strong>Retours GRATUITS sous 30 jours Remboursement ou échange selon votre choix</p>",
             "page": ""
           }
         },
@@ -134,8 +134,8 @@
           "settings": {
             "icon": "picto-leaf",
             "icon_width": 20,
-            "title": "Matériaux et Instructions D'Entretien",
-            "content": "<p><strong>Composition</strong>: 90 % polyamide, 10 % élasthanne<br/><br/>– Laver à une température inférieure à 40 °C<br/>- Ne pas javelliser<br/>- Ne pas repasser<br/>- Ne pas nettoyer à sec</p>",
+            "title": "Matériaux et entretien",
+            "content": "<p><strong>MATIÈRE & DÉTAIL</strong></p><p>Mélange subtil <strong>de 10% d'élasthanne </strong>et de <strong>90% de nylon</strong> pour une élasticité parfaite et un confort seconde peau</p><p><strong>ENTRETIEN RECOMMANDÉ</strong></p><p>Lavage :</p><ul><li>Lavez à 30°C maximum, programme délicat.</li><li>Mettez le legging à l’envers.</li><li>Utilisez une lessive douce (évitez javel, détachants agressifs, adoucissant).</li><li>Lavez avec des couleurs similaires.<br/>Idéalement : filet de lavage pour protéger les fibres.<br/></li></ul><p>Séchage</p><ul><li>Pas de sèche-linge.<br/></li><li>Séchage à l’air libre, à plat ou sur cintre, loin d’une source de chaleur (radiateur/soleil direct).<br/></li></ul><p>À éviter (pour garder l’effet gainant)</p><ul><li>Adoucissant : il “encrasse” l’élasthanne et réduit l’élasticité à la longue.<br/></li><li>Essorage trop fort : préférez un essorage doux.<br/></li><li>Repassage : inutile et déconseillé (chaleur = fibres abîmées).</li></ul>",
             "page": ""
           }
         },
