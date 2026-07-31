@@ -238,12 +238,6 @@
             "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_payQEK\" data-block-type=\"liquid\"><div class=\"product-info__liquid\">\n              <style>\n  .stock-indicator {\n    display: inline-flex;\n    align-items: center;\n    gap: 8px;\n    font-family: inherit;\n    font-size: 14px;\n    font-weight: 500;\n    color: #1a1a1a;\n    line-height: 1;\n  }\n  .stock-indicator__dot {\n    position: relative;\n    width: 10px;\n    height: 10px;\n    border-radius: 50%;\n    background: #ff8c1a;\n    flex-shrink: 0;\n  }\n  .stock-indicator__dot::before {\n    content: \"\";\n    position: absolute;\n    inset: 0;\n    border-radius: 50%;\n    background: #ff8c1a;\n    opacity: 0.7;\n    animation: stock-pulse 1.6s ease-out infinite;\n  }\n  @keyframes stock-pulse {\n    0% {\n      transform: scale(1);\n      opacity: 0.7;\n    }\n    100% {\n      transform: scale(2.6);\n      opacity: 0;\n    }\n  }\n  @media (prefers-reduced-motion: reduce) {\n    .stock-indicator__dot::before {\n      animation: none;\n    }\n  }\n</style>\n\n<span class=\"stock-indicator\">\n  <span class=\"stock-indicator__dot\" aria-hidden=\"true\"></span>\n  Stock faible\n</span>\n            </div></div>"
           }
         },
-        "liquid_yVQnmg": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div class=\"delivery-france\">\n  <div class=\"delivery-truck\">\n    <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n      <path d=\"M3 5h11v10H3V5Zm11 4h3.5L21 12.5V15h-7V9Z\"\n        fill=\"none\"\n        stroke=\"currentColor\"\n        stroke-width=\"1.8\"\n        stroke-linejoin=\"round\"/>\n      <circle cx=\"7\" cy=\"17\" r=\"2\"\n        fill=\"none\"\n        stroke=\"currentColor\"\n        stroke-width=\"1.8\"/>\n      <circle cx=\"17.5\" cy=\"17\" r=\"2\"\n        fill=\"none\"\n        stroke=\"currentColor\"\n        stroke-width=\"1.8\"/>\n    </svg>\n  </div>\n\n  <div class=\"delivery-info\">\n    <div class=\"delivery-title\">\n      Livraison estimée\n      <span class=\"france-flag\">\n        <span></span>\n        <span></span>\n        <span></span>\n      </span>\n    </div>\n\n    <div class=\"delivery-time\">\n      Livraison sous <strong>5 à 7 jours ouvrés</strong>\n    </div>\n\n    <div class=\"delivery-location\">\n      France métropolitaine\n    </div>\n  </div>\n</div>\n\n<style>\n  .delivery-france {\n    display: flex;\n    align-items: center;\n    gap: 9px;\n    width: 100%;\n    max-width: 400px;\n    margin: 7px 0;\n    padding: 9px 11px;\n    background: #f8faf8;\n    border: 1px solid #dce8dd;\n    border-radius: 9px;\n    box-sizing: border-box;\n    font-family: Arial, Helvetica, sans-serif;\n  }\n\n  .delivery-truck {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    flex: 0 0 32px;\n    width: 32px;\n    height: 32px;\n    color: #258a37;\n    background: #e5f4e8;\n    border-radius: 50%;\n  }\n\n  .delivery-truck svg {\n    width: 20px;\n    height: 20px;\n  }\n\n  .delivery-info {\n    line-height: 1.25;\n  }\n\n  .delivery-title {\n    display: flex;\n    align-items: center;\n    gap: 6px;\n    margin-bottom: 2px;\n    color: #222222;\n    font-size: 12px;\n    font-weight: 700;\n  }\n\n  .delivery-time {\n    color: #444444;\n    font-size: 11px;\n  }\n\n  .delivery-time strong {\n    color: #258a37;\n    font-weight: 700;\n  }\n\n  .delivery-location {\n    margin-top: 2px;\n    color: #777777;\n    font-size: 9px;\n  }\n\n  .france-flag {\n    display: inline-flex;\n    width: 20px;\n    height: 13px;\n    overflow: hidden;\n    border: 1px solid #dddddd;\n    border-radius: 2px;\n  }\n\n  .france-flag span {\n    width: 33.333%;\n  }\n\n  .france-flag span:nth-child(1) {\n    background: #0055a4;\n  }\n\n  .france-flag span:nth-child(2) {\n    background: #ffffff;\n  }\n\n  .france-flag span:nth-child(3) {\n    background: #ef4135;\n  }\n</style>"
-          }
-        },
         "buy_buttons_daEXAW": {
           "type": "buy_buttons",
           "settings": {
@@ -264,6 +258,12 @@
         "payment_terms_4X96fx": {
           "type": "payment_terms",
           "settings": {}
+        },
+        "liquid_yVQnmg": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"delivery-france\">\n  <div class=\"delivery-truck\">\n    <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n      <path d=\"M3 5h11v10H3V5Zm11 4h3.5L21 12.5V15h-7V9Z\"\n        fill=\"none\"\n        stroke=\"currentColor\"\n        stroke-width=\"1.8\"\n        stroke-linejoin=\"round\"/>\n      <circle cx=\"7\" cy=\"17\" r=\"2\"\n        fill=\"none\"\n        stroke=\"currentColor\"\n        stroke-width=\"1.8\"/>\n      <circle cx=\"17.5\" cy=\"17\" r=\"2\"\n        fill=\"none\"\n        stroke=\"currentColor\"\n        stroke-width=\"1.8\"/>\n    </svg>\n  </div>\n\n  <div class=\"delivery-info\">\n    <div class=\"delivery-title\">\n      Livraison estimée\n      <span class=\"france-flag\">\n        <span></span>\n        <span></span>\n        <span></span>\n      </span>\n    </div>\n\n    <div class=\"delivery-time\">\n      Livraison sous <strong>5 à 7 jours ouvrés</strong>\n    </div>\n\n    <div class=\"delivery-location\">\n      France métropolitaine\n    </div>\n  </div>\n</div>\n\n<style>\n  .delivery-france {\n    display: flex;\n    align-items: center;\n    gap: 9px;\n    width: 100%;\n    max-width: 400px;\n    margin: 7px 0;\n    padding: 9px 11px;\n    background: #f8faf8;\n    border: 1px solid #dce8dd;\n    border-radius: 9px;\n    box-sizing: border-box;\n    font-family: Arial, Helvetica, sans-serif;\n  }\n\n  .delivery-truck {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    flex: 0 0 32px;\n    width: 32px;\n    height: 32px;\n    color: #258a37;\n    background: #e5f4e8;\n    border-radius: 50%;\n  }\n\n  .delivery-truck svg {\n    width: 20px;\n    height: 20px;\n  }\n\n  .delivery-info {\n    line-height: 1.25;\n  }\n\n  .delivery-title {\n    display: flex;\n    align-items: center;\n    gap: 6px;\n    margin-bottom: 2px;\n    color: #222222;\n    font-size: 12px;\n    font-weight: 700;\n  }\n\n  .delivery-time {\n    color: #444444;\n    font-size: 11px;\n  }\n\n  .delivery-time strong {\n    color: #258a37;\n    font-weight: 700;\n  }\n\n  .delivery-location {\n    margin-top: 2px;\n    color: #777777;\n    font-size: 9px;\n  }\n\n  .france-flag {\n    display: inline-flex;\n    width: 20px;\n    height: 13px;\n    overflow: hidden;\n    border: 1px solid #dddddd;\n    border-radius: 2px;\n  }\n\n  .france-flag span {\n    width: 33.333%;\n  }\n\n  .france-flag span:nth-child(1) {\n    background: #0055a4;\n  }\n\n  .france-flag span:nth-child(2) {\n    background: #ffffff;\n  }\n\n  .france-flag span:nth-child(3) {\n    background: #ef4135;\n  }\n</style>"
+          }
         },
         "liquid_eqMLbV": {
           "type": "liquid",
@@ -328,10 +328,10 @@
         "description_XM9XQx",
         "variant_picker_ERQgiP",
         "liquid_fjpHmU",
-        "liquid_yVQnmg",
         "buy_buttons_daEXAW",
         "liquid_kNi8Pb",
         "payment_terms_4X96fx",
+        "liquid_yVQnmg",
         "liquid_eqMLbV",
         "collapsible_text_6UGGcU",
         "collapsible_text_dGEayH",
