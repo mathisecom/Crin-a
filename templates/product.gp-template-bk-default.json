@@ -1,0 +1,154 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "order": [
+    "main",
+    "related-products"
+  ],
+  "sections": {
+    "main": {
+      "block_order": [
+        "liquid_YEd9iG",
+        "liquid_EhfDEw",
+        "title",
+        "badges",
+        "price",
+        "payment_terms_rMQJmn",
+        "description",
+        "variant_picker",
+        "quantity_selector",
+        "liquid_wDtN3B",
+        "buy_buttons",
+        "liquid_46RYPV"
+      ],
+      "blocks": {
+        "badges": {
+          "settings": {},
+          "type": "badges"
+        },
+        "buy_buttons": {
+          "settings": {
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": "",
+            "show_gift_card_recipient": false,
+            "show_payment_button": false
+          },
+          "type": "buy_buttons"
+        },
+        "description": {
+          "disabled": true,
+          "settings": {
+            "collapse_content": false,
+            "icon": "none",
+            "icon_width": 20
+          },
+          "type": "description"
+        },
+        "liquid_46RYPV": {
+          "settings": {
+            "liquid": "<div class=\"product-payment-icons\">\n  {% for type in shop.enabled_payment_types %}\n    {{ type | payment_type_svg_tag }}\n  {% endfor %}\n</div>\n\n<style>\n.product-payment-icons{\n  display:flex;\n  justify-content:center;\n  gap:8px;\n  margin-top:12px;\n  flex-wrap:wrap;\n}\n\n.product-payment-icons svg{\n  height:22px;\n  width:auto;\n}\n</style>"
+          },
+          "type": "liquid"
+        },
+        "liquid_EhfDEw": {
+          "settings": {
+            "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_Ney4ep\" data-block-type=\"liquid\"><div class=\"product-info__liquid\">\n              <div class=\"product-info__block-item\" data-block-id=\"liquid_7WeHTt\" data-block-type=\"liquid\">\n  <div class=\"product-info__liquid\">\n    <style>\n      #trustscore-container {\n        display: flex;\n        align-items: center;\n        font-family: inherit;\n        font-size: 14px;\n        color: #333;\n        max-width: 100%;\n        line-height: 1;\n        margin-top: 4px;\n      }\n      #trustscore-stars {\n        display: flex;\n        align-items: center;\n        margin-right: 8px;\n      }\n      #trustscore-stars img {\n        max-width: 80px;\n        width: 80px;\n        height: auto;\n        display: block;\n      }\n      #trustscore-text {\n        font-weight: 400;\n        white-space: nowrap;\n      }\n      #trustscore-text .highlight {\n        font-weight: 700;\n      }\n    </style>\n\n    <div id=\"trustscore-container\">\n      <div id=\"trustscore-stars\">\n        <img src=\"https://i.imgur.com/EHjNmTM.png\" alt=\"5 stars\">\n      </div>\n      <div id=\"trustscore-text\">\n        Trustscore <span class=\"highlight\">4,6</span> | +3,000 avis clients\n      </div>\n    </div>\n  </div>\n</div>\n            </div></div>"
+          },
+          "type": "liquid"
+        },
+        "liquid_YEd9iG": {
+          "settings": {
+            "liquid": ""
+          },
+          "type": "liquid"
+        },
+        "liquid_wDtN3B": {
+          "settings": {
+            "liquid": "<p style=\"font-size:14px;font-weight:700;color:#1A1A1A;font-family:inherit;margin:8px 0;display:inline-flex;align-items:center;gap:6px;\">\n  <strong>Livraison estimée : 5 à 7 jours ouvrés</strong>\n</p>"
+          },
+          "type": "liquid"
+        },
+        "payment_terms_rMQJmn": {
+          "settings": {},
+          "type": "payment_terms"
+        },
+        "price": {
+          "settings": {
+            "show_taxes_notice": false
+          },
+          "type": "price"
+        },
+        "quantity_selector": {
+          "settings": {},
+          "type": "quantity_selector"
+        },
+        "title": {
+          "settings": {
+            "heading_tag": "h2"
+          },
+          "type": "title"
+        },
+        "variant_picker": {
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_style": "block",
+            "size_chart_page": "",
+            "stack_blocks": true,
+            "swatch_selector_style": "swatch",
+            "variant_image_options": ""
+          },
+          "type": "variant_picker"
+        }
+      },
+      "settings": {
+        "background": "",
+        "background_gradient": "",
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "desktop_media_width": 55,
+        "enable_image_zoom": false,
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "full_width": true,
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": "",
+        "max_image_zoom_level": 3,
+        "mobile_carousel_control": "thumbnails",
+        "mobile_media_size": "contained",
+        "show_fixed_add_to_cart": true,
+        "text_color": ""
+      },
+      "type": "main-product"
+    },
+    "related-products": {
+      "settings": {
+        "background": "",
+        "background_gradient": "",
+        "content": "",
+        "full_width": true,
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "products": [],
+        "products_per_row_desktop": 4,
+        "products_per_row_mobile": "1",
+        "recommendations_count": 6,
+        "show_progress_bar": true,
+        "stack_products": false,
+        "subheading": "",
+        "text_color": "",
+        "title": "Vous Aimerez Aussi"
+      },
+      "type": "related-products"
+    }
+  }
+}

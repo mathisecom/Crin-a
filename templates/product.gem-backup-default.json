@@ -1,0 +1,154 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "liquid_YEd9iG": {
+          "type": "liquid",
+          "settings": {
+            "liquid": ""
+          }
+        },
+        "liquid_EhfDEw": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_Ney4ep\" data-block-type=\"liquid\"><div class=\"product-info__liquid\">\n              <div class=\"product-info__block-item\" data-block-id=\"liquid_7WeHTt\" data-block-type=\"liquid\">\n  <div class=\"product-info__liquid\">\n    <style>\n      #trustscore-container {\n        display: flex;\n        align-items: center;\n        font-family: inherit;\n        font-size: 14px;\n        color: #333;\n        max-width: 100%;\n        line-height: 1;\n        margin-top: 4px;\n      }\n      #trustscore-stars {\n        display: flex;\n        align-items: center;\n        margin-right: 8px;\n      }\n      #trustscore-stars img {\n        max-width: 80px;\n        width: 80px;\n        height: auto;\n        display: block;\n      }\n      #trustscore-text {\n        font-weight: 400;\n        white-space: nowrap;\n      }\n      #trustscore-text .highlight {\n        font-weight: 700;\n      }\n    <\/style>\n\n    <div id=\"trustscore-container\">\n      <div id=\"trustscore-stars\">\n        <img src=\"https:\/\/i.imgur.com\/EHjNmTM.png\" alt=\"5 stars\">\n      <\/div>\n      <div id=\"trustscore-text\">\n        Trustscore <span class=\"highlight\">4,6<\/span> | +3,000 avis clients\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>\n            <\/div><\/div>"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "payment_terms_rMQJmn": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "liquid_wDtN3B": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p style=\"font-size:14px;font-weight:700;color:#1A1A1A;font-family:inherit;margin:8px 0;display:inline-flex;align-items:center;gap:6px;\">\n  <strong>Livraison estimée : 5 à 7 jours ouvrés<\/strong>\n<\/p>"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "liquid_46RYPV": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"product-payment-icons\">\n  {% for type in shop.enabled_payment_types %}\n    {{ type | payment_type_svg_tag }}\n  {% endfor %}\n<\/div>\n\n<style>\n.product-payment-icons{\n  display:flex;\n  justify-content:center;\n  gap:8px;\n  margin-top:12px;\n  flex-wrap:wrap;\n}\n\n.product-payment-icons svg{\n  height:22px;\n  width:auto;\n}\n<\/style>"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_YEd9iG",
+        "liquid_EhfDEw",
+        "title",
+        "badges",
+        "price",
+        "payment_terms_rMQJmn",
+        "description",
+        "variant_picker",
+        "quantity_selector",
+        "liquid_wDtN3B",
+        "buy_buttons",
+        "liquid_46RYPV"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "contained",
+        "mobile_carousel_control": "thumbnails",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": false,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "recommendations_count": 6,
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Vous Aimerez Aussi",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products"
+  ]
+}

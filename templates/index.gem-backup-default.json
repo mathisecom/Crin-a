@@ -1,0 +1,1114 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-1": {
+          "type": "image",
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 25,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "md",
+        "controls_type": "numbers",
+        "transition_type": "fade_with_text",
+        "autoplay": true,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
+      }
+    },
+    "splitbanner_43xiAK": {
+      "type": "splitbanner",
+      "name": "Bannière image + texte",
+      "settings": {
+        "full_width": false,
+        "image_position": "right",
+        "container_width": 1600,
+        "border_radius": 13,
+        "padding_top": 35,
+        "padding_bottom": 35,
+        "image": "shopify:\/\/shop_images\/ChatGPT_Image_12_mai_2026_16_27_27.png",
+        "bg_type": "linear",
+        "bg_color_1": "#faf8f5",
+        "bg_color_2": "#ede7df",
+        "gradient_angle": 135,
+        "show_grid": false,
+        "grid_color": "#2f201b",
+        "grid_size": 50,
+        "grid_opacity": 6,
+        "show_badge": true,
+        "show_stars": true,
+        "star_count": 5,
+        "star_color": "#00b67a",
+        "badge_text": "+3,000 Clientes satisfaites",
+        "badge_bg": "#f1ece3",
+        "badge_text_color": "#2f201b",
+        "badge_text_size": 13,
+        "heading_line_1": "Réduisez la cellulite,",
+        "heading_size": 49,
+        "heading_line_2": "brûlez des calories, sans effort",
+        "line2_size": 35,
+        "heading_color": "#2f201b",
+        "show_underline": false,
+        "underline_color": "#e2d6c6",
+        "underline_width": 42,
+        "underline_offset_x": 31,
+        "underline_offset_y": -11,
+        "quote": "<p>Les seuls <strong>leggings brevetés<\/strong> à micro-massage 3D, testés cliniquement pour stimuler la circulation et lisser visiblement la peau en 30 jours.<\/p>",
+        "quote_size": 17,
+        "quote_color": "#2f201b",
+        "emphasis_color": "#2f201b"
+      }
+    },
+    "logoscroll_WHacht": {
+      "type": "logoscroll",
+      "blocks": {
+        "image_XkAmwn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Nouveau_projet_11.png",
+            "url": ""
+          }
+        },
+        "image_KrCGGW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/allure-logo_1.webp",
+            "url": ""
+          }
+        },
+        "image_i9XYHc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vogue-logo_1.webp",
+            "url": ""
+          }
+        },
+        "image_D3QU7G": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/elle-logo_1.webp",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_XkAmwn",
+        "image_KrCGGW",
+        "image_i9XYHc",
+        "image_D3QU7G"
+      ],
+      "name": "SS - Scrolling logo cloud #5",
+      "settings": {
+        "layout_radius": 30,
+        "layout_border_thickness": 0,
+        "heading": "",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 18,
+        "heading_size_mobile": 18,
+        "heading_height": 130,
+        "scrolling_velocity": 22,
+        "scrolling_velocity_mobile": 18,
+        "scrolling_direction": "left",
+        "pause_hover": false,
+        "scrolling_gap": 56,
+        "scrolling_gap_mobile": 30,
+        "card_width_desktop": 130,
+        "card_width_mobile": 100,
+        "heading_color": "#121212",
+        "layout_bg_color": "#ffffff",
+        "layout_border_color": "#121212",
+        "background_color": "#ffffff",
+        "border_color": "#121212",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 0,
+        "full_width": false,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
+    "featured_product_Gt7ETQ": {
+      "type": "featured-product",
+      "blocks": {
+        "liquid_WBzwJY": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"mini-rating\">\n  <div class=\"mini-rating-images\">\n    <img src=\"https:\/\/i.pravatar.cc\/50?img=47\" alt=\"\">\n    <img src=\"https:\/\/i.pravatar.cc\/50?img=12\" alt=\"\">\n    <img src=\"https:\/\/i.pravatar.cc\/50?img=32\" alt=\"\">\n    <img src=\"https:\/\/i.pravatar.cc\/50?img=5\" alt=\"\">\n  <\/div>\n\n  <div class=\"mini-rating-stars\">★★★★★<\/div>\n\n  <div class=\"mini-rating-text\">\n    Noté 4.8\/5 par +3 000 avis clients\n  <\/div>\n<\/div>\n\n<style>\n  .mini-rating {\n    display: flex;\n    align-items: center;\n    gap: 9px;\n    width: fit-content;\n    max-width: 100%;\n    margin: 10px 0;\n  }\n\n  .mini-rating-images {\n    display: flex;\n    align-items: center;\n  }\n\n  .mini-rating-images img {\n    width: 25px;\n    height: 25px;\n    object-fit: cover;\n    border-radius: 50%;\n    border: 2px solid #fff;\n    margin-left: -7px;\n  }\n\n  .mini-rating-images img:first-child {\n    margin-left: 0;\n  }\n\n  .mini-rating-stars {\n    color: #f2b800;\n    font-size: 20px;\n    line-height: 1;\n    letter-spacing: -2px;\n    white-space: nowrap;\n  }\n\n  .mini-rating-text {\n    color: #222;\n    font-size: 14px;\n    line-height: 1.2;\n    font-weight: 700;\n    white-space: nowrap;\n  }\n\n  @media screen and (max-width: 749px) {\n    .mini-rating {\n      gap: 7px;\n    }\n\n    .mini-rating-images img {\n      width: 21px;\n      height: 21px;\n    }\n\n    .mini-rating-stars {\n      font-size: 17px;\n    }\n\n    .mini-rating-text {\n      font-size: 12px;\n    }\n  }\n<\/style>"
+          }
+        },
+        "liquid_iNWnqg": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"klarna-mini\">\n  Payez en <strong>3x sans frais<\/strong>\n  <span>(13,30€ x 3)<\/span> avec\n  <span class=\"klarna-logo\">Klarna.<\/span>\n<\/div>\n\n<style>\n  .klarna-mini {\n    display: flex;\n    align-items: center;\n    flex-wrap: wrap;\n    gap: 4px;\n    padding: 4px 0;\n    color: #333333;\n    font-family: Arial, sans-serif;\n    font-size: 13px;\n    line-height: 1.3;\n  }\n\n  .klarna-mini strong {\n    color: #71417e;\n    font-weight: 700;\n  }\n\n  .klarna-logo {\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n    margin-left: 2px;\n    padding: 3px 6px;\n    background: #ffb3cd;\n    color: #111111;\n    border-radius: 3px;\n    font-size: 10px;\n    font-weight: 800;\n  }\n\n  @media screen and (max-width: 749px) {\n    .klarna-mini {\n      font-size: 12px;\n    }\n\n    .klarna-logo {\n      padding: 2px 5px;\n      font-size: 9px;\n    }\n  }\n<\/style>"
+          }
+        },
+        "text_R44FfJ": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<h2>Leggings 3D - Crinéa<\/h2>"
+          }
+        },
+        "liquid_eRfMn7": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"crinea-title\">\n  <span class=\"crinea-title__product\">Leggings<\/span>\n  <span class=\"crinea-title__brand\">crinéa<\/span>\n<\/div>\n\n<style>\n  .crinea-title {\n    display: inline-flex;\n    align-items: baseline;\n    gap: 9px;\n    position: relative;\n    margin: 8px 0 17px;\n    padding: 0 4px 9px 0;\n  }\n\n  .crinea-title::after {\n    content: \"\";\n    position: absolute;\n    left: 0;\n    bottom: 0;\n    width: 100%;\n    height: 2px;\n    background: linear-gradient(\n      90deg,\n      #b98b6d,\n      rgba(185, 139, 109, 0.15)\n    );\n    border-radius: 10px;\n  }\n\n  .crinea-title__product {\n    color: #60483c;\n    font-size: 31px;\n    line-height: 1;\n    font-weight: 500;\n    letter-spacing: -0.4px;\n  }\n\n  .crinea-title__brand {\n    color: #b98b6d;\n    font-family: Georgia, serif;\n    font-size: 24px;\n    line-height: 1;\n    font-weight: 400;\n    font-style: italic;\n  }\n\n  @media screen and (max-width: 749px) {\n    .crinea-title {\n      gap: 7px;\n      margin: 7px 0 14px;\n      padding-bottom: 8px;\n    }\n\n    .crinea-title__product {\n      font-size: 27px;\n    }\n\n    .crinea-title__brand {\n      font-size: 21px;\n    }\n  }\n<\/style>"
+          }
+        },
+        "liquid_Xb4Agt": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  .benefits-block { \n    max-width: 600px; \n    margin: 24px 0; \n    padding: 0;\n    font-family: inherit;\n  }\n\n  .benefits-block ul { \n    list-style: none; \n    padding: 0; \n    margin: 0; \n    display: flex; \n    flex-direction: column; \n    gap: 16px; \n  }\n\n  .benefits-block li { \n    display: flex; \n    align-items: center; \n    gap: 16px; \n  }\n\n  .benefits-block .b-icon { \n    flex: 0 0 48px; \n    width: 48px; \n    height: 48px; \n    color: #2F201B;\n  }\n\n  .benefits-block .b-icon svg { \n    width: 100%; \n    height: 100%; \n    display: block; \n  }\n\n  .benefits-block .b-text { \n    font-size: 15px; \n    line-height: 1.5; \n    color: #2F201B; \n  }\n\n  .benefits-block .b-highlight { \n    color: #2F201B; \n    font-weight: 700; \n  }\n\n  @media (max-width: 768px) {\n    .benefits-block .b-text { \n      font-size: 14px; \n    }\n\n    .benefits-block .b-icon { \n      flex: 0 0 40px; \n      width: 40px; \n      height: 40px; \n    }\n  }\n<\/style>\n\n<div class=\"benefits-block\">\n  <ul>\n\n    <li>\n      <span class=\"b-icon\">\n        <svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" fill=\"none\" viewBox=\"0 0 512 512\">\n          <g clip-path=\"url(#c1)\">\n            <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"5\" stroke=\"currentColor\" d=\"M329.848 66.5C329.848 66.5 305.816 125.989 360.577 183.508C360.577 183.508 452.765 288.697 331.423 378.916C331.423 378.916 318.397 414.34 287.923 445.103\"\/>\n            <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"5\" stroke=\"currentColor\" d=\"M155.124 72.41C155.124 72.41 166.352 127.959 163.397 172.281C160.442 216.603 154.533 247.332 174.625 289.289C174.625 289.289 126.955 369.461 117.5 445.103\"\/>\n            <path fill=\"currentColor\" d=\"M174.621 289.288C194.874 250.19 221.503 227.238 221.503 227.238C304.988 152.417 373.718 202.491 373.777 202.535C366.737 190.551 360.573 183.508 360.573 183.508C344.301 166.416 334.987 149.151 329.931 133.324C292.985 126.87 227.807 148.445 227.807 148.445C175.409 166.961 163.879 158.294 163.879 158.294H163.876C163.845 163.026 163.698 167.714 163.394 172.28C160.439 216.601 154.53 247.331 174.622 289.288H174.621Z\"\/>\n            <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"5\" stroke=\"currentColor\" d=\"M174.621 289.288C194.874 250.19 221.503 227.238 221.503 227.238C304.988 152.417 373.718 202.491 373.777 202.535C366.737 190.551 360.573 183.508 360.573 183.508C344.301 166.416 334.987 149.151 329.931 133.324C292.985 126.87 227.807 148.445 227.807 148.445C175.409 166.961 163.879 158.294 163.879 158.294H163.876C163.845 163.026 163.698 167.714 163.394 172.28C160.439 216.601 154.53 247.331 174.622 289.288H174.621Z\"\/>\n            <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"5\" stroke=\"currentColor\" d=\"M331.424 378.916C331.424 378.916 338.66 415.41 339.075 445.103\"\/>\n            <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"5\" stroke=\"currentColor\" d=\"M161.619 246.733C161.619 246.733 157.642 271.526 166.527 303.947\"\/>\n            <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"5\" stroke=\"currentColor\" d=\"M212.623 445.103C212.623 445.103 230.352 390.932 279.4 358.43C328.448 325.928 322.539 289.289 322.539 289.289\"\/>\n            <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"5\" stroke=\"currentColor\" d=\"M310.187 300.136L322.723 287.6L335.259 300.136\"\/>\n            <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"5\" stroke=\"currentColor\" d=\"M263.596 262.189L272.867 247.078L287.978 256.348\"\/>\n            <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"5\" stroke=\"currentColor\" d=\"M194.203 367.196C194.203 367.196 203.309 344.589 248.805 315.489C291 288.5 272.997 249.696 272.997 249.696\"\/>\n            <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"5\" stroke=\"currentColor\" d=\"M139.239 445.103C139.239 445.103 139.742 441.554 141.022 435.268\"\/>\n            <path stroke-dasharray=\"21.09 21.09\" stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"5\" stroke=\"currentColor\" d=\"M145.878 414.747C154.94 380.834 174.983 324.128 215.932 274.191\"\/>\n            <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"5\" stroke=\"currentColor\" d=\"M222.766 266.149C224.955 263.662 227.2 261.197 229.5 258.756\"\/>\n            <path stroke-dasharray=\"20 20\" stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"5\" stroke=\"currentColor\" d=\"M363.065 210.704C363.065 210.704 407.783 300.719 331.424 351.929\"\/>\n          <\/g>\n\n          <defs>\n            <clipPath id=\"c1\">\n              <rect transform=\"translate(115 64)\" fill=\"white\" height=\"383.603\" width=\"281.609\"\/>\n            <\/clipPath>\n          <\/defs>\n        <\/svg>\n      <\/span>\n\n      <span class=\"b-text\">\n        <span class=\"b-highlight\">Stimule la circulation sanguine<\/span> grâce aux reliefs 3D\n      <\/span>\n    <\/li>\n\n    <li>\n      <span class=\"b-icon\">\n        <svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" fill=\"none\" viewBox=\"0 0 512 512\">\n          <g clip-path=\"url(#c2)\">\n            <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"5\" stroke=\"currentColor\" d=\"M452.111 159.224C452.111 159.224 414.368 129.783 378.799 113.79C365.547 107.831 350.008 110.472 339.49 120.493L168.949 282.985C164.286 287.429 159.364 291.593 154.209 295.457L98.286 337.376C91.5967 342.39 83.7511 345.658 75.4632 346.771C71.2412 347.337 66.5949 347.653 62.282 347.28C58.8571 346.985 56.6187 350.811 58.4777 353.701C64.0085 362.303 75.6978 374.114 97.0433 370.482C97.0433 370.482 108.671 367.706 120.819 359.035C132.968 350.362 148.239 348.974 164.031 358.514C178.508 367.259 193.713 363.906 196.949 349.66C197.453 347.438 197.347 345.127 196.865 342.901C195.421 336.234 193.067 318.084 205.856 304.052C205.856 304.052 219.132 288.962 238.135 286.1C257.138 283.238 331.848 254.098 341.479 219.496C341.479 219.496 346.425 198.682 363.606 200.503C363.606 200.503 370.634 198.943 381.828 219.756C393.021 240.569 429.985 262.944 429.985 262.944\"\/>\n            <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"5\" stroke=\"currentColor\" d=\"M293.109 264.814L283.892 323.418C282.892 329.779 281.516 336.076 279.773 342.276L260.863 409.537C258.601 417.582 254.359 424.943 248.456 430.861C245.448 433.877 241.951 436.949 238.299 439.275C235.399 441.122 235.949 445.519 239.183 446.685C248.807 450.154 265.272 452.432 280.012 436.58C280.012 436.58 287.557 427.313 291.928 413.046C296.299 398.78 307.582 388.399 325.924 386.38C342.738 384.529 352.772 372.629 346.677 359.351C345.726 357.281 344.235 355.511 342.499 354.037C337.298 349.619 324.388 336.639 326.009 317.726C326.009 317.726 327.373 297.678 340.721 283.861C349.17 275.116 368.936 244.454 378.912 214.672\"\/>\n            <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"5\" stroke=\"currentColor\" d=\"M311.631 147.038L323 99.5C332 58.5 357.763 58.6079 391.868 69.5951C392.678 69.8565 393.495 70.1303 394.322 70.4198C394.322 70.4198 428.509 83.064 454.194 106.922\"\/>\n            <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"5\" stroke=\"currentColor\" d=\"M226.534 265.166C226.534 265.166 243.978 240.249 274.069 231.242C304.161 222.235 306.813 202.613 306.813 202.613\"\/>\n            <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"5\" stroke=\"currentColor\" d=\"M294.686 204.989L308.422 197.646L315.769 211.374\"\/>\n            <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"5\" stroke=\"currentColor\" d=\"M401.311 157.13L402.667 172.64L387.148 173.996\"\/>\n            <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"5\" stroke=\"currentColor\" d=\"M301.474 287.4L315.21 280.057L322.557 293.785\"\/>\n            <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"5\" stroke=\"currentColor\" d=\"M319.059 352.585C319.059 352.585 292.654 331.933 313.788 284.098\"\/>\n            <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"5\" stroke=\"currentColor\" d=\"M338.045 168.489C338.045 168.489 365.866 141.269 398.664 168.196\"\/>\n            <path fill=\"currentColor\" d=\"M205.546 279.543C207.721 283.049 205.41 287.716 201.287 287.925C201.184 287.931 201.08 287.933 200.976 287.933C200.871 287.933 200.768 287.931 200.665 287.925C196.542 287.716 194.23 283.049 196.406 279.543L200.975 272.181L205.544 279.543H205.546Z\"\/>\n            <path fill=\"currentColor\" d=\"M329.032 181.358C331.208 184.865 328.896 189.532 324.773 189.74C324.67 189.746 324.567 189.748 324.462 189.748C324.358 189.748 324.255 189.746 324.151 189.74C320.028 189.532 317.717 184.865 319.892 181.358L324.461 173.996L329.03 181.358H329.032Z\"\/>\n            <path fill=\"currentColor\" d=\"M418.636 201.75C420.812 205.256 418.501 209.923 414.377 210.132C414.274 210.137 414.171 210.14 414.066 210.14C413.962 210.14 413.859 210.137 413.755 210.132C409.632 209.923 407.321 205.256 409.496 201.75L414.065 194.388L418.634 201.75H418.636Z\"\/>\n            <path fill=\"currentColor\" d=\"M451.277 184.599C453.453 188.105 451.141 192.772 447.018 192.981C446.915 192.986 446.812 192.989 446.707 192.989C446.603 192.989 446.5 192.986 446.396 192.981C442.273 192.772 439.962 188.105 442.137 184.599L446.706 177.236L451.275 184.599H451.277Z\"\/>\n            <path fill=\"currentColor\" d=\"M346.191 248.261C348.366 251.767 346.055 256.434 341.932 256.643C341.828 256.649 341.725 256.651 341.621 256.651C341.516 256.651 341.413 256.649 341.31 256.643C337.187 256.434 334.875 251.767 337.051 248.261L341.62 240.899L346.188 248.261H346.191Z\"\/>\n            <path fill=\"currentColor\" d=\"M280.428 251.757C282.409 251.757 284.015 250.152 284.015 248.171C284.015 246.191 282.409 244.585 280.428 244.585C278.446 244.585 276.84 246.191 276.84 248.171C276.84 250.152 278.446 251.757 280.428 251.757Z\"\/>\n            <path fill=\"currentColor\" d=\"M294.686 183.683C296.668 183.683 298.274 182.078 298.274 180.097C298.274 178.117 296.668 176.512 294.686 176.512C292.705 176.512 291.099 178.117 291.099 180.097C291.099 182.078 292.705 183.683 294.686 183.683Z\"\/>\n            <path fill=\"currentColor\" d=\"M364.767 184.408C366.748 184.408 368.354 182.803 368.354 180.822C368.354 178.842 366.748 177.236 364.767 177.236C362.785 177.236 361.179 178.842 361.179 180.822C361.179 182.803 362.785 184.408 364.767 184.408Z\"\/>\n            <path fill=\"currentColor\" d=\"M426.897 172.074C428.879 172.074 430.485 170.469 430.485 168.489C430.485 166.508 428.879 164.903 426.897 164.903C424.916 164.903 423.31 166.508 423.31 168.489C423.31 170.469 424.916 172.074 426.897 172.074Z\"\/>\n          <\/g>\n\n          <defs>\n            <clipPath id=\"c2\">\n              <rect transform=\"translate(55 60)\" fill=\"white\" height=\"392\" width=\"402\"\/>\n            <\/clipPath>\n          <\/defs>\n        <\/svg>\n      <\/span>\n\n      <span class=\"b-text\">\n        <span class=\"b-highlight\">Active le drainage lymphatique<\/span> naturellement\n      <\/span>\n    <\/li>\n\n    <li>\n      <span class=\"b-icon\">\n        <svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" fill=\"none\" viewBox=\"0 0 512 512\">\n          <g clip-path=\"url(#c3)\">\n            <path fill=\"currentColor\" d=\"M261.23 249.659C281.224 226.789 306.737 202.918 308.12 201.627C314.426 195.476 319.639 187.759 322.328 180.696C331.817 156.645 321.59 131.481 308.875 116.166C306.448 113.399 304.324 110.177 302.585 106.951C302.128 106.128 301.324 105.731 300.351 105.621C291.272 104.937 283.576 105.042 275.803 105.785C258.123 107.501 242.918 112.549 232.984 118.715C234.507 130.615 236.6 141.803 238.849 153.219C238.177 154.224 212.241 210.741 203.817 246.842C203.219 248.322 198.969 259.228 198.164 273.22C197.555 288.395 201.534 352.178 174.399 404.47C175.465 405.848 185.071 419.758 199.793 408.254C200.201 407.936 200.153 407.951 200.301 407.78C200.502 407.467 200.62 407.199 200.725 406.827C205.655 387.514 224.443 354.085 227.409 348.571C237.21 329.823 238.406 305.127 237.694 288.857C237.694 287.942 237.868 286.662 238.041 285.567C239.864 276.386 243.739 272.139 245.804 268.977C249.91 263.092 255.36 256.383 261.233 249.659\"\/>\n            <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"5\" stroke=\"currentColor\" d=\"M297.698 65.3631C297.698 65.3631 291.148 95.7069 307.958 115.353C324.768 134.999 337.864 172.111 307.958 201.581C307.958 201.581 262.989 243.494 244.87 270.127C244.87 270.127 237.775 279.077 237.558 288.681C237.558 288.681 240.287 327.102 225.879 351.115C225.879 351.115 203.395 391.718 200.339 408.309C200.339 408.309 207.178 411.801 205.87 435.232C205.87 435.232 210.815 442.763 205.321 447.734C204.021 448.91 202.36 449.603 200.627 449.857C197.364 450.335 190.63 450.804 182.564 448.479C181.462 448.161 180.345 447.899 179.207 447.765C175.694 447.352 167.613 446.789 156.989 448.466C154.697 448.827 152.375 448.973 150.057 448.899C141.351 448.618 122.282 446.648 118.996 434.907C118.37 432.67 119.22 430.238 121.193 429.011C122.786 428.02 125.348 427.116 129.467 426.72C140.818 425.629 160.829 418.497 165.777 408.455C165.777 408.455 168.033 401.106 174.145 404.381C199.685 360.722 198.158 283.444 198.158 283.444C196.629 263.579 203.833 246.625 203.833 246.625C212.856 208.204 238.761 153.193 238.761 153.193C232.357 123.796 225.954 65.3654 225.954 65.3654\"\/>\n            <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"5\" stroke=\"currentColor\" d=\"M301.801 105.772H301.798C257.655 101.866 232.797 118.76 232.797 118.76\"\/>\n            <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"5.57872\" stroke=\"currentColor\" d=\"M174.141 404.379C174.141 404.379 182.291 421.552 200.337 408.309\"\/>\n            <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"5\" stroke=\"currentColor\" d=\"M309.037 200.492C308.159 215.963 307.829 232.13 309.027 244.196C309.027 244.196 309.326 255.613 315.321 263.121C315.321 263.121 342.061 290.844 346.413 318.506C346.413 318.506 355.212 364.078 363.511 378.765C363.511 378.765 370.999 377.057 385.025 395.871C385.025 395.871 393.649 398.476 392.623 405.813C392.38 407.548 391.551 409.146 390.384 410.454C388.187 412.913 383.322 417.594 375.643 420.983C374.595 421.446 373.569 421.961 372.61 422.589C369.651 424.526 363.089 429.277 356.015 437.38C354.49 439.127 352.801 440.729 350.974 442.158C344.116 447.529 328.223 458.25 318.172 451.351C316.256 450.037 315.349 447.626 316.074 445.419C316.66 443.637 318.045 441.299 320.952 438.354C328.96 430.235 339.735 411.927 337.09 401.05C337.09 401.05 334.105 393.965 340.896 392.556C332.481 342.679 281.735 284.379 281.735 284.379C267.819 270.121 262.469 252.493 262.469 252.493C262.003 251.565 261.537 250.621 261.074 249.662\"\/>\n            <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"5.57872\" stroke=\"currentColor\" d=\"M340.895 392.556C340.895 392.556 358.163 400.501 363.511 378.765\"\/>\n            <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"5\" stroke=\"white\" d=\"M274.227 194.442C288.533 194.442 300.131 182.845 300.131 168.538C300.131 154.232 288.533 142.634 274.227 142.634C259.92 142.634 248.323 154.232 248.323 168.538C248.323 182.845 259.92 194.442 274.227 194.442Z\"\/>\n            <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"5\" stroke=\"white\" d=\"M266.648 165.223C266.648 165.223 275.086 168.279 277.269 175.701C277.269 175.701 290.148 148.851 311.979 139.027\"\/>\n            <path fill=\"currentColor\" d=\"M340.895 392.556C340.895 392.556 358.163 400.501 363.511 378.765C355.212 364.078 346.413 318.506 346.413 318.506C342.062 290.843 315.321 263.121 315.321 263.121C309.327 255.613 309.027 244.196 309.027 244.196C308.077 234.641 308.555 212.809 309.037 200.492L261.227 249.66C263.511 255.498 271.005 274.372 281.732 284.378C281.732 284.378 332.479 342.679 340.894 392.555L340.895 392.556Z\"\/>\n          <\/g>\n\n          <defs>\n            <clipPath id=\"c3\">\n              <rect transform=\"translate(116 62.5738)\" fill=\"white\" height=\"393.81\" width=\"279.497\"\/>\n            <\/clipPath>\n          <\/defs>\n        <\/svg>\n      <\/span>\n\n      <span class=\"b-text\">\n        <span class=\"b-highlight\">Dites adieu à la cellulite<\/span> : Rehausse et galbe le fessier\n      <\/span>\n    <\/li>\n\n    <li>\n      <span class=\"b-icon\">\n        <svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" fill=\"none\" viewBox=\"0 0 512 512\">\n          <g clip-path=\"url(#c4)\">\n            <path fill=\"currentColor\" d=\"M362.339 142.088C360.759 139.642 359.262 137.144 357.841 134.609H114.149C115.57 147.48 117.621 160.284 120.287 172.975C124.62 193.604 128.234 221.494 124.307 247.671C123.813 250.967 123.341 254.037 122.889 256.917C142.016 216.753 179.422 174.379 252.382 170.201C394.129 162.083 424.435 288.186 424.467 288.315C426.632 215.905 382.672 173.554 362.34 142.087L362.339 142.088Z\"\/>\n            <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"5\" stroke=\"currentColor\" d=\"M332.427 46.5C332.427 46.5 336.176 101.479 362.415 142.088C384.555 176.352 434.715 223.514 422.83 308.344C419.252 333.878 410.347 358.36 397.315 380.607C390.634 392.013 382.445 405.313 376.316 413.076C362.259 430.882 361.79 465.087 361.79 465.087\"\/>\n            <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"5\" stroke=\"currentColor\" d=\"M111.887 51.498V92.557C111.887 119.587 114.805 146.522 120.362 172.975C124.695 193.604 128.309 221.494 124.382 247.671C116.885 297.652 114.386 297.027 114.386 333.263V465.087\"\/>\n            <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"5\" stroke=\"currentColor\" d=\"M362.339 142.088C360.759 139.642 359.262 137.144 357.841 134.609H114.149C115.57 147.48 117.621 160.284 120.287 172.975C124.62 193.604 128.234 221.494 124.307 247.671C123.813 250.967 123.341 254.037 122.889 256.917C142.016 216.753 179.422 174.379 252.382 170.201C394.129 162.083 424.435 288.186 424.467 288.315C426.632 215.905 382.672 173.554 362.34 142.087L362.339 142.088Z\"\/>\n            <path stroke-dasharray=\"15 15\" stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"5\" stroke=\"currentColor\" d=\"M148.065 253.23V465.087\"\/>\n            <path stroke-dasharray=\"15 15\" stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"5\" stroke=\"currentColor\" d=\"M365.37 232.361C365.37 232.361 376.327 387.902 309.805 465.088\"\/>\n            <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"5\" stroke=\"currentColor\" d=\"M316.065 206.795C316.065 206.795 312.413 238.531 284.239 255.793\"\/>\n            <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"5\" stroke=\"currentColor\" d=\"M325.457 258.293C325.457 258.293 321.805 272.535 309.805 277.23\"\/>\n            <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"5\" stroke=\"currentColor\" d=\"M184.587 270.447C184.587 270.447 168.935 384.708 274.848 428.534\"\/>\n            <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"5\" stroke=\"currentColor\" d=\"M180.935 415.491C180.935 415.491 191.892 453.578 236.239 455.665\"\/>\n            <path fill=\"currentColor\" d=\"M163.215 347L192.898 367.281C195.337 368.948 195.337 372.545 192.898 374.212L163.215 394.493C160.429 396.396 156.65 394.401 156.65 391.027V350.465C156.65 347.091 160.429 345.096 163.215 346.999V347Z\"\/>\n            <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"5\" stroke=\"currentColor\" d=\"M71.5 370.747H172.065\"\/>\n            <path fill=\"currentColor\" d=\"M349.045 364.12L319.362 384.401C316.923 386.068 316.923 389.665 319.362 391.332L349.045 411.613C351.831 413.516 355.61 411.521 355.61 408.147V367.585C355.61 364.211 351.831 362.216 349.045 364.119V364.12Z\"\/>\n            <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"5\" stroke=\"currentColor\" d=\"M440.76 387.866H340.195\"\/>\n            <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"5\" stroke=\"currentColor\" d=\"M348.935 437.926C348.935 437.926 350.239 453.38 335.37 465.088\"\/>\n          <\/g>\n\n          <defs>\n            <clipPath id=\"c4\">\n              <rect transform=\"translate(69 44)\" fill=\"white\" height=\"423.587\" width=\"374.26\"\/>\n            <\/clipPath>\n          <\/defs>\n        <\/svg>\n      <\/span>\n\n      <span class=\"b-text\">\n        <span class=\"b-highlight\">Réduit visiblement la cellulite<\/span> en 6 semaines\n      <\/span>\n    <\/li>\n\n  <\/ul>\n<\/div>"
+          }
+        },
+        "liquid_TMKCCd": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% assign guide_id = 'crinea-guide-' | append: product.id %}\n\n<style>\n  .crinea-guide {\n    margin: 12px 0 18px;\n  }\n\n  .crinea-guide__toggle {\n    position: absolute;\n    width: 1px;\n    height: 1px;\n    overflow: hidden;\n    opacity: 0;\n    pointer-events: none;\n  }\n\n  .crinea-guide__button {\n    display: inline-flex;\n    align-items: center;\n    gap: 8px;\n    padding: 0;\n    border: none;\n    background: transparent;\n    color: #2f201b;\n    font-family: inherit;\n    font-size: 14px;\n    font-weight: 700;\n    line-height: 1.4;\n    text-decoration: underline;\n    text-underline-offset: 4px;\n    cursor: pointer;\n  }\n\n  .crinea-guide__button:hover {\n    opacity: 0.7;\n  }\n\n  .crinea-guide__icon {\n    width: 21px;\n    height: 21px;\n    flex: 0 0 21px;\n  }\n\n  .crinea-guide__overlay {\n    position: fixed;\n    inset: 0;\n    z-index: 999999;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    padding: 15px;\n    visibility: hidden;\n    opacity: 0;\n    pointer-events: none;\n    transition: opacity 0.2s ease, visibility 0.2s ease;\n  }\n\n  .crinea-guide__toggle:checked\n  ~ .crinea-guide__overlay {\n    visibility: visible;\n    opacity: 1;\n    pointer-events: auto;\n  }\n\n  .crinea-guide__background {\n    position: absolute;\n    inset: 0;\n    background: rgba(0, 0, 0, 0.72);\n    cursor: pointer;\n  }\n\n  .crinea-guide__popup {\n    position: relative;\n    z-index: 2;\n    width: min(650px, 100%);\n    max-height: 92vh;\n    overflow-y: auto;\n    padding: 10px;\n    border-radius: 12px;\n    background: #ffffff;\n    box-shadow: 0 20px 70px rgba(0, 0, 0, 0.35);\n    transform: translateY(12px) scale(0.98);\n    transition: transform 0.2s ease;\n  }\n\n  .crinea-guide__toggle:checked\n  ~ .crinea-guide__overlay\n  .crinea-guide__popup {\n    transform: translateY(0) scale(1);\n  }\n\n  .crinea-guide__image {\n    display: block;\n    width: 100%;\n    height: auto;\n    border-radius: 7px;\n  }\n\n  .crinea-guide__close {\n    position: absolute;\n    top: 17px;\n    right: 17px;\n    z-index: 3;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    width: 38px;\n    height: 38px;\n    border-radius: 50%;\n    background: rgba(255, 255, 255, 0.96);\n    color: #171717;\n    font-family: Arial, sans-serif;\n    font-size: 28px;\n    font-weight: 400;\n    line-height: 1;\n    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);\n    cursor: pointer;\n  }\n\n  .crinea-guide__close:hover {\n    background: #eeeeee;\n  }\n\n  @media screen and (max-width: 749px) {\n    .crinea-guide__button {\n      font-size: 13px;\n    }\n\n    .crinea-guide__overlay {\n      padding: 8px;\n    }\n\n    .crinea-guide__popup {\n      max-height: 94vh;\n      padding: 6px;\n      border-radius: 9px;\n    }\n\n    .crinea-guide__close {\n      top: 13px;\n      right: 13px;\n      width: 35px;\n      height: 35px;\n      font-size: 26px;\n    }\n  }\n<\/style>\n\n<div class=\"crinea-guide\">\n\n  <input\n    type=\"checkbox\"\n    id=\"{{ guide_id }}\"\n    class=\"crinea-guide__toggle\"\n  >\n\n  <label\n    for=\"{{ guide_id }}\"\n    class=\"crinea-guide__button\"\n  >\n    <svg\n      class=\"crinea-guide__icon\"\n      xmlns=\"http:\/\/www.w3.org\/2000\/svg\"\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      stroke-width=\"1.8\"\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      aria-hidden=\"true\"\n    >\n      <rect x=\"2.5\" y=\"7\" width=\"19\" height=\"10\" rx=\"1.5\"><\/rect>\n      <path d=\"M6 7v4\"><\/path>\n      <path d=\"M10 7v2.5\"><\/path>\n      <path d=\"M14 7v4\"><\/path>\n      <path d=\"M18 7v2.5\"><\/path>\n    <\/svg>\n\n    <span>VOIR LE GUIDE DES TAILLES<\/span>\n  <\/label>\n\n  <div class=\"crinea-guide__overlay\">\n\n    <label\n      for=\"{{ guide_id }}\"\n      class=\"crinea-guide__background\"\n      aria-label=\"Fermer le guide des tailles\"\n    ><\/label>\n\n    <div\n      class=\"crinea-guide__popup\"\n      role=\"dialog\"\n      aria-modal=\"true\"\n      aria-label=\"Guide des tailles\"\n    >\n      <label\n        for=\"{{ guide_id }}\"\n        class=\"crinea-guide__close\"\n        aria-label=\"Fermer\"\n      >\n        ×\n      <\/label>\n\n      <img\n        class=\"crinea-guide__image\"\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1034\/1403\/8862\/files\/imgi_438_LEGGING_ARYALA_GUIDE_DES_TAILLES_DECEMBRE_1d163173-b56e-4d94-add8-538ae03d7ea6.jpg?v=1782319865\"\n        alt=\"Guide des tailles du legging Crinea\"\n        width=\"1080\"\n        height=\"1080\"\n        loading=\"eager\"\n      >\n    <\/div>\n\n  <\/div>\n<\/div>"
+          }
+        },
+        "price_PnFn3H": {
+          "type": "price",
+          "disabled": true,
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "description_XM9XQx": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
+        },
+        "variant_picker_ERQgiP": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "liquid_fjpHmU": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_payQEK\" data-block-type=\"liquid\"><div class=\"product-info__liquid\">\n              <style>\n  .stock-indicator {\n    display: inline-flex;\n    align-items: center;\n    gap: 8px;\n    font-family: inherit;\n    font-size: 14px;\n    font-weight: 500;\n    color: #1a1a1a;\n    line-height: 1;\n  }\n  .stock-indicator__dot {\n    position: relative;\n    width: 10px;\n    height: 10px;\n    border-radius: 50%;\n    background: #ff8c1a;\n    flex-shrink: 0;\n  }\n  .stock-indicator__dot::before {\n    content: \"\";\n    position: absolute;\n    inset: 0;\n    border-radius: 50%;\n    background: #ff8c1a;\n    opacity: 0.7;\n    animation: stock-pulse 1.6s ease-out infinite;\n  }\n  @keyframes stock-pulse {\n    0% {\n      transform: scale(1);\n      opacity: 0.7;\n    }\n    100% {\n      transform: scale(2.6);\n      opacity: 0;\n    }\n  }\n  @media (prefers-reduced-motion: reduce) {\n    .stock-indicator__dot::before {\n      animation: none;\n    }\n  }\n<\/style>\n\n<span class=\"stock-indicator\">\n  <span class=\"stock-indicator__dot\" aria-hidden=\"true\"><\/span>\n  Stock faible\n<\/span>\n            <\/div><\/div>"
+          }
+        },
+        "liquid_yVQnmg": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"delivery-france\">\n  <div class=\"delivery-truck\">\n    <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n      <path d=\"M3 5h11v10H3V5Zm11 4h3.5L21 12.5V15h-7V9Z\"\n        fill=\"none\"\n        stroke=\"currentColor\"\n        stroke-width=\"1.8\"\n        stroke-linejoin=\"round\"\/>\n      <circle cx=\"7\" cy=\"17\" r=\"2\"\n        fill=\"none\"\n        stroke=\"currentColor\"\n        stroke-width=\"1.8\"\/>\n      <circle cx=\"17.5\" cy=\"17\" r=\"2\"\n        fill=\"none\"\n        stroke=\"currentColor\"\n        stroke-width=\"1.8\"\/>\n    <\/svg>\n  <\/div>\n\n  <div class=\"delivery-info\">\n    <div class=\"delivery-title\">\n      Livraison estimée\n      <span class=\"france-flag\">\n        <span><\/span>\n        <span><\/span>\n        <span><\/span>\n      <\/span>\n    <\/div>\n\n    <div class=\"delivery-time\">\n      Livraison sous <strong>5 à 7 jours ouvrés<\/strong>\n    <\/div>\n\n    <div class=\"delivery-location\">\n      France métropolitaine\n    <\/div>\n  <\/div>\n<\/div>\n\n<style>\n  .delivery-france {\n    display: flex;\n    align-items: center;\n    gap: 9px;\n    width: 100%;\n    max-width: 400px;\n    margin: 7px 0;\n    padding: 9px 11px;\n    background: #f8faf8;\n    border: 1px solid #dce8dd;\n    border-radius: 9px;\n    box-sizing: border-box;\n    font-family: Arial, Helvetica, sans-serif;\n  }\n\n  .delivery-truck {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    flex: 0 0 32px;\n    width: 32px;\n    height: 32px;\n    color: #258a37;\n    background: #e5f4e8;\n    border-radius: 50%;\n  }\n\n  .delivery-truck svg {\n    width: 20px;\n    height: 20px;\n  }\n\n  .delivery-info {\n    line-height: 1.25;\n  }\n\n  .delivery-title {\n    display: flex;\n    align-items: center;\n    gap: 6px;\n    margin-bottom: 2px;\n    color: #222222;\n    font-size: 12px;\n    font-weight: 700;\n  }\n\n  .delivery-time {\n    color: #444444;\n    font-size: 11px;\n  }\n\n  .delivery-time strong {\n    color: #258a37;\n    font-weight: 700;\n  }\n\n  .delivery-location {\n    margin-top: 2px;\n    color: #777777;\n    font-size: 9px;\n  }\n\n  .france-flag {\n    display: inline-flex;\n    width: 20px;\n    height: 13px;\n    overflow: hidden;\n    border: 1px solid #dddddd;\n    border-radius: 2px;\n  }\n\n  .france-flag span {\n    width: 33.333%;\n  }\n\n  .france-flag span:nth-child(1) {\n    background: #0055a4;\n  }\n\n  .france-flag span:nth-child(2) {\n    background: #ffffff;\n  }\n\n  .france-flag span:nth-child(3) {\n    background: #ef4135;\n  }\n<\/style>"
+          }
+        },
+        "buy_buttons_daEXAW": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "liquid_kNi8Pb": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"product-payment-icons\">\n  {% for type in shop.enabled_payment_types %}\n    {{ type | payment_type_svg_tag }}\n  {% endfor %}\n<\/div>\n\n<style>\n.product-payment-icons{\n  display:flex;\n  justify-content:center;\n  gap:8px;\n  margin-top:12px;\n  flex-wrap:wrap;\n}\n\n.product-payment-icons svg{\n  height:22px;\n  width:auto;\n}\n<\/style>"
+          }
+        },
+        "payment_terms_4X96fx": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "liquid_eqMLbV": {
+          "type": "liquid",
+          "settings": {
+            "liquid": ""
+          }
+        },
+        "collapsible_text_6UGGcU": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "picto-chat",
+            "icon_width": 20,
+            "title": "Besoin d’aide ? Nous sommes là",
+            "content": "<p>Vous pouvez nous contacter en utilisant l'onglet <strong>Contactez nous.  <\/strong><\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_text_dGEayH": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "picto-box",
+            "icon_width": 20,
+            "title": "Livraisons & Retours",
+            "content": "<p><strong>Livraison : GRATUITE<\/strong><\/p><p><strong>Délais :<\/strong> 5 à 7 jours ouvrable<\/p><p><strong>Retours et échanges : <\/strong>Retours GRATUITS sous 30 jours Remboursement ou échange selon votre choix<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_text_yaRQdw": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "picto-leaf",
+            "icon_width": 20,
+            "title": "Matériaux et entretien",
+            "content": "<p><strong>MATIÈRE & DÉTAIL<\/strong><\/p><p>Mélange subtil <strong>de 10% d'élasthanne <\/strong>et de <strong>90% de nylon<\/strong> pour une élasticité parfaite et un confort seconde peau<\/p><p><strong>ENTRETIEN RECOMMANDÉ<\/strong><\/p><p>Lavage :<\/p><ul><li>Lavez à 30°C maximum, programme délicat.<\/li><li>Mettez le legging à l’envers.<\/li><li>Utilisez une lessive douce (évitez javel, détachants agressifs, adoucissant).<\/li><li>Lavez avec des couleurs similaires.<br\/>Idéalement : filet de lavage pour protéger les fibres.<br\/><\/li><\/ul><p>Séchage<\/p><ul><li>Pas de sèche-linge.<br\/><\/li><li>Séchage à l’air libre, à plat ou sur cintre, loin d’une source de chaleur (radiateur\/soleil direct).<br\/><\/li><\/ul><p>À éviter (pour garder l’effet gainant)<\/p><ul><li>Adoucissant : il “encrasse” l’élasthanne et réduit l’élasticité à la longue.<br\/><\/li><li>Essorage trop fort : préférez un essorage doux.<br\/><\/li><li>Repassage : inutile et déconseillé (chaleur = fibres abîmées).<\/li><\/ul>",
+            "page": ""
+          }
+        },
+        "collapsible_text_gyctYk": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "picto-earth",
+            "icon_width": 20,
+            "title": "Tableau des Tailles",
+            "content": "<p>Pas besoin de mesurer : si vous connaissez votre taille de pantalon, choisissez simplement la taille correspondante au moment de l’ajout au panier.<\/p><ul><li>S : 36 à 38<\/li><li>M : 38 à 40<\/li><li>L : 40 à 42<\/li><li>XL : 42 à 44<\/li><li>2XL : 44 à 48<\/li><li>3XL : 48 à 52<\/li><\/ul><p><strong>Recommandation :<\/strong><br\/>Nos leggings sont extensibles et conçus pour un effet gainant. Si vous hésitez entre deux tailles, choisissez la plus petite pour un maintien plus ferme<\/p>",
+            "page": ""
+          }
+        },
+        "liquid_fgMnVK": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div id='ss-product-videos'><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_WBzwJY",
+        "liquid_iNWnqg",
+        "text_R44FfJ",
+        "liquid_eRfMn7",
+        "liquid_Xb4Agt",
+        "liquid_TMKCCd",
+        "price_PnFn3H",
+        "description_XM9XQx",
+        "variant_picker_ERQgiP",
+        "liquid_fjpHmU",
+        "liquid_yVQnmg",
+        "buy_buttons_daEXAW",
+        "liquid_kNi8Pb",
+        "payment_terms_4X96fx",
+        "liquid_eqMLbV",
+        "collapsible_text_6UGGcU",
+        "collapsible_text_dGEayH",
+        "collapsible_text_yaRQdw",
+        "collapsible_text_gyctYk",
+        "liquid_fgMnVK"
+      ],
+      "custom_css": [],
+      "name": "Featured product",
+      "settings": {
+        "full_width": true,
+        "product": "women-s-white-lace-bridal-flats-round-toe-wedding-shoes-with-low-heel-comfort",
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "contained",
+        "mobile_carousel_control": "thumbnails",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": false,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "scrolling_text_WBjyHa": {
+      "type": "scrolling-text",
+      "name": "Scrolling text",
+      "settings": {
+        "full_width": true,
+        "text": "Sculpte, draine et galbe ta silhouette sans effort.",
+        "text_size": "xsmall",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 10,
+        "background": "#6a4e44",
+        "background_gradient": "",
+        "text_color": "#faf8f5",
+        "text_gradient": ""
+      }
+    },
+    "imagewithtext_GLYTjf": {
+      "type": "imagewithtext",
+      "name": "Technologie Innovante",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/mama2_2987abd4-ac8f-418d-96dc-0c19a72b39c8.png",
+        "image_position": "right",
+        "image_radius": 24,
+        "eyebrow": "TECHNOLOGIE INNOVANTE",
+        "title": "Un legging qui draine et sculpte votre silhouette",
+        "title_size": 42,
+        "description": "<p>Grâce à sa <strong>technologie 3D drainante<\/strong>, notre legging stimule la circulation sanguine à chaque mouvement, aidant votre corps à réduire naturellement la cellulite. Associée à une compression douce et ciblée, cette action affine la silhouette, tonifie les jambes et améliore visiblement la texture de la peau.<\/p><p>Le tout est conçu dans un tissu extensible, respirant et ultra-doux, qui offre un maintien confortable, idéal pour vous accompagner du matin au soir sans jamais vous gêner.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "show_reviews": false,
+        "reviews_text": "",
+        "bg_color": "#faf8f5",
+        "eyebrow_color": "#2f201b",
+        "title_color": "#1b1240",
+        "text_color": "#1b1240",
+        "button_bg": "#2f201b",
+        "button_text_color": "#ffffff",
+        "stars_color": "#00b884",
+        "container_width": 1200,
+        "gap": 60,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "text_with_icons_r7dGdn": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_JLiqX8": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/CREA_1080X1080_-_2026-05-11T165104.368.png",
+            "mobile_icon_width": 36,
+            "icon_width": 36,
+            "icon_background_type": "circle",
+            "icon_background": "#faf8f5",
+            "icon_color": "#2f201b",
+            "title": "Reliefs Sculptants 3D",
+            "content": "<p>Compression ciblée sur cuisses et fessiers. Effet massant à chaque mouvement.<\/p>"
+          }
+        },
+        "item_TDgCaL": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/CREA_1080X1080_-_2026-05-11T164844.605.png",
+            "mobile_icon_width": 36,
+            "icon_width": 36,
+            "icon_background_type": "circle",
+            "icon_background": "#faf8f5",
+            "icon_color": "#2f201b",
+            "title": "Effet Push-Up Immédiat",
+            "content": "<p>Fessiers galbés et rehaussés dès le premier enfilage.<\/p>"
+          }
+        },
+        "item_LbPaHD": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/CREA_1080X1080_-_2026-05-11T164907.534.png",
+            "mobile_icon_width": 36,
+            "icon_width": 36,
+            "icon_background_type": "circle",
+            "icon_background": "#faf8f5",
+            "icon_color": "#2f201b",
+            "title": "Tissu Premium",
+            "content": "<p>70% polyamide, 30% élasthanne. Opaque, respirant, compression confortable.<\/p>"
+          }
+        },
+        "item_AphX7Q": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/CREA_1080X1080_-_2026-05-11T165207.366.png",
+            "mobile_icon_width": 36,
+            "icon_width": 36,
+            "icon_background_type": "circle",
+            "icon_background": "#faf8f5",
+            "icon_color": "#2f201b",
+            "title": "Ceinture Anti-Glissement",
+            "content": "<p>Elle ne roule pas, ne marque pas. Parfaitement en place toute la journée.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_JLiqX8",
+        "item_TDgCaL",
+        "item_LbPaHD",
+        "item_AphX7Q"
+      ],
+      "name": "Text with icons",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#2f201b"
+      }
+    },
+    "logoscroll_idLqh7": {
+      "type": "logoscroll",
+      "blocks": {
+        "image_ireEWd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BANNER_MOBILE_-_2026-05-11T152614.049.jpg",
+            "url": ""
+          }
+        },
+        "image_zDxAQr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BANNER_MOBILE_-_2026-05-11T152633.609.jpg",
+            "url": ""
+          }
+        },
+        "image_xz7E7F": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BANNER_MOBILE_-_2026-05-11T152647.299.jpg",
+            "url": ""
+          }
+        },
+        "image_VeXgW6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BANNER_MOBILE_-_2026-05-11T152652.736.jpg",
+            "url": ""
+          }
+        },
+        "image_xxGLCV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BANNER_MOBILE_-_2026-05-11T152701.354.jpg",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_ireEWd",
+        "image_zDxAQr",
+        "image_xz7E7F",
+        "image_VeXgW6",
+        "image_xxGLCV"
+      ],
+      "disabled": true,
+      "name": "SS - Scrolling logo cloud #5",
+      "settings": {
+        "layout_radius": 30,
+        "layout_border_thickness": 0,
+        "heading": "",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 18,
+        "heading_size_mobile": 18,
+        "heading_height": 130,
+        "scrolling_velocity": 22,
+        "scrolling_velocity_mobile": 16,
+        "scrolling_direction": "left",
+        "pause_hover": false,
+        "scrolling_gap": 56,
+        "scrolling_gap_mobile": 26,
+        "card_width_desktop": 140,
+        "card_width_mobile": 120,
+        "heading_color": "#121212",
+        "layout_bg_color": "#ffffff",
+        "layout_border_color": "#121212",
+        "background_color": "#ffffff",
+        "border_color": "#121212",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 0,
+        "full_width": true,
+        "content_width": 1300,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
+    "imagewithtext_PpCAF7": {
+      "type": "imagewithtext",
+      "disabled": true,
+      "name": "Technologie Innovante",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/mama2.webp",
+        "image_position": "right",
+        "image_radius": 24,
+        "eyebrow": "Push-up et Confortable",
+        "title": "Une silhouette galbée dès que vous l'enfilez",
+        "title_size": 42,
+        "description": "<p>En plus de son confort absolu, notre <strong>legging 3D offre un effet sculptant immédiat<\/strong>. Sa coupe gainante affine les jambes, tandis que le plissé discret à l’arrière réhausse et galbe naturellement les fesses, pour une silhouette instantanément plus harmonieuse et plus sexy. <\/p><p>Chez Crinéa, on ne vous promet pas seulement des résultats visibles à long terme, on vous fait vous sentir belle dès la première seconde.<\/p>",
+        "button_text": "Profitez de L'offre",
+        "button_link": "",
+        "show_reviews": true,
+        "reviews_text": "+3,000 Clientes satisfaites",
+        "bg_color": "#ffffff",
+        "eyebrow_color": "#2f201b",
+        "title_color": "#1b1240",
+        "text_color": "#1b1240",
+        "button_bg": "#2f201b",
+        "button_text_color": "#ffffff",
+        "stars_color": "#00b884",
+        "container_width": 1200,
+        "gap": 60,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "multi_column_kitwpF": {
+      "type": "multi-column",
+      "blocks": {
+        "item_HrLVip": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3488138c-0c59-4e33-b733-89bc1e367c8c.webp",
+            "column_size": "3",
+            "title": "Tissu Côtelé 3D",
+            "heading_tag": "h4",
+            "content": "<p>Tissu côtelé 3D haut de gamme conçu pour une compression ciblée. Chaque crête, chaque rainure, pensé pour des résultats optimaux.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_jUghfJ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/e84f9005-44fe-414a-aeae-5b081f359e3b.webp",
+            "column_size": "3",
+            "title": "Tissu extensible",
+            "heading_tag": "h4",
+            "content": "<p>Tissu extensible dans les 4 sens qui s'adapte à votre corps. Souple, respirant et conçu pour durer.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_dezREQ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/695e8b95-ceac-4479-bf83-cececd962dd1.webp",
+            "column_size": "3",
+            "title": "Confiance à toute épreuve",
+            "heading_tag": "h4",
+            "content": "<p>Étirez-vous, pliez-vous, bougez librement. Notre tissu reste parfaitement opaque, quelle que soit la profondeur.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_HrLVip",
+        "item_jUghfJ",
+        "item_dezREQ"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_6r4yzY": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_yfXjAG": {
+          "type": "subheading",
+          "settings": {
+            "text": "ILS EN PARLENT MIEUX QUE NOUS"
+          }
+        },
+        "heading_YzLhCg": {
+          "type": "heading",
+          "settings": {
+            "text": "+3,000 CLIENTS SATISFAITS",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_yfXjAG",
+        "heading_YzLhCg"
+      ],
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "testimonials_W7qxEz": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_B3NpTJ": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Clara .G",
+            "title": "Livraison super rapide",
+            "content": "<p>Le legging est incroyable, j'ai perdu 3 kg en 1 mois, je recommande<\/p>"
+          }
+        },
+        "testimonial_reRKXN": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Samira D.",
+            "title": "AU TOOOP",
+            "content": "<p>Je viens de l'essayer, vraiment au top ! Je me sens vraiment bien, et de plus la livraison est rapide. Merci Crinea ! <br\/><\/p>"
+          }
+        },
+        "testimonial_bma4QD": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Julia S.",
+            "title": "Je recommande",
+            "content": "<p>\"J’en ai commandé un, puis un deuxième. C’est le seul produit où j’ai vu une amélioration visible sur ma peau sans effort. Et le tissu est top.\"<\/p>"
+          }
+        },
+        "testimonial_668Q3e": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Nadia F.",
+            "title": "Il fait vraiment une différence",
+            "content": "<p>\"Ce legging est devenu un indispensable. En à peine une semaine, j’ai remarqué que ma silhouette s’était affinée. Il fait vraiment une différence.\"<\/p>"
+          }
+        },
+        "testimonial_3Tm7cy": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Marion B.",
+            "title": "Ce legging est devenu un indispensable",
+            "content": "<p>\"Ce legging est devenu un indispensable. En à peine une semaine, j’ai remarqué que ma silhouette s’était affinée. Il fait vraiment une différence.\"<\/p>"
+          }
+        },
+        "testimonial_GeqiTL": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Lorianne S.",
+            "title": "Je recommande à toutes mes amies.",
+            "content": "<p>\"Je recommande à toutes mes amies. C’est rare de tomber sur un produit qui tient ses promesses. Et la sensation de maintien est juste parfaite.\"<\/p>"
+          }
+        },
+        "testimonial_Y9Wa6L": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Marion B.",
+            "title": "Je me sens mieux dans mes vêtements.",
+            "content": "<p>\"J’étais vraiment complexée par ma cellulite. J’ai porté ce legging tous les jours pendant 10 jours… et j’ai vu une vraie différence. Ma peau est plus lisse et je me sens mieux dans mes vêtements.\"<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_B3NpTJ",
+        "testimonial_reRKXN",
+        "testimonial_bma4QD",
+        "testimonial_668Q3e",
+        "testimonial_3Tm7cy",
+        "testimonial_GeqiTL",
+        "testimonial_Y9Wa6L"
+      ],
+      "disabled": true,
+      "name": "Testimonials",
+      "settings": {
+        "full_width": true,
+        "stack_testimonials": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#2f201b",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "#faf8f5",
+        "testimonial_card_text_color": "#2f201b"
+      }
+    },
+    "1782319658a547d27f": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_8f604ea_pziHGr": {
+          "type": "ai_gen_block_8f604ea",
+          "settings": {
+            "layout": "image_left",
+            "image_width": 50,
+            "spacing": 40,
+            "vertical_alignment": "center",
+            "desktop_width_percent": 100,
+            "image": "shopify:\/\/shop_images\/mama_c7bdf3cd-f3a2-4f2d-a767-599bb2d5a12b.png",
+            "image_border_radius": 24,
+            "heading": "",
+            "text": "",
+            "text_spacing": 20,
+            "heading_size": 32,
+            "heading_color": "#2f201b",
+            "text_size": 16,
+            "text_color": "#2f201b",
+            "button_text": "",
+            "button_link": "",
+            "button_text_size": 14,
+            "button_padding_vertical": 12,
+            "button_padding_horizontal": 24,
+            "button_border_radius": 60,
+            "button_background": "#2f201b",
+            "button_text_color": "#ffffff",
+            "button_hover_background": "#1a1a1a",
+            "button_hover_text_color": "#ffffff"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_8f604ea_pziHGr"
+      ],
+      "settings": {}
+    },
+    "faq_wtfFG7": {
+      "type": "faq",
+      "blocks": {
+        "item_8gkyRi": {
+          "type": "item",
+          "settings": {
+            "title": "Comment la compression m'aide-t-elle à perdre du poids ? ",
+            "content": "<p>La compression de nos leggings crée une <strong>résistance pour vos muscles, <\/strong>obligeant vos jambes à travailler 2 à 3 fois plus dur qu'en l'absence des leggings.<\/p><p>Lorsque vos muscles travaillent plus dur, ils <strong>brûlent plus de calories <\/strong>pour produire de l'énergie, ce qui vous aide à <strong>perdre du poids 2 fois plus vite.<\/strong><\/p>"
+          }
+        },
+        "item_UxwGTL": {
+          "type": "item",
+          "settings": {
+            "title": "Comment choisir la bonne taille ?",
+            "content": "<p>Nos leggings <strong>taillent normalement<\/strong>. Nous vous conseillons de prendre <strong>votre taille habituelle de pantalon<\/strong>.<br\/>Si vous hésitez entre deux tailles, choisissez <strong>la taille du dessus<\/strong> pour plus de confort.<\/p><p>Un <strong>guide des tailles<\/strong> est disponible directement sur la page pour vous aider.<br\/>Et en cas de doute, notre service client peut vous conseiller, et <strong>un échange est possible<\/strong> si la taille ne convient pas.<\/p>"
+          }
+        },
+        "item_hxWdAp": {
+          "type": "item",
+          "settings": {
+            "title": "Comment les lignes sculptantes m'aident-elles à réduire la cellulite ?",
+            "content": "<p>Nos<strong> lignes sculptantes  <\/strong>sont placées <strong>stratégiquement<\/strong> pour comprimer vos cuisses et vos fesses, <strong>augmentant la circulation sanguine de 30 %<\/strong><\/p><p>Une meilleure circulation permet à votre corps <strong>d’éliminer plus efficacement les cellules graisseuses<\/strong> et les toxines responsables de la cellulite, en <strong>traitant la cause principale.<\/strong><\/p><p>Combinées à notre compression, elles permettent également d’entraîner vos jambes, ce qui vous donne des <strong>jambes fermes et toniques.<\/strong><\/p>"
+          }
+        },
+        "item_HjnFUf": {
+          "type": "item",
+          "settings": {
+            "title": "Les leggings Crinéa sont-ils opaques ?",
+            "content": "<p><strong>OUI ! <\/strong>Nous garantissons que les leggings <br\/><strong>Crinéa<\/strong> restent complètement opaques même lors de <strong>mouvements intenses ou d'étirements.<\/strong><\/p>"
+          }
+        },
+        "item_3EMAYf": {
+          "type": "item",
+          "settings": {
+            "title": "Puis-je retourner le produit si je ne suis pas satisfait ?",
+            "content": "<p>Oui, vous disposez de 30 jours pour nous retourner l'article. Nous proposons des échanges ou un remboursement rapide si le produit ne convient pas.<\/p>"
+          }
+        },
+        "item_xtGgYX": {
+          "type": "item",
+          "settings": {
+            "title": "Quels sont les délais de livraison ?",
+            "content": "<p>Delais : 5 à 7 jours ouvrés.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_8gkyRi",
+        "item_UxwGTL",
+        "item_hxWdAp",
+        "item_HjnFUf",
+        "item_3EMAYf",
+        "item_xtGgYX"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Questions Fréquentes",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#2f201b",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "#faf8f5",
+        "accordion_text_color": "#2f201b"
+      }
+    },
+    "avisvideo_rqgHrH": {
+      "type": "avisvideo",
+      "blocks": {
+        "video_PdWqW6": {
+          "type": "video",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/WhatsApp Video 2026-05-11 at 11.46.35.mp4",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "modal_heading": "",
+            "modal_text": ""
+          }
+        },
+        "video_PzzXQ9": {
+          "type": "video",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/WhatsApp Video 2026-05-11 at 11.46.14.mp4",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "modal_heading": "",
+            "modal_text": ""
+          }
+        },
+        "video_JGwyVa": {
+          "type": "video",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/WhatsApp Video 2026-05-11 at 11.46.02.mp4",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "modal_heading": "",
+            "modal_text": ""
+          }
+        },
+        "video_kGTr9N": {
+          "type": "video",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/09c8db78bfe941d0b0f472d31a4bf3f2.mp4",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "modal_heading": "",
+            "modal_text": ""
+          }
+        },
+        "video_fhecTn": {
+          "type": "video",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/46478eaea92845099e75e5b2b99b6fe3.mp4",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "modal_heading": "",
+            "modal_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_PdWqW6",
+        "video_PzzXQ9",
+        "video_JGwyVa",
+        "video_kGTr9N",
+        "video_fhecTn"
+      ],
+      "name": "Customify - Product Videos",
+      "settings": {
+        "videos_position": "above_description",
+        "use_metafield": false,
+        "heading": "<p><strong>VOYEZ-LE EN ACTION<\/strong><\/p>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 14,
+        "heading_size_mobile": 14,
+        "heading_height": 130,
+        "heading_align": "center",
+        "heading_align_mobile": "center",
+        "slider_view": 4,
+        "slider_view_mobile": 3,
+        "slider_gap": 16,
+        "slider_gap_mobile": 16,
+        "slider_mt": 20,
+        "card_radius": 10,
+        "card_border_thickness": 0,
+        "card_shadow": true,
+        "video_ratio": "portrait",
+        "video_ratio_mobile": "portrait",
+        "video_overlay": 0.3,
+        "icon_size": 34,
+        "icon_size_mobile": 34,
+        "icon_border_thickness": 1,
+        "icon_position_mobile": "bottom_left",
+        "icon_position": "bottom_left",
+        "hide_icon": false,
+        "arrow_size": 35,
+        "arrow_size_mobile": 35,
+        "arrow_radius": 5,
+        "arrow_border_thickness": 0,
+        "arrow_hover_shadow": true,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": true,
+        "show_content": true,
+        "modal_width": 70,
+        "modal_width_mobile": 95,
+        "modal_padding_vertical": 0,
+        "modal_padding_vertical_mobile": 0,
+        "modal_padding_horizontal": 0,
+        "modal_padding_horizontal_mobile": 0,
+        "modal_radius": 16,
+        "modal_border_thickness": 0,
+        "modal_overlay": 50,
+        "close_size": 42,
+        "close_size_mobile": 42,
+        "close_radius": 8,
+        "close_border_thickness": 0,
+        "buttons_size": 48,
+        "buttons_size_mobile": 48,
+        "buttons_radius": 8,
+        "buttons_border_thickness": 0,
+        "modal_video_radius": 0,
+        "modal_video_border_thickness": 0,
+        "modal_video_ratio": "portrait",
+        "modal_video_ratio_mobile": "portrait",
+        "modal_heading_custom": false,
+        "modal_heading_font": "josefin_sans_n4",
+        "modal_heading_size": 28,
+        "modal_heading_size_mobile": 28,
+        "modal_heading_height": 130,
+        "modal_heading_align": "center",
+        "modal_heading_align_mobile": "center",
+        "modal_text_custom": false,
+        "modal_text_font": "josefin_sans_n4",
+        "modal_text_size": 16,
+        "modal_text_size_mobile": 16,
+        "modal_text_height": 130,
+        "modal_text_align": "center",
+        "modal_text_align_mobile": "center",
+        "modal_text_mt": 16,
+        "card_bg_color": "#ffffff",
+        "card_border_color": "#000000",
+        "card_shadow_color": "#000000",
+        "video_overlay_color": "#000000",
+        "icon_bg_color": "#000000",
+        "icon_border_color": "#ffffff",
+        "icon_color": "#ffffff",
+        "arrow_bg_color": "#ffffff",
+        "arrow_bg_hover_color": "#ffffff",
+        "arrow_border_color": "#000000",
+        "arrow_border_hover_color": "#000000",
+        "arrow_icon_color": "#1c1c1c",
+        "arrow_icon_hover_color": "#1c1c1c",
+        "modal_bg_color": "#ffffff",
+        "modal_border_color": "#000000",
+        "close_bg_color": "#ffffff",
+        "close_border_color": "#000000",
+        "close_icon_color": "#ffffff",
+        "buttons_bg_color": "#ffffff",
+        "buttons_border_color": "#000000",
+        "buttons_icon_color": "#ffffff",
+        "modal_video_border_color": "#000000",
+        "modal_content_bg_color": "#ffffff",
+        "modal_content_border_color": "#000000",
+        "modal_heading_color": "#000000",
+        "modal_text_color": "#000000",
+        "heading_color": "#000000",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "splitbanner_43xiAK",
+    "logoscroll_WHacht",
+    "featured_product_Gt7ETQ",
+    "scrolling_text_WBjyHa",
+    "imagewithtext_GLYTjf",
+    "text_with_icons_r7dGdn",
+    "logoscroll_idLqh7",
+    "imagewithtext_PpCAF7",
+    "multi_column_kitwpF",
+    "rich_text_6r4yzY",
+    "testimonials_W7qxEz",
+    "1782319658a547d27f",
+    "faq_wtfFG7",
+    "avisvideo_rqgHrH"
+  ]
+}
