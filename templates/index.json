@@ -397,6 +397,7 @@
     },
     "custom_liquid_WU3jw6": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
