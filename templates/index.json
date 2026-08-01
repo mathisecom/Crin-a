@@ -54,7 +54,7 @@
       "type": "splitbanner",
       "name": "Bannière image + texte",
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "image_position": "right",
         "container_width": 1600,
         "border_radius": 13,
