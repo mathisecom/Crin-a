@@ -93,6 +93,19 @@
         "emphasis_color": "#2f201b"
       }
     },
+    "custom_html_mAmtYF": {
+      "type": "custom-html",
+      "name": "Custom HTML",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<p style=\"text-align: center\">Write or copy/paste HTML code</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "logoscroll_WHacht": {
       "type": "logoscroll",
       "blocks": {
@@ -954,6 +967,7 @@
   "order": [
     "slideshow",
     "splitbanner_43xiAK",
+    "custom_html_mAmtYF",
     "logoscroll_WHacht",
     "featured_product_Gt7ETQ",
     "scrolling_text_WBjyHa",
