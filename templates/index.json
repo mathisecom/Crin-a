@@ -238,6 +238,12 @@
             "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_payQEK\" data-block-type=\"liquid\"><div class=\"product-info__liquid\">\n              <style>\n  .stock-indicator {\n    display: inline-flex;\n    align-items: center;\n    gap: 8px;\n    font-family: inherit;\n    font-size: 14px;\n    font-weight: 500;\n    color: #1a1a1a;\n    line-height: 1;\n  }\n  .stock-indicator__dot {\n    position: relative;\n    width: 10px;\n    height: 10px;\n    border-radius: 50%;\n    background: #ff8c1a;\n    flex-shrink: 0;\n  }\n  .stock-indicator__dot::before {\n    content: \"\";\n    position: absolute;\n    inset: 0;\n    border-radius: 50%;\n    background: #ff8c1a;\n    opacity: 0.7;\n    animation: stock-pulse 1.6s ease-out infinite;\n  }\n  @keyframes stock-pulse {\n    0% {\n      transform: scale(1);\n      opacity: 0.7;\n    }\n    100% {\n      transform: scale(2.6);\n      opacity: 0;\n    }\n  }\n  @media (prefers-reduced-motion: reduce) {\n    .stock-indicator__dot::before {\n      animation: none;\n    }\n  }\n</style>\n\n<span class=\"stock-indicator\">\n  <span class=\"stock-indicator__dot\" aria-hidden=\"true\"></span>\n  Stock faible\n</span>\n            </div></div>"
           }
         },
+        "liquid_LtYpMY": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n.offre-wrap{max-width:600px;margin:30px auto;padding:0 15px;font-family:inherit}\n.offre-title{text-align:center;font-size:14px;font-weight:700;letter-spacing:2px;color:#2F201B;margin-bottom:20px;display:flex;align-items:center;gap:15px}\n.offre-title::before,.offre-title::after{content:'';flex:1;height:1px;background:#2F201B}\n.offre-box{border:2px solid #C9A99A;border-radius:12px;overflow:hidden}\n.offre-product{display:flex;align-items:center;justify-content:space-between;padding:20px 22px}\n.offre-left{display:flex;align-items:center;gap:14px}\n.offre-radio{width:22px;height:22px;border:2px solid #C9A99A;border-radius:50%;display:flex;align-items:center;justify-content:center}\n.offre-radio::after{content:'';width:12px;height:12px;background:#C9A99A;border-radius:50%}\n.offre-name{font-size:18px;font-weight:700;color:#2F201B}\n.offre-detail{font-size:13px;color:#8C7A6E;margin-top:2px}\n.offre-price{font-size:22px;font-weight:800;color:#2F201B}\n.offre-livraison{background:#C9A99A;padding:12px 22px}\n.offre-livraison p{margin:0;font-size:14px;font-weight:700;color:#fff}\n.offre-badge-wrap{display:flex;justify-content:flex-end;margin-top:10px}\n.offre-badge{background:#2F201B;color:#fff;padding:8px 20px;border-radius:6px;font-size:12px;font-weight:700;letter-spacing:1px}\n@media(max-width:600px){.offre-product{flex-direction:row;padding:16px}.offre-name{font-size:16px}.offre-price{font-size:20px}}\n</style>\n\n<div class=\"offre-wrap\">\n  <div class=\"offre-title\">PROFITEZ DE NOTRE OFFRE SPÉCIALE</div>\n  <div class=\"offre-box\">\n    <div class=\"offre-product\">\n      <div class=\"offre-left\">\n        <div class=\"offre-radio\"></div>\n        <div>\n          <div class=\"offre-name\">1 Rasoir Crinéa™</div>\n          <div class=\"offre-detail\">Couleur, Rose</div>\n        </div>\n      </div>\n      <div class=\"offre-price\">€39,99</div>\n    </div>\n    <div class=\"offre-livraison\"><p>+ Livraison OFFERTE</p></div>\n  </div>\n  <div class=\"offre-badge-wrap\">\n    <div class=\"offre-badge\">OFFRE SPÉCIALE 24H</div>\n  </div>\n</div>"
+          }
+        },
         "liquid_yVQnmg": {
           "type": "liquid",
           "settings": {
@@ -328,6 +334,7 @@
         "description_XM9XQx",
         "variant_picker_ERQgiP",
         "liquid_fjpHmU",
+        "liquid_LtYpMY",
         "liquid_yVQnmg",
         "buy_buttons_daEXAW",
         "liquid_kNi8Pb",
@@ -369,7 +376,7 @@
         "text_style": "fill",
         "scrolling_mode": "auto",
         "scrolling_speed": 10,
-        "background": "#CAA6C1",
+        "background": "#caa6c1",
         "background_gradient": "",
         "text_color": "#faf8f5",
         "text_gradient": ""
