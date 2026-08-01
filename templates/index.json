@@ -727,6 +727,13 @@
             "content": "<p>Oui, lorsque le rasoir est correctement fermé et utilisé conformément aux instructions fournies. Vous pouvez l’utiliser sur peau sèche ou humide selon vos préférences. Ne rechargez jamais l’appareil et ne branchez jamais le câble USB à proximité de l’eau.<br/><br/></p>"
           }
         },
+        "item_QKzbMC": {
+          "type": "item",
+          "settings": {
+            "title": "Crinéa aide-t-il à limiter les boutons de rasage et les poils incarnés ?",
+            "content": "<p>Grâce à son système de coupe doux, Crinéa coupe les poils au niveau de la peau sans les arracher. Une exfoliation régulière avec le gant offert peut également aider à éliminer les cellules mortes et à limiter l’apparition des poils incarnés. Les résultats peuvent varier selon le type de peau et la méthode d’utilisation.<br/><br/></p>"
+          }
+        },
         "item_3EMAYf": {
           "type": "item",
           "settings": {
@@ -747,6 +754,7 @@
         "item_UxwGTL",
         "item_hxWdAp",
         "item_HjnFUf",
+        "item_QKzbMC",
         "item_3EMAYf",
         "item_xtGgYX"
       ],
