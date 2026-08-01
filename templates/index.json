@@ -73,13 +73,13 @@
         "show_stars": true,
         "star_count": 5,
         "star_color": "#00b67a",
-        "badge_text": "+3,000 Clientes satisfaites",
+        "badge_text": "",
         "badge_bg": "#f1ece3",
         "badge_text_color": "#2f201b",
         "badge_text_size": 13,
-        "heading_line_1": "N°1 Rasoir Zones Sensibles",
+        "heading_line_1": "rasoir",
         "heading_size": 32,
-        "heading_line_2": "Peau douce en 90 secondes",
+        "heading_line_2": "rasoir electrique",
         "line2_size": 35,
         "heading_color": "#2f201b",
         "show_underline": false,
@@ -91,19 +91,6 @@
         "quote_size": 17,
         "quote_color": "#2f201b",
         "emphasis_color": "#2f201b"
-      }
-    },
-    "custom_html_mAmtYF": {
-      "type": "custom-html",
-      "name": "Custom HTML",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "html": "<p style=\"text-align: center\">Write or copy/paste HTML code</p>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "logoscroll_WHacht": {
@@ -967,7 +954,6 @@
   "order": [
     "slideshow",
     "splitbanner_43xiAK",
-    "custom_html_mAmtYF",
     "logoscroll_WHacht",
     "featured_product_Gt7ETQ",
     "scrolling_text_WBjyHa",
