@@ -287,16 +287,6 @@
             "page": ""
           }
         },
-        "collapsible_text_dGEayH": {
-          "type": "collapsible_text",
-          "settings": {
-            "icon": "picto-box",
-            "icon_width": 20,
-            "title": "Livraisons & Retours",
-            "content": "<p><strong>Livraison : GRATUITE</strong></p><p><strong>Délais :</strong> 5 à 7 jours ouvrable</p><p><strong>Retours et échanges : </strong>Retours GRATUITS sous 30 jours Remboursement ou échange selon votre choix</p>",
-            "page": ""
-          }
-        },
         "collapsible_text_yaRQdw": {
           "type": "collapsible_text",
           "settings": {
@@ -307,13 +297,23 @@
             "page": ""
           }
         },
+        "collapsible_text_dGEayH": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "picto-box",
+            "icon_width": 20,
+            "title": "Livraisons & Retours",
+            "content": "<p><strong>Livraison : GRATUITE</strong></p><p><strong>Délais :</strong> 5 à 7 jours ouvrable</p><p><strong>Retours et échanges : </strong>Retours GRATUITS sous 30 jours Remboursement ou échange selon votre choix</p>",
+            "page": ""
+          }
+        },
         "collapsible_text_gyctYk": {
           "type": "collapsible_text",
           "settings": {
             "icon": "picto-earth",
             "icon_width": 20,
-            "title": "Tableau des Tailles",
-            "content": "<p>Pas besoin de mesurer : si vous connaissez votre taille de pantalon, choisissez simplement la taille correspondante au moment de l’ajout au panier.</p><ul><li>S : 36 à 38</li><li>M : 38 à 40</li><li>L : 40 à 42</li><li>XL : 42 à 44</li><li>2XL : 44 à 48</li><li>3XL : 48 à 52</li></ul><p><strong>Recommandation :</strong><br/>Nos leggings sont extensibles et conçus pour un effet gainant. Si vous hésitez entre deux tailles, choisissez la plus petite pour un maintien plus ferme</p>",
+            "title": "Que contient le pack Crinéa",
+            "content": "<p>Le pack Crinéa est livré avec tout ce dont vous avez besoin pour une expérience complète et pratique :</p><p>Tête de tonte pour le corps : conçue pour éliminer rapidement les poils sur les grandes zones.</p><p>Tête de précision : idéale pour les zones sensibles et pour une finition nette et précise.</p><p><strong>Accessoires inclus :</strong></p><p><strong>Un sabot</strong></p><p><strong>Un câble de chargement USB-C</strong></p><p><strong>Une brosse de nettoyage</strong></p><p><strong>Un manuel d’utilisation</strong></p>",
             "page": ""
           }
         },
@@ -341,8 +341,8 @@
         "liquid_eqMLbV",
         "liquid_yVQnmg",
         "collapsible_text_6UGGcU",
-        "collapsible_text_dGEayH",
         "collapsible_text_yaRQdw",
+        "collapsible_text_dGEayH",
         "collapsible_text_gyctYk",
         "liquid_fgMnVK"
       ],
