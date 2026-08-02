@@ -200,6 +200,22 @@
         "input_text_color": ""
       }
     },
+    "scrolling_text_ydwPKz": {
+      "type": "scrolling-text",
+      "name": "Scrolling text",
+      "settings": {
+        "full_width": true,
+        "text": "Rase, lisse et adoucit ta peau sans douleur.",
+        "text_size": "xsmall",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 10,
+        "background": "#CAA6C1",
+        "background_gradient": "",
+        "text_color": "",
+        "text_gradient": ""
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -225,6 +241,7 @@
   },
   "order": [
     "main",
+    "scrolling_text_ydwPKz",
     "related-products"
   ]
 }
