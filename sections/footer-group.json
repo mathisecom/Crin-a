@@ -98,8 +98,8 @@
         "item_jP9eGD": {
           "type": "item",
           "settings": {
-            "title": "Question",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+            "title": "Quels sont les délais de livraison ?",
+            "content": "<p>Delais : 5 à 7 jours ouvrés.</p>"
           }
         }
       },
