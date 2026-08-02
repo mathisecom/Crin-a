@@ -112,6 +112,16 @@
           "settings": {
             "liquid": "<div class=\"delivery-france\">\n  <div class=\"delivery-truck\">\n    <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n      <path d=\"M3 5h11v10H3V5Zm11 4h3.5L21 12.5V15h-7V9Z\"\n        fill=\"none\"\n        stroke=\"currentColor\"\n        stroke-width=\"1.8\"\n        stroke-linejoin=\"round\"/>\n      <circle cx=\"7\" cy=\"17\" r=\"2\"\n        fill=\"none\"\n        stroke=\"currentColor\"\n        stroke-width=\"1.8\"/>\n      <circle cx=\"17.5\" cy=\"17\" r=\"2\"\n        fill=\"none\"\n        stroke=\"currentColor\"\n        stroke-width=\"1.8\"/>\n    </svg>\n  </div>\n\n  <div class=\"delivery-info\">\n    <div class=\"delivery-title\">\n      Livraison estimée\n      <span class=\"france-flag\">\n        <span></span>\n        <span></span>\n        <span></span>\n      </span>\n    </div>\n\n    <div class=\"delivery-time\">\n      Livraison sous <strong>5 à 7 jours ouvrés</strong>\n    </div>\n\n    <div class=\"delivery-location\">\n      France métropolitaine\n    </div>\n  </div>\n</div>\n\n<style>\n  .delivery-france {\n    display: flex;\n    align-items: center;\n    gap: 9px;\n    width: 100%;\n    max-width: 400px;\n    margin: 7px 0;\n    padding: 9px 11px;\n    background: #f8faf8;\n    border: 1px solid #dce8dd;\n    border-radius: 9px;\n    box-sizing: border-box;\n    font-family: Arial, Helvetica, sans-serif;\n  }\n\n  .delivery-truck {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    flex: 0 0 32px;\n    width: 32px;\n    height: 32px;\n    color: #258a37;\n    background: #e5f4e8;\n    border-radius: 50%;\n  }\n\n  .delivery-truck svg {\n    width: 20px;\n    height: 20px;\n  }\n\n  .delivery-info {\n    line-height: 1.25;\n  }\n\n  .delivery-title {\n    display: flex;\n    align-items: center;\n    gap: 6px;\n    margin-bottom: 2px;\n    color: #222222;\n    font-size: 12px;\n    font-weight: 700;\n  }\n\n  .delivery-time {\n    color: #444444;\n    font-size: 11px;\n  }\n\n  .delivery-time strong {\n    color: #258a37;\n    font-weight: 700;\n  }\n\n  .delivery-location {\n    margin-top: 2px;\n    color: #777777;\n    font-size: 9px;\n  }\n\n  .france-flag {\n    display: inline-flex;\n    width: 20px;\n    height: 13px;\n    overflow: hidden;\n    border: 1px solid #dddddd;\n    border-radius: 2px;\n  }\n\n  .france-flag span {\n    width: 33.333%;\n  }\n\n  .france-flag span:nth-child(1) {\n    background: #0055a4;\n  }\n\n  .france-flag span:nth-child(2) {\n    background: #ffffff;\n  }\n\n  .france-flag span:nth-child(3) {\n    background: #ef4135;\n  }\n</style>"
           }
+        },
+        "collapsible_text_FCYHqP": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "picto-leaf",
+            "icon_width": 20,
+            "title": "Qu’est-ce que le rasoir Crinéa ?",
+            "content": "<p>Découvrez Crinéa, le rasoir 2-en-1 conçu pour transformer votre routine beauté.<br/><br/>Grâce à son design élégant et ergonomique, il associe précision, douceur et confort pour une peau nette, où que vous soyez.<br/><br/>Oubliez la cire douloureuse, les séances de laser coûteuses et les rasoirs jetables qui agressent la peau. Crinéa vous offre une solution rapide, pratique et agréable pour prendre soin des zones les plus sensibles.<br/><br/>Étanche et rechargeable par USB-C, il s’utilise facilement sur peau sèche ou humide, à la maison comme en déplacement.<br/><br/>Sa technologie de rasage aide à limiter les coupures, les rougeurs, les irritations et l’apparition des poils incarnés.<br/><br/>Dites adieu aux contraintes et adoptez une routine plus simple, plus douce et plus confortable pour une peau lisse au quotidien.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -129,7 +139,8 @@
         "liquid_d3My84",
         "buy_buttons",
         "liquid_46RYPV",
-        "liquid_UJ8qLe"
+        "liquid_UJ8qLe",
+        "collapsible_text_FCYHqP"
       ],
       "settings": {
         "full_width": true,
