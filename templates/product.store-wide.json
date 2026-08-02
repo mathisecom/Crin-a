@@ -142,6 +142,16 @@
             "content": "<p>Le pack Crinéa est livré avec tout ce dont vous avez besoin pour une expérience complète et pratique :</p><p><strong>Rasoir électrique 2-en-1 </strong>: conçu pour offrir un rasage rapide, doux et précis.</p><p><strong>Tête de rasage pour le corps</strong> : idéale pour éliminer les poils sur les jambes, les aisselles et les zones sensibles.</p><p><strong>Tête de précision :</strong> parfaite pour les petites zones et les finitions délicates</p><p>Accessoires inclus :</p><p>Un sabot</p><p>Un câble de chargement USB-C</p><p>Une brosse de nettoyage</p><p>Un manuel d’utilisation</p><p></p>",
             "page": ""
           }
+        },
+        "collapsible_text_4bWkTn": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Livraisons & Retours",
+            "content": "<p><strong>Livraison : GRATUITE</strong></p><p><strong>Délais :</strong> 5 à 7 jours ouvrable</p><p><strong>Retours et échanges : </strong>Retours GRATUITS sous 30 jours Remboursement ou échange selon votre choix</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -162,7 +172,8 @@
         "liquid_UJ8qLe",
         "collapsible_text_FCYHqP",
         "collapsible_text_MTJwWG",
-        "collapsible_text_EJ7iz8"
+        "collapsible_text_EJ7iz8",
+        "collapsible_text_4bWkTn"
       ],
       "settings": {
         "full_width": true,
