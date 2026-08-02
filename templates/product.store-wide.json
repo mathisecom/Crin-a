@@ -122,6 +122,16 @@
             "content": "<p>Découvrez Crinéa, le rasoir 2-en-1 conçu pour transformer votre routine beauté.<br/><br/>Grâce à son design élégant et ergonomique, il associe précision, douceur et confort pour une peau nette, où que vous soyez.<br/><br/>Oubliez la cire douloureuse, les séances de laser coûteuses et les rasoirs jetables qui agressent la peau. Crinéa vous offre une solution rapide, pratique et agréable pour prendre soin des zones les plus sensibles.<br/><br/>Étanche et rechargeable par USB-C, il s’utilise facilement sur peau sèche ou humide, à la maison comme en déplacement.<br/><br/>Sa technologie de rasage aide à limiter les coupures, les rougeurs, les irritations et l’apparition des poils incarnés.<br/><br/>Dites adieu aux contraintes et adoptez une routine plus simple, plus douce et plus confortable pour une peau lisse au quotidien.</p>",
             "page": ""
           }
+        },
+        "collapsible_text_MTJwWG": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "picto-shield",
+            "icon_width": 20,
+            "title": "Garantie de 30 jours  satisfait ou remboursé",
+            "content": "<p>Essayez le rasoir 2-en-1 Crinéa sans risque pendant 30 jours.</p><p>Si vous n’êtes pas entièrement satisfait, vous pouvez demander un <strong>remboursement intégral</strong></p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -140,7 +150,8 @@
         "buy_buttons",
         "liquid_46RYPV",
         "liquid_UJ8qLe",
-        "collapsible_text_FCYHqP"
+        "collapsible_text_FCYHqP",
+        "collapsible_text_MTJwWG"
       ],
       "settings": {
         "full_width": true,
