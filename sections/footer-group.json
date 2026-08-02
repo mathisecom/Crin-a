@@ -13,6 +13,7 @@
   "sections": {
     "custom_liquid_fE7wDG": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
@@ -26,6 +27,7 @@
     },
     "custom_liquid_7AiyBY": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
@@ -39,6 +41,7 @@
     },
     "custom_liquid_RQrXE7": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
@@ -112,6 +115,7 @@
         "item_bfjctB",
         "item_jP9eGD"
       ],
+      "disabled": true,
       "name": "FAQ",
       "settings": {
         "full_width": true,
