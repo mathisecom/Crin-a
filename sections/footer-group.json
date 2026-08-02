@@ -91,8 +91,8 @@
         "item_bfjctB": {
           "type": "item",
           "settings": {
-            "title": "Question",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+            "title": "Puis-je retourner le produit si je ne suis pas satisfait ?",
+            "content": "<p>Oui, vous disposez de 30 jours pour nous retourner l'article. Nous proposons des échanges ou un remboursement rapide si le produit ne convient pas.<br/></p>"
           }
         },
         "item_jP9eGD": {
