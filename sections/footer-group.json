@@ -73,12 +73,44 @@
             "title": "Crinéa tire-t-il les poils épais ou résistants ?",
             "content": "<p>Crinéa est conçu pour raccourcir puis couper les poils avec douceur. Sur les poils longs ou épais, utilisez d’abord la tête de tondeuse avant de passer la tête de finition. Cette méthode facilite le rasage et aide à limiter les tiraillements.<br/></p>"
           }
+        },
+        "item_eDEQdQ": {
+          "type": "item",
+          "settings": {
+            "title": "Puis-je utiliser Crinéa sous la douche ?",
+            "content": "<p>Oui, lorsque le rasoir est correctement fermé et utilisé conformément aux instructions fournies. Vous pouvez l’utiliser sur peau sèche ou humide selon vos préférences. Ne rechargez jamais l’appareil et ne branchez jamais le câble USB à proximité de l’eau.<br/></p>"
+          }
+        },
+        "item_gaK3J9": {
+          "type": "item",
+          "settings": {
+            "title": "Crinéa aide-t-il à limiter les boutons de rasage et les poils incarnés ?",
+            "content": "<p>Grâce à son système de coupe doux, Crinéa coupe les poils au niveau de la peau sans les arracher. Une exfoliation régulière avec le gant offert peut également aider à éliminer les cellules mortes et à limiter l’apparition des poils incarnés. Les résultats peuvent varier selon le type de peau et la méthode d’utilisation.<br/></p>"
+          }
+        },
+        "item_bfjctB": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
+        },
+        "item_jP9eGD": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
         }
       },
       "block_order": [
         "item_3tWixJ",
         "item_ypEaX3",
-        "item_rEFrWP"
+        "item_rEFrWP",
+        "item_eDEQdQ",
+        "item_gaK3J9",
+        "item_bfjctB",
+        "item_jP9eGD"
       ],
       "name": "FAQ",
       "settings": {
