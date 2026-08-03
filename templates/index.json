@@ -390,7 +390,7 @@
         "text_style": "fill",
         "scrolling_mode": "auto",
         "scrolling_speed": 10,
-        "background": "#E081BC",
+        "background": "#e081bc",
         "background_gradient": "",
         "text_color": "#faf8f5",
         "text_gradient": ""
@@ -687,6 +687,7 @@
     },
     "custom_liquid_L3jKVi": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
@@ -700,6 +701,7 @@
     },
     "custom_liquid_YwGhEp": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
@@ -773,6 +775,7 @@
         "item_3EMAYf",
         "item_xtGgYX"
       ],
+      "disabled": true,
       "name": "FAQ",
       "settings": {
         "full_width": true,
